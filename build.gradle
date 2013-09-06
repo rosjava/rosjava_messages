@@ -22,6 +22,17 @@ allprojects {
     group 'org.ros.rosjava_messages'
     version = '0.1.0'
 }
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath group: 'com.github.rosjava.rosjava_gradle_plugins',
+                  name: 'catkin',
+                  version: '0.1.0-SNAPSHOT'
+    }
+}
+apply plugin: 'catkin'
 
 subprojects {
     apply plugin: 'java'

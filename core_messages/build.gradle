@@ -18,19 +18,87 @@ dependencies {
   compile project(':message_generator')
 }
 
+def generatedSourcesDir = "${buildDir}/generated-src"
+def List<String> packageList = new ArrayList<String>()
+packageList.add("std_msgs")
+packageList.add("rosgraph_msgs")
+
 task generateSources(type: JavaExec) {
-  def outputDir = "${buildDir}/generated-src"
-  outputs.dir file(outputDir)
-  def List<String> argumentList = new ArrayList<String>()
-  argumentList.add(outputDir)
-  argumentList.add("std_msgs")
-  argumentList.add("rosgraph_msgs")
-  args argumentList
-  classpath = configurations.runtime
-  main = 'org.ros.internal.message.GenerateInterfaces'
+    description "Generate all pkg sources and store in build/generated-src"
+    outputs.dir file(generatedSourcesDir)
+    args new ArrayList<String>([ generatedSourcesDir ] +  packageList)
+    classpath = configurations.runtime
+    main = 'org.ros.internal.message.GenerateInterfaces'
+}
+configurations {
+    messageArchives {
+        description = 'generated message sources for ${packageList}.'
+    }
 }
 
-compileJava.source generateSources.outputs.files
+packageList.each { pkg ->
+    configurations {
+        "${pkg}" {
+            description = 'generated message sources for ${pkg}'
+        }
+    }
+    /* Once sourceSets are defined, java will add compileXYZJava, XYZClasses tasks */ 
+    sourceSets {
+        "${pkg}" {
+            java {
+                srcDir generatedSourcesDir + "/${pkg}"
+            }
+            if ( pkg == 'rosgraph_msgs' ) {
+                compileClasspath += std_msgs.output
+            }
+        }
+    }
+    def funnyPkgName=pkg.capitalize()
+    tasks["compile${funnyPkgName}Java"].dependsOn generateSources
+    if ( pkg == 'rosgraph_msgs' ) {
+        tasks["compile${funnyPkgName}Java"].dependsOn compileStd_msgsJava    
+    }
+
+    dependencies {
+      "${pkg}Compile" project(':message_generator')
+      "${pkg}Runtime" project(':message_generator')
+      if ( pkg == 'rosgraph_msgs' ) {
+          "${pkg}Compile" project(':message_generator')
+      }
+    }
+    task "${pkg}Jar"(type: Jar) {
+        baseName "${pkg}"
+        from sourceSets["${pkg}"].output
+    }
+    artifacts {
+        messageArchives tasks["${pkg}Jar"]
+    }
+}
+
+uploadMessageArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'file:///home/snorri/tmp/maven')
+            packageList.each { pkg ->
+                addFilter("${pkg}") { artifact, file ->
+                    artifact.name == "${pkg}"
+                }
+            }
+        }
+    }
+}
+
+task dude {
+    configurations.each { c ->
+        println c
+    }
+    configurations.findAll().each { config ->
+            println "${config}:"
+            config.allArtifacts.getFiles().each { file -> println "  Artifact: " + file}
+            config.allDependencies.each { dep -> println "  Dependency: " + dep}
+            println ' '
+        }
+}
 
 eclipse.classpath.file {
   withXml {

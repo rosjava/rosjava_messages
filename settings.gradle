@@ -13,6 +13,46 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+import org.apache.tools.ant.filters.*
 
-include 'message_generator', 
-        'core_messages'
+def packages = new ArrayList< Map<String, String> >()
+packages.add([name: 'std_msgs', dependencies: ''])
+packages.add([name: 'rosgraph_msgs', dependencies: 'std_msgs'])
+/*
+packages.add([name: 'diagnostic_msgs', dependencies: 'std_msgs'])
+packages.add([name: 'geometry_msgs', dependencies: 'std_msgs'])
+packages.add([name: 'actionlib_msgs', dependencies: 'std_msgs'])
+packages.add([name: 'sensor_msgs', dependencies: 'std_msgs;geometry_msgs'])
+packages.add([name: 'shape_msgs', dependencies: 'std_msgs;geometry_msgs'])
+packages.add([name: 'trajectory_msgs', dependencies: 'std_msgs;geometry_msgs'])
+packages.add([name: 'visualization_msgs', dependencies: 'std_msgs;geometry_msgs'])
+packages.add([name: 'stereo_msgs', dependencies: 'std_msgs;sensor_msgs'])
+packages.add([name: 'nav_msgs', dependencies: 'std_msgs;geometry_msgs;actionlib_msgs'])
+packages.add([name: 'tf2_msgs', dependencies: 'actionlib_msgs;geometry_msgs'])
+*/
+
+def List<File> packageDirs = new ArrayList<String>()
+
+packages.each { pkg ->
+    packageDirs.add(mkdir("${pkg.name}"))
+    def toLocation = "${pkg.name}"
+    copy {
+        from 'build.gradle.template'
+        into toLocation
+        filter(ReplaceTokens, tokens: [name: pkg.name, dependencies: pkg.dependencies])
+        rename { String fileName ->
+            fileName.replace('.template', '')
+        }
+    }
+}
+
+include 'message_generator'
+
+include 'std_msgs'
+include 'rosgraph_msgs'
+/*
+
+packages.each { pkg -> 
+    include pkg.name
+}
+*/
