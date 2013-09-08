@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="core_messages/build/generated-src"/>
-	<classpathentry kind="lib" path="core_messages/build/libs/core_messages-0.1.0.jar"/>
 	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
-	<classpathentry kind="lib" path="message_generator/build/libs/message_generator-0.1.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="message_generator/build/classes/main"/>
 </classpath>
