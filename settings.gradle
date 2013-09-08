@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2011 Google Inc.
+ * Copyright (C) 2013 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -13,46 +13,35 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+/*
+ * Some gradle magic to automatically extract a list of message packages to
+ * build from package.xml's build_depends list.
+*/
+ 
 import org.apache.tools.ant.filters.*
 
-def packages = new ArrayList< Map<String, String> >()
-packages.add([name: 'std_msgs', dependencies: ''])
-packages.add([name: 'rosgraph_msgs', dependencies: 'std_msgs'])
-/*
-packages.add([name: 'diagnostic_msgs', dependencies: 'std_msgs'])
-packages.add([name: 'geometry_msgs', dependencies: 'std_msgs'])
-packages.add([name: 'actionlib_msgs', dependencies: 'std_msgs'])
-packages.add([name: 'sensor_msgs', dependencies: 'std_msgs;geometry_msgs'])
-packages.add([name: 'shape_msgs', dependencies: 'std_msgs;geometry_msgs'])
-packages.add([name: 'trajectory_msgs', dependencies: 'std_msgs;geometry_msgs'])
-packages.add([name: 'visualization_msgs', dependencies: 'std_msgs;geometry_msgs'])
-packages.add([name: 'stereo_msgs', dependencies: 'std_msgs;sensor_msgs'])
-packages.add([name: 'nav_msgs', dependencies: 'std_msgs;geometry_msgs;actionlib_msgs'])
-packages.add([name: 'tf2_msgs', dependencies: 'actionlib_msgs;geometry_msgs'])
-*/
+include 'message_generator'
 
-def List<File> packageDirs = new ArrayList<String>()
+File packageXmlFilename = file('package.xml')
+def packageXml = new XmlParser().parse(packageXmlFilename)
+def packages = []
+packageXml.build_depend.each { d ->
+    if ( d.text().contains("_msgs") ) {
+        packages.add(d.text())
+    }
+}
+/* packages = ["std_msgs", "rosgraph_msgs"] */
 
 packages.each { pkg ->
-    packageDirs.add(mkdir("${pkg.name}"))
-    def toLocation = "${pkg.name}"
+    println "Generating subproject: ${pkg}"
+    mkdir("${pkg}")
     copy {
         from 'build.gradle.template'
-        into toLocation
-        filter(ReplaceTokens, tokens: [name: pkg.name, dependencies: pkg.dependencies])
+        into "${pkg}"
+        filter(ReplaceTokens, tokens: [name: pkg])
         rename { String fileName ->
             fileName.replace('.template', '')
         }
     }
+    include pkg
 }
-
-include 'message_generator'
-
-include 'std_msgs'
-include 'rosgraph_msgs'
-/*
-
-packages.each { pkg -> 
-    include pkg.name
-}
-*/
