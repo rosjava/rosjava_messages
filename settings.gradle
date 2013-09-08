@@ -20,8 +20,6 @@
  
 import org.apache.tools.ant.filters.*
 
-include 'message_generator'
-
 File packageXmlFilename = file('package.xml')
 def packageXml = new XmlParser().parse(packageXmlFilename)
 def packages = []
@@ -30,10 +28,12 @@ packageXml.build_depend.each { d ->
         packages.add(d.text())
     }
 }
-/* packages = ["std_msgs", "rosgraph_msgs"] */
+/* 
+packages = ["std_msgs", "rosgraph_msgs"]
+*/
 
+println ":rosjava_messages is spawning subprojects: " + packages
 packages.each { pkg ->
-    println "Generating subproject: ${pkg}"
     mkdir("${pkg}")
     copy {
         from 'build.gradle.template'

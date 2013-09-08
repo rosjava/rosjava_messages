@@ -1,5 +1,3 @@
-.classpath
-.project
 .gradle
 build
 *_msgs

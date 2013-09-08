@@ -19,7 +19,7 @@ ext.generatedSourcesDir = "${buildDir}/generated-src"
 project.version = project.catkin.packages['@name@'].version 
 
 dependencies {
-    compile project(':message_generator')
+    compile 'org.ros.rosjava_bootstrap:message_generator:0.1.0'
     project.catkin.packages['@name@'].messageDependencies().each { d ->
         compile project(':' + d)
     }
@@ -34,10 +34,3 @@ task generateSources(type: JavaExec) {
 
 compileJava.source generateSources.outputs.files
 
-eclipse.classpath.file {
-  withXml {
-    // TODO(damonkohler): Avoid repetition of build directory. This is
-    // necessary because Eclipse wants a project relative path.
-    it.asNode().appendNode('classpathentry', [kind: 'src', path: 'build/generated-src'])
-  }
-}
