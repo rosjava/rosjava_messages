@@ -51,16 +51,12 @@ subprojects {
         url 'https://github.com/rosjava/rosjava_mvn_repo/raw/master'
       }
     }
-    /* 
-     * Don't want to do this - gradlew clean install will fail 
-     * because clean will come AFTER settings.gradle mkdirs.
-     */
-    tasks['clean'].doLast {
-        project.catkin.packages.each { name, pkg ->
-            delete name
-        }
+}
+
+task distclean << {
+    subprojects.each { p ->
+        delete p.name
     }
-    */
 }
 
 defaultTasks 'install'
