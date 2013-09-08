@@ -14,23 +14,5 @@
  * the License.
  */
 
-
-ext.generatedSourcesDir = "${buildDir}/generated-src"
-project.version = project.catkin.packages['@name@'].version 
-
-dependencies {
-    compile 'org.ros.rosjava_bootstrap:message_generator:0.1.0'
-    project.catkin.packages['@name@'].messageDependencies().each { d ->
-        compile project(':' + d)
-    }
-}
-
-task generateSources(type: JavaExec) {
-    outputs.dir file(project.generatedSourcesDir)
-    args new ArrayList<String>([generatedSourcesDir,'@name@'])
-    classpath = configurations.runtime
-    main = 'org.ros.internal.message.GenerateInterfaces'
-}
-
-compileJava.source generateSources.outputs.files
+project.catkin.packages['@name@'].generateMessageArtifact(project)
 

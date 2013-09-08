@@ -15,7 +15,7 @@
  */
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '1.5'
+  gradleVersion = '1.7'
 }
 
 buildscript {
@@ -51,11 +51,16 @@ subprojects {
         url 'https://github.com/rosjava/rosjava_mvn_repo/raw/master'
       }
     }
+    /* 
+     * Don't want to do this - gradlew clean install will fail 
+     * because clean will come AFTER settings.gradle mkdirs.
+     */
     tasks['clean'].doLast {
         project.catkin.packages.each { name, pkg ->
             delete name
         }
     }
+    */
 }
 
 defaultTasks 'install'
