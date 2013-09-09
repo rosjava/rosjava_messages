@@ -1,6 +1,6 @@
-h2. RosJava Messages
+## RosJava Messages
 
-h3. Message Artifact Generation
+### Message Artifact Generation
 
 *Your regular rosjava message project does not need this complexity!*
 
