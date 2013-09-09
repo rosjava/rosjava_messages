@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Installs everything necessary to run the reindexing script.
+
+sudo apt-get install python-wstool python-rosinstall-generator python-catkin-pkg ros-hydro-catkin -y
+rm -rf reindex
+mkdir reindex
+cd reindex
+wstool init src
+cd src
+echo "Wstooling sources"
+wstool set rosjava_build_tools --git https://github.com/stonier/rosjava_build_tools -y
+ls
+wstool set rosjava_messages --git https://github.com/stonier/rosjava_messages -y
+ls
+echo "wstool update"
+wstool update
+cd ..
+. /opt/ros/hydro/setup.bash
+catkin_make
+. devel/setup.bash
+roscd rosjava_messages
+./jenkins/reindex_release_message_dependencies
+
