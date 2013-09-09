@@ -1,0 +1,60 @@
+#!/usr/bin/env python
+
+"""This script reindexes the release msg/srv packages and if there's been a
+   change on the list available from rosdistro.
+   
+   - run from the root of the rosjava_messages directory, i.e.
+        roscd rosjava_messages
+        ./jenkins/reindex_release_message_dependencies
+   
+   What it does in gory detail:
+   
+   - checks for differences with a scraping from the current rosdistro
+   - compares with the currently stored packages.list
+   - if there's differences, updates package.xml from the template
+     - and also saves the new list in packages.list
+     
+   This is typically run as part of a jenkins build.  
+"""
+
+##############################################################################
+# Imports
+##############################################################################
+
+from __future__ import print_function
+import argparse
+import os
+import sys
+import difflib
+
+from rosjava_build_tools import scrape_for_release_message_packages
+import rosjava_build_tools.console as console
+
+##############################################################################
+# Main
+##############################################################################
+
+if __name__ == "__main__":
+    cwd = os.getcwd()
+    package_xml_template_path = os.path.join(cwd, 'package.xml.template')
+    package_xml_path = os.path.join(cwd, 'package.xml')
+    package_list_path = os.path.join(cwd, 'package.list')
+    if not os.path.isfile(package_xml_path):
+        console.logerror("no package.xml found - execute this script from the root of rosjava_messages")
+        sys.exit(1)
+    try:
+        packages = scrape_for_release_message_packages('hydro')
+        contents = ""
+        for package in packages:
+            contents += "%s %s\n" % (package['name'], package['version'])
+        with open(package_list_path, 'r') as f:
+            old_contents = f.read()
+        print("%s" % old_contents)
+        for line in difflib.unified_diff(old_contents.splitlines(), contents.splitlines(), fromfile='before.py', tofile='after.py'):
+            print("%s" % line)
+#        with open(package_list_path, 'w') as f:
+#            f.write(contents)
+
+    except Exception as e:
+        console.logerror("%s : %s" % (str(e), type(e)))
+        sys.exit(1)
