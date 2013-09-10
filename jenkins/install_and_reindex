@@ -8,17 +8,14 @@ mkdir reindex
 cd reindex
 wstool init src
 cd src
-echo "Wstooling sources"
 wstool set rosjava_build_tools --git https://github.com/stonier/rosjava_build_tools -y
-ls
 wstool set rosjava_messages --git https://github.com/stonier/rosjava_messages -y
-ls
-echo "wstool update"
 wstool update
+touch rosjava_messages/CATKIN_IGNORE
 cd ..
 . /opt/ros/hydro/setup.bash
 catkin_make
 . devel/setup.bash
-roscd rosjava_messages
+cd src/rosjava_messages
 ./jenkins/reindex_release_message_dependencies
 
