@@ -42,15 +42,18 @@ subprojects {
     apply plugin: 'eclipse'
     apply plugin: 'maven'
     apply plugin: 'ros'
-    
+
     sourceCompatibility = 1.6
     targetCompatibility = 1.6
 
     repositories {
-      mavenLocal()
-      maven {
-        url 'https://github.com/rosjava/rosjava_mvn_repo/raw/master'
-      }
+        maven {
+            url 'file://' + project.ros.maven
+        }
+        mavenLocal()
+        maven {
+            url 'https://github.com/rosjava/rosjava_mvn_repo/raw/master'
+        }
     }
 }
 
