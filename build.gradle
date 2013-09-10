@@ -37,24 +37,8 @@ allprojects {
 }
 
 subprojects {
-    apply plugin: 'java'
-    apply plugin: 'osgi'
-    apply plugin: 'eclipse'
-    apply plugin: 'maven'
     apply plugin: 'ros'
-
-    sourceCompatibility = 1.6
-    targetCompatibility = 1.6
-
-    repositories {
-        maven {
-            url 'file://' + project.ros.maven
-        }
-        mavenLocal()
-        maven {
-            url 'https://github.com/rosjava/rosjava_mvn_repo/raw/master'
-        }
-    }
+    apply plugin: 'ros-java'
 }
 
 task distclean << {
@@ -63,6 +47,6 @@ task distclean << {
     }
 }
 
-defaultTasks 'install'
+defaultTasks 'uploadArchives'
 
 
