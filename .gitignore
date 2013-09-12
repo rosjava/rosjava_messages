@@ -1,3 +1,4 @@
 .gradle
 build
 *_msgs
+!rosjava_test_msgs

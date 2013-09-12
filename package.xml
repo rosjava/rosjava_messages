@@ -18,8 +18,6 @@
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>tf2_msgs</build_depend>
   
-  <!-- <build_depend>test_ros</build_depend> -->
-  
   <!-- common_msgs stack -->
   <build_depend>actionlib_msgs</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
