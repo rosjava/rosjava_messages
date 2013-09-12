@@ -32,6 +32,8 @@ packageXml.build_depend.each { d ->
 packages = ["std_msgs", "rosgraph_msgs"]
 */
 
+include 'rosjava_test_msgs'
+
 println ":rosjava_messages is spawning subprojects: " + packages
 packages.each { pkg ->
     mkdir("${pkg}")
