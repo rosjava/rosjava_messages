@@ -4,13 +4,14 @@
 
 sudo apt-get install python-wstool python-rosinstall-generator python-catkin-pkg ros-hydro-catkin -y
 rm -rf reindex
+rm -f UPDATED
 mkdir reindex
 cd reindex
 wstool init src
 cd src
 wstool set rosjava_build_tools --git https://github.com/rosjava/rosjava_build_tools -y
 wstool set rosjava_messages --git https://github.com/rosjava/rosjava_messages -y
-wstool update -j2
+wstool update
 # Don't actually want to build it, just need the package xml's floating around.
 touch rosjava_messages/CATKIN_IGNORE
 cd ..
@@ -18,18 +19,18 @@ cd ..
 catkin_make
 . devel/setup.bash
 cd src/rosjava_messages
-echo "Reindexing if necessary\n"
+echo "Reindexing if necessary"
 ./jenkins/reindex_release_message_dependencies
 if [ $? -eq 0 ]; then
     echo "\nNothing changed."
     exit 0
 else
-    echo "Underlying message packages updated.\n"
+    echo "Underlying message packages updated."
     VERSION=`./jenkins/get_version`
     git commit -a -m "${VERSION}"
     git push
     git tag ${VERSION}
     git push --tags
+    touch ${WORKSPACE}/UPDATED
     exit 1
 fi
-
