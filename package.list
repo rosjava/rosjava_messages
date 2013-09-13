@@ -1,5 +1,5 @@
 ackermann_msgs 0.9.0
-actionlib_msgs 1.10.2
+actionlib_msgs 1.10.0
 arbotix_msgs 0.9.0
 audio_common_msgs 0.2.4
 calibration_msgs 0.10.3
