@@ -1,32 +1,73 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <description>
     Message generation for rosjava.
   </description>
-  <url>http://ros.org/wiki/rosjava_messages</url>
-  <maintainer email="damonkohler@google.com">Damon Kohler</maintainer>
+  <url type="website">http://ros.org/wiki/rosjava_messages</url>
+  <url type="repository">https://github.com/rosjava/rosjava_messages</url>
+  <url type="bugtracker">https://github.com/rosjava/rosjava_messages/issues</url>
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <author email="d.stonier@gmail.com">Daniel Stonier</author>
   <author email="damonkohler@google.com">Damon Kohler</author>
   <license>Apache 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rosjava_build_tools</build_depend>
   <build_depend>rosjava_bootstrap</build_depend>
-  <!-- message dependencies (to be generated from) -->
-  <build_depend>std_msgs</build_depend>
-  <build_depend>rosgraph_msgs</build_depend>
-  <build_depend>tf2_msgs</build_depend>
-  
-  <!-- common_msgs stack -->
+  <build_depend>ackermann_msgs</build_depend>
   <build_depend>actionlib_msgs</build_depend>
+  <build_depend>arbotix_msgs</build_depend>
+  <build_depend>audio_common_msgs</build_depend>
+  <build_depend>calibration_msgs</build_depend>
+  <build_depend>cob_srvs</build_depend>
+  <build_depend>common_msgs</build_depend>
+  <build_depend>concert_msgs</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>controller_manager_msgs</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
+  <build_depend>dynamixel_msgs</build_depend>
+  <build_depend>gateway_msgs</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
+  <build_depend>geographic_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
-  <build_depend>sensor_msgs</build_depend>
+  <build_depend>hector_nav_msgs</build_depend>
+  <build_depend>hector_worldmodel_msgs</build_depend>
+  <build_depend>household_objects_database_msgs</build_depend>
+  <build_depend>kingfisher_msgs</build_depend>
+  <build_depend>kobuki_msgs</build_depend>
+  <build_depend>manipulation_msgs</build_depend>
+  <build_depend>map_msgs</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>multimaster_msgs_fkie</build_depend>
   <build_depend>nav_msgs</build_depend>
+  <build_depend>nmea_msgs</build_depend>
+  <build_depend>object_recognition_msgs</build_depend>
+  <build_depend>octomap_msgs</build_depend>
+  <build_depend>pcl_msgs</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>pr2_mechanism_msgs</build_depend>
+  <build_depend>pr2_msgs</build_depend>
+  <build_depend>rocon_app_manager_msgs</build_depend>
+  <build_depend>rocon_msgs</build_depend>
+  <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>rosserial_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
+  <build_depend>smach_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
   <build_depend>stereo_msgs</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_msgs</build_depend>
   <build_depend>trajectory_msgs</build_depend>
+  <build_depend>turtlebot_msgs</build_depend>
+  <build_depend>underwater_sensor_msgs</build_depend>
+  <build_depend>uuid_msgs</build_depend>
+  <build_depend>velodyne_msgs</build_depend>
   <build_depend>visualization_msgs</build_depend>
-</package>
+  <build_depend>zeroconf_msgs</build_depend>
 
+</package>
