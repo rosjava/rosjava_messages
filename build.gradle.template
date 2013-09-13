@@ -14,5 +14,5 @@
  * the License.
  */
 
-project.catkin.packages['@name@'].generateMessageArtifact(project)
+project.catkin.tree.pkgs['@name@'].generateMessageArtifact(project)
 

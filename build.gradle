@@ -31,15 +31,18 @@ buildscript {
         }
     }
     dependencies {
-        classpath group: 'org.ros.rosjava_bootstrap', name: 'gradle_plugins', version: '0.1.0'
+        classpath group: 'org.ros.rosjava_bootstrap', name: 'gradle_plugins', version: '0.1.+'
     }
 }
 
+/* Apply this here so we can share and avoid reconstructing generated package tree for each subproject */
+
 apply plugin: 'catkin'
+project.catkin.tree.generate()
 
 allprojects {
     group 'org.ros.rosjava_messages'
-    version = '0.1.0'
+    version = project.catkin.pkg.version
 }
 
 subprojects {
@@ -54,5 +57,3 @@ task distclean << {
 }
 
 defaultTasks 'uploadArchives'
-
-
