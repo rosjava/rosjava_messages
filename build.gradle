@@ -52,7 +52,9 @@ subprojects {
 
 task distclean << {
     subprojects.each { p ->
-        delete p.name
+       if ( p.name != 'rosjava_test_msgs' ) {
+            delete p.name
+        }
     }
 }
 
