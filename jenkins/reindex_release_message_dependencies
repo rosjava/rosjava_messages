@@ -84,8 +84,8 @@ if __name__ == "__main__":
             console.pretty_println("No update required.", console.yellow)
             sys.exit(0)
         new_package_xml = generate_package_xml(packages)
-        #with open(package_list_path, 'w') as f:
-        #    f.write(contents)
+        with open(package_list_path, 'w') as f:
+            f.write(contents)
         with open(package_xml_path, 'w') as f:
             f.write(new_package_xml)
         console.pretty_println("package.xml and package.list updated.\n")
