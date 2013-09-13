@@ -16,3 +16,13 @@
 
 project.catkin.tree.pkgs['@name@'].generateMessageArtifact(project)
 
+/* 
+ * Ugly hack to stop osgi/java plugin combination from barfing 
+ * when there are no sources (metapackages). I need to move this into
+ * the catkin plugin, if I can bloody figure out how to write the
+ * following code without closures - groovy sucks! 
+ */
+task bugfixtask << {
+    mkdir sourceSets.main.output.classesDir
+}
+jar.dependsOn(bugfixtask)

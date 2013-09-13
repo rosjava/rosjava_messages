@@ -17,7 +17,7 @@
 version = '0.1.0'
 
 /* Should really break it out into its own message package */
-project.catkin.tree.pkgs['rosjava_messages'].generateMessageArtifactInSubFolder(project, 'rosjava_test_msgs')
+project.catkin.tree.pkgs['rosjava_messages'].generateMessageArtifactInSubFolder(project, 'rosjava_test_msgs', ['std_msgs'])
 
 dependencies {
   compile project(':std_msgs')

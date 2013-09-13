@@ -29,7 +29,7 @@ packageXml.build_depend.each { d ->
     }
 }
 /* 
-packages = ["std_msgs", "rosgraph_msgs"]
+packages = ["std_msgs", "rosgraph_msgs", "nav_msgs", "geometry_msgs", "actionlib_msgs", "tf2_msgs"]
 */
 
 include 'rosjava_test_msgs'
