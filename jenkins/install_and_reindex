@@ -8,19 +8,28 @@ mkdir reindex
 cd reindex
 wstool init src
 cd src
-wstool set rosjava_build_tools --git https://github.com/stonier/rosjava_build_tools -y
-wstool set rosjava_messages --git https://github.com/stonier/rosjava_messages -y
+wstool set rosjava_build_tools --git https://github.com/rosjava/rosjava_build_tools -y
+wstool set rosjava_messages --git https://github.com/rosjava/rosjava_messages -y
 wstool update
+# Don't actually want to build it, just need the package xml's floating around.
 touch rosjava_messages/CATKIN_IGNORE
 cd ..
 . /opt/ros/hydro/setup.bash
 catkin_make
 . devel/setup.bash
 cd src/rosjava_messages
+echo "Reindexing if necessary"
 ./jenkins/reindex_release_message_dependencies
-VERSION=`./jenkins/get_version`
-git commit -a -m "${VERSION}"
-git push
-git tag ${VERSION}
-git push --tags
+if [ $? -eq 0 ]; then
+    echo "\nNothing changed."
+    exit 0
+else
+    echo "Underlying message packages updated."
+    VERSION=`./jenkins/get_version`
+    git commit -a -m "${VERSION}"
+    git push
+    git tag ${VERSION}
+    git push --tags
+    exit 1
+fi
 
