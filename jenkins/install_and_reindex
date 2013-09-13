@@ -18,4 +18,9 @@ catkin_make
 . devel/setup.bash
 cd src/rosjava_messages
 ./jenkins/reindex_release_message_dependencies
+VERSION=`./jenkins/get_version`
+git commit -a -m "${VERSION}"
+git push
+git tag ${VERSION}
+git push --tags
 
