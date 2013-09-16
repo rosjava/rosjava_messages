@@ -17,7 +17,11 @@
 version = '0.1.0'
 
 /* Should really break it out into its own message package */
-project.catkin.tree.pkgs['rosjava_messages'].generateMessageArtifactInSubFolder(project, 'rosjava_test_msgs', ['std_msgs'])
+try {
+    project.catkin.tree.pkgs['rosjava_messages'].generateMessageArtifactInSubFolder(project, 'rosjava_test_msgs', ['std_msgs'])
+} catch (NullPointerException e) {
+    println("Couldn't find rosjava_test_msgs on the ROS_PACKAGE_PATH")
+}
 
 dependencies {
   compile project(':std_msgs')
