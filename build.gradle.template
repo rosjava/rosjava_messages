@@ -14,7 +14,11 @@
  * the License.
  */
 
-project.catkin.tree.pkgs['@name@'].generateMessageArtifact(project)
+try {
+    project.catkin.tree.pkgs['@name@'].generateMessageArtifact(project)
+} catch (NullPointerException e) {
+    println("Couldn't find @name@ on the ROS_PACKAGE_PATH")
+}
 
 /* 
  * Ugly hack to stop osgi/java plugin combination from barfing 
