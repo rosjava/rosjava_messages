@@ -2,6 +2,11 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.8 (2013-09-17)
+------------------
+* gradle wrapper -> 1.7
+* avoid crashes if the environment isn't exactly correct.
+
 0.1.7 (2013-09-13)
 ------------------
 * first release that has done a full scrape of rosdistro for 'official messages'.
