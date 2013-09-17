@@ -2,6 +2,10 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.11 (2013-09-18)
+-------------------
+* run_depends on the build tools only
+
 0.1.9 (2013-09-17)
 ------------------
 * added ugly mixed msg/code map_store dependency for android_apps
