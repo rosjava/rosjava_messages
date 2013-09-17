@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.9</version>
+  <version>0.1.10</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -16,7 +16,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rosjava_build_tools</build_depend>
   <build_depend>rosjava_bootstrap</build_depend>
-  <build_depend>map_store</build_depend>
+  <build_depend>map_store</build_depend> <!-- ach - mixes msgs and needed for android apps -->
   <build_depend>ackermann_msgs</build_depend>
   <build_depend>actionlib_msgs</build_depend>
   <build_depend>arbotix_msgs</build_depend>
