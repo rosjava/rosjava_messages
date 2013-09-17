@@ -28,6 +28,7 @@ packageXml.build_depend.each { d ->
         packages.add(d.text())
     }
 }
+packages.add('map_store')
 /* 
 packages = ["std_msgs", "rosgraph_msgs", "nav_msgs", "geometry_msgs", "actionlib_msgs", "tf2_msgs"]
 */

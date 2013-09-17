@@ -16,5 +16,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rosjava_build_tools</build_depend>
   <build_depend>rosjava_bootstrap</build_depend>
+  <build_depend>map_store</build_depend> <!-- ach - mixes msgs and needed for android apps -->
 $build_depends_list
 </package>
