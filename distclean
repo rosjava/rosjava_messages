@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# There is a task 'distclean' for gradle here, but if the gradle logic gets mucked up,
+# or if it takes too long to actually run in a big workspace, use this instead to clean
+# the gradle build
+mv rosjava_test_msgs /tmp
+rm -rf *msgs*
+rm -rf map_store
+mv /tmp/rosjava_test_msgs .
+rm -rf rosjava_test_msgs/build
