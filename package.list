@@ -34,13 +34,13 @@ pr2_mechanism_msgs 1.8.0
 pr2_msgs 1.11.3
 rocon_app_manager_msgs 0.6.2
 rocon_msgs 0.6.2
-rosgraph_msgs 1.9.48
+rosgraph_msgs 1.9.49
 rosserial_msgs 0.5.2
 sensor_msgs 1.10.2
 shape_msgs 1.10.2
 smach_msgs 1.3.1
 std_msgs 0.5.8
-std_srvs 1.9.48
+std_srvs 1.9.49
 stereo_msgs 1.10.2
 tf2_geometry_msgs 0.4.7
 tf2_msgs 0.4.7
