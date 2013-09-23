@@ -47,7 +47,6 @@ allprojects {
 }
 
 subprojects {
-    apply plugin: 'ros'
     apply plugin: 'ros-java'
 }
 
@@ -60,4 +59,4 @@ task distclean << {
     }
 }
 
-defaultTasks 'uploadArchives'
+defaultTasks 'publishMavenJavaPublicationToMavenRepository'
