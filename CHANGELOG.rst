@@ -2,6 +2,17 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.15 (2013-09-23)
+-------------------
+* use updated ros gradle plugins with maven-publish for publishing.
+
+0.1.14 (2013-09-22)
+--------------------------
+* rosserial_msgs -> 0.5.3
+* rosgraph_msgs -> 1.9.49
+* std_srvs -> 1.9.49
+* gazebo_msgs -> 2.3.2
+
 0.1.11 (2013-09-18)
 -------------------
 * run_depends on the build tools only
