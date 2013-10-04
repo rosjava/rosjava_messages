@@ -12,7 +12,7 @@ diagnostic_msgs 1.10.2
 dynamixel_msgs 0.4.0
 gateway_msgs 0.6.2
 gazebo_msgs 2.3.2
-geographic_msgs 0.3.0
+geographic_msgs 0.3.1
 geometry_msgs 1.10.2
 hector_nav_msgs 0.3.0
 hector_worldmodel_msgs 0.3.0
