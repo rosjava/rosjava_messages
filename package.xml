@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.20</version>
+  <version>0.1.21</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -70,6 +70,7 @@
   <build_depend>uuid_msgs</build_depend>
   <build_depend>velodyne_msgs</build_depend>
   <build_depend>visualization_msgs</build_depend>
+  <build_depend>yocs_msgs</build_depend>
   <build_depend>zeroconf_msgs</build_depend>
 
 
