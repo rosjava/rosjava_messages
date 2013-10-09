@@ -2,8 +2,8 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.16-0.1.21 (2013-10-09)
---------------------------
+0.1.22 (2013-10-09)
+-------------------
 * + yocs_msgs -> 0.4.1
 * + sr_ronex_messages -> 0.9.3
 * rosgraph_msgs -> 1.9.50
@@ -12,7 +12,6 @@ Changelog for package rosjava_messages
 * move_base_msgs -> 1.11.4
 * moveit_msgs -> 0.5.2
 
--------------------
 0.1.15 (2013-09-23)
 -------------------
 * use updated ros gradle plugins with maven-publish for publishing.
