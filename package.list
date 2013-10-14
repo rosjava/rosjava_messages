@@ -51,5 +51,5 @@ underwater_sensor_msgs 1.2.0
 uuid_msgs 1.0.3
 velodyne_msgs 1.1.1
 visualization_msgs 1.10.2
-yocs_msgs 0.4.1
+yocs_msgs 0.5.1
 zeroconf_msgs 0.2.1
