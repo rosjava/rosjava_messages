@@ -16,7 +16,10 @@
 
 version = '0.1.0'
 
-/* Should really break it out into its own message package */
+/* Don't do this at home kids - it's a really hackish way of getting the job done.
+   We should do it properly - i.e.e have a proper rosjava_test_msgs catkin package
+   with the message types therein and we call that instead of rosjava_messages below.
+ */
 try {
     project.catkin.tree.pkgs['rosjava_messages'].generateMessageArtifactInSubFolder(project, 'rosjava_test_msgs', ['std_msgs'])
 } catch (NullPointerException e) {
