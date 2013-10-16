@@ -17,7 +17,7 @@ geometry_msgs 1.10.2
 hector_nav_msgs 0.3.1
 hector_worldmodel_msgs 0.3.0
 household_objects_database_msgs 0.1.1
-kingfisher_msgs 0.0.1
+kingfisher_msgs 0.0.2
 kobuki_msgs 0.5.0
 manipulation_msgs 0.2.0
 map_msgs 0.0.2
