@@ -17,7 +17,7 @@ geometry_msgs 1.10.2
 hector_nav_msgs 0.3.1
 hector_worldmodel_msgs 0.3.0
 household_objects_database_msgs 0.1.1
-kingfisher_msgs 0.0.2
+kingfisher_msgs 0.0.3
 kobuki_msgs 0.5.0
 manipulation_msgs 0.2.0
 map_msgs 0.0.2
@@ -51,6 +51,6 @@ underwater_sensor_msgs 1.2.0
 uuid_msgs 1.0.3
 velodyne_msgs 1.1.1
 visualization_msgs 1.10.2
-wireless_msgs 0.0.1
+wireless_msgs 0.0.2
 yocs_msgs 0.5.1
 zeroconf_msgs 0.2.1
