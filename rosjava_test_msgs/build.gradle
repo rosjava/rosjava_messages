@@ -14,7 +14,7 @@
  * the License.
  */
 
-version = '0.1.0'
+version = '0.1.27'
 
 /* Don't do this at home kids - it's a really hackish way of getting the job done.
    We should do it properly - i.e.e have a proper rosjava_test_msgs catkin package
