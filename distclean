@@ -6,5 +6,6 @@
 mv rosjava_test_msgs /tmp
 rm -rf *msgs*
 rm -rf map_store
+rm -rf multimaster*
 mv /tmp/rosjava_test_msgs .
 rm -rf rosjava_test_msgs/build
