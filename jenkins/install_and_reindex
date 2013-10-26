@@ -9,8 +9,10 @@ mkdir reindex
 cd reindex
 wstool init src
 cd src
-wstool set rosjava_build_tools --git https://github.com/rosjava/rosjava_build_tools -y
-wstool set rosjava_messages --git https://github.com/rosjava/rosjava_messages -y
+wstool set rosjava_build_tools --git https://github.com/rosjava/rosjava_build_tools --version=hydro -y
+# We don need to build it (see below), so easier just getting the maven repo artifact for message_generation
+#wstool set rosjava_bootstrap --git https://github.com/rosjava/rosjava_bootstrap --version=hydro -y
+wstool set rosjava_messages --git https://github.com/rosjava/rosjava_messages --version=hydro -y
 wstool update
 # Don't actually want to build it, just need the package xml's floating around.
 touch rosjava_messages/CATKIN_IGNORE
