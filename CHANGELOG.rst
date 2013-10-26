@@ -2,6 +2,21 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.32 (2013-10-25)
+------------------
+* use maven style open range dependencies
+
+0.1.31 (2013-10-09)
+-------------------
+* rosserial_msgs -> 0.5.4
+* + wireless_msgs -> 0.0.1
+* multimaster_fkie_msgs -> 0.3.7
+* kingfisher_msgs -> 0.0.2
+* yocs_msgs -> 0.5.1
+* controller_manager_msgs -> 0.5.8
+* gazebo_msgs -> 2.3.2
+* hector_nav_msgs -> 0.3.1
+
 0.1.22 (2013-10-09)
 -------------------
 * + yocs_msgs -> 0.4.1
