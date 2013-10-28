@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.32</version>
+  <version>0.1.33</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -36,6 +36,8 @@
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
+  <build_depend>humanoid_msgs</build_depend>
+  <build_depend>humanoid_nav_msgs</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>kobuki_msgs</build_depend>
   <build_depend>manipulation_msgs</build_depend>
@@ -43,6 +45,7 @@
   <build_depend>move_base_msgs</build_depend>
   <build_depend>moveit_msgs</build_depend>
   <build_depend>multimaster_msgs_fkie</build_depend>
+  <build_depend>nao_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>nmea_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
