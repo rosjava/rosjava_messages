@@ -2,6 +2,18 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.35 (2013-10-31)
+------------------
+* use ROS_MAVEN_REPOSITORY
+* concert_msgs -> 0.6.3
+* gateway_msgs -> 0.6.3
+* rocon_app_manager_msgs -> 0.6.3
+* rocon_msgs -> 0.6.3
+* + rocon_std_msgs -> 0.6.3
+* + humanoid_msgs -> 0.2.0
+* + humanoid_nav_msgs -> 0.2.0
+* + nao_msgs -> 0.2.2
+
 0.1.32 (2013-10-25)
 ------------------
 * use maven style open range dependencies
