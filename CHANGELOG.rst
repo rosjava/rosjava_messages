@@ -2,6 +2,10 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.36 (2013-10-31)
+------------------
+* remove unintended rocon_std_msgs
+
 0.1.35 (2013-10-31)
 ------------------
 * use ROS_MAVEN_REPOSITORY
