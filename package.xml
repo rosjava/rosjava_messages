@@ -56,7 +56,6 @@
   <build_depend>pr2_msgs</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
   <build_depend>rocon_msgs</build_depend>
-  <build_depend>rocon_std_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
