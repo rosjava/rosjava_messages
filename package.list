@@ -5,12 +5,12 @@ audio_common_msgs 0.2.4
 calibration_msgs 0.10.3
 cob_srvs 0.5.0
 common_msgs 1.10.2
-concert_msgs 0.6.3
+concert_msgs 0.6.4
 control_msgs 1.2.0
 controller_manager_msgs 0.5.8
 diagnostic_msgs 1.10.2
 dynamixel_msgs 0.4.0
-gateway_msgs 0.6.3
+gateway_msgs 0.6.4
 gazebo_msgs 2.3.3
 geographic_msgs 0.3.1
 geometry_msgs 1.10.2
@@ -35,9 +35,8 @@ pcl_msgs 0.1.0
 pr2_controllers_msgs 1.10.6
 pr2_mechanism_msgs 1.8.0
 pr2_msgs 1.11.3
-rocon_app_manager_msgs 0.6.3
-rocon_msgs 0.6.3
-rocon_std_msgs 0.6.3
+rocon_app_manager_msgs 0.6.4
+rocon_msgs 0.6.4
 rosgraph_msgs 1.9.50
 rosserial_msgs 0.5.4
 sensor_msgs 1.10.2
