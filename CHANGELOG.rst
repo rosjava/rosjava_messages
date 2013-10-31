@@ -2,6 +2,17 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.38 (2013-11-01)
+------------------
+* constrain open ranged dependencies.
+
+0.1.37 (2013-11-01)
+------------------
+* concert_msgs -> 0.6.4
+* gateway_msgs -> 0.6.4
+* rocon_app_manager_msgs -> 0.6.4
+* rocon_msgs -> 0.6.4
+
 0.1.36 (2013-10-31)
 ------------------
 * remove unintended rocon_std_msgs
@@ -13,7 +24,6 @@ Changelog for package rosjava_messages
 * gateway_msgs -> 0.6.3
 * rocon_app_manager_msgs -> 0.6.3
 * rocon_msgs -> 0.6.3
-* + rocon_std_msgs -> 0.6.3
 * + humanoid_msgs -> 0.2.0
 * + humanoid_nav_msgs -> 0.2.0
 * + nao_msgs -> 0.2.2
