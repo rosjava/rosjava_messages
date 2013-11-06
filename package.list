@@ -52,8 +52,8 @@ trajectory_msgs 1.10.2
 turtlebot_msgs 2.2.0
 underwater_sensor_msgs 1.2.0
 uuid_msgs 1.0.3
-velodyne_msgs 1.1.1
+velodyne_msgs 1.1.2
 visualization_msgs 1.10.2
 wireless_msgs 0.0.2
-yocs_msgs 0.5.1
+yocs_msgs 0.5.2
 zeroconf_msgs 0.2.1
