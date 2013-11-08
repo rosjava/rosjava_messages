@@ -46,8 +46,8 @@ sr_ronex_msgs 0.9.3
 std_msgs 0.5.8
 std_srvs 1.9.50
 stereo_msgs 1.10.2
-tf2_geometry_msgs 0.4.7
-tf2_msgs 0.4.7
+tf2_geometry_msgs 0.4.9
+tf2_msgs 0.4.9
 trajectory_msgs 1.10.2
 turtlebot_msgs 2.2.0
 underwater_sensor_msgs 1.2.0
