@@ -2,6 +2,16 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+0.1.40 (2013-11-11)
+------------------
+* tf2_geometry_msgs -> 0.4.9 
+
+0.1.39 (2013-11-11)
+------------------
+* velodyne_msgs -> 1.1.2
+* yocs_msgs -> 0.5.2
+
 0.1.38 (2013-11-01)
 ------------------
 * constrain open ranged dependencies.
