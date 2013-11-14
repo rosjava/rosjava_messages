@@ -11,7 +11,7 @@ controller_manager_msgs 0.5.8
 diagnostic_msgs 1.10.2
 dynamixel_msgs 0.4.0
 gateway_msgs 0.6.4
-gazebo_msgs 2.3.3
+gazebo_msgs 2.3.4
 geographic_msgs 0.3.1
 geometry_msgs 1.10.2
 hector_nav_msgs 0.3.1
