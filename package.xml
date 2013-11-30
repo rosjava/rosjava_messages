@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.42</version>
+  <version>0.1.43</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -33,6 +33,7 @@
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>geographic_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
+  <build_depend>grizzly_msgs</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
@@ -54,6 +55,7 @@
   <build_depend>pr2_controllers_msgs</build_depend>
   <build_depend>pr2_mechanism_msgs</build_depend>
   <build_depend>pr2_msgs</build_depend>
+  <build_depend>roboteq_msgs</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
   <build_depend>rocon_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>

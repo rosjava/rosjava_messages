@@ -2,7 +2,7 @@ ackermann_msgs 0.9.0
 actionlib_msgs 1.10.2
 arbotix_msgs 0.9.0
 audio_common_msgs 0.2.4
-calibration_msgs 0.10.3
+calibration_msgs 0.10.4
 cob_srvs 0.5.0
 common_msgs 1.10.2
 concert_msgs 0.6.4
@@ -14,6 +14,7 @@ gateway_msgs 0.6.4
 gazebo_msgs 2.3.4
 geographic_msgs 0.3.1
 geometry_msgs 1.10.2
+grizzly_msgs 0.1.0
 hector_nav_msgs 0.3.1
 hector_worldmodel_msgs 0.3.0
 household_objects_database_msgs 0.1.1
@@ -35,6 +36,7 @@ pcl_msgs 0.1.0
 pr2_controllers_msgs 1.10.6
 pr2_mechanism_msgs 1.8.0
 pr2_msgs 1.11.3
+roboteq_msgs 0.1.0
 rocon_app_manager_msgs 0.6.4
 rocon_msgs 0.6.4
 rosgraph_msgs 1.9.50
