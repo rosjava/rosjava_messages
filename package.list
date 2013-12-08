@@ -33,7 +33,7 @@ nmea_msgs 0.1.0
 object_recognition_msgs 0.3.19
 octomap_msgs 0.3.1
 pcl_msgs 0.1.0
-pr2_controllers_msgs 1.10.6
+pr2_controllers_msgs 1.10.7
 pr2_mechanism_msgs 1.8.0
 pr2_msgs 1.11.3
 roboteq_msgs 0.1.1
