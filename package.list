@@ -2,7 +2,7 @@ ackermann_msgs 0.9.0
 actionlib_msgs 1.10.2
 arbotix_msgs 0.9.0
 audio_common_msgs 0.2.4
-calibration_msgs 0.10.5
+calibration_msgs 0.10.6
 cob_srvs 0.5.0
 common_msgs 1.10.2
 concert_msgs 0.6.4
@@ -30,7 +30,7 @@ multimaster_msgs_fkie 0.3.7
 nao_msgs 0.2.2
 nav_msgs 1.10.2
 nmea_msgs 0.1.0
-object_recognition_msgs 0.3.19
+object_recognition_msgs 0.4.0
 octomap_msgs 0.3.1
 pcl_msgs 0.1.0
 pr2_controllers_msgs 1.10.7
