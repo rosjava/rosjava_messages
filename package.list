@@ -26,7 +26,7 @@ manipulation_msgs 0.2.0
 map_msgs 0.0.2
 move_base_msgs 1.11.4
 moveit_msgs 0.5.3
-multimaster_msgs_fkie 0.3.7
+multimaster_msgs_fkie 0.3.8
 nao_msgs 0.2.2
 nav_msgs 1.10.2
 nmea_msgs 0.1.0
