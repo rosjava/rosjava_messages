@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.49</version>
+  <version>0.1.50</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -55,11 +55,14 @@
   <build_depend>pr2_controllers_msgs</build_depend>
   <build_depend>pr2_mechanism_msgs</build_depend>
   <build_depend>pr2_msgs</build_depend>
+  <build_depend>r2_msgs</build_depend>
   <build_depend>roboteq_msgs</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
   <build_depend>rocon_msgs</build_depend>
+  <build_depend>rocon_std_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>rosserial_msgs</build_depend>
+  <build_depend>scheduler_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>smach_msgs</build_depend>
