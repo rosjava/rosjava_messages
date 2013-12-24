@@ -2,7 +2,7 @@
 
 # Installs everything necessary to run the reindexing script.
 
-sudo apt-get install python-wstool python-rosinstall-generator python-catkin-pkg python-bloom ros-hydro-catkin -y
+sudo apt-get install python-wstool python-rosdistro python-catkin-pkg python-bloom ros-hydro-catkin -y
 rm -rf reindex
 rm -f UPDATED
 mkdir reindex
