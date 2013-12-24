@@ -23,13 +23,14 @@ import org.apache.tools.ant.filters.*
 File packageXmlFilename = file('package.xml')
 def packageXml = new XmlParser().parse(packageXmlFilename)
 def packages = []
+def non_message_dependencies = ['rosjava_build_tools', 'rosjava_bootstrap']
 packageXml.build_depend.each { d ->
-    if ( d.text().contains("_msgs") ) {
+    if ( !(d.text() in non_message_dependencies) ) {
         packages.add(d.text())
     }
 }
-packages.add('map_store')
 /* 
+packages.add('map_store')
 packages = ["std_msgs", "rosgraph_msgs", "nav_msgs", "geometry_msgs", "actionlib_msgs", "tf2_msgs"]
 */
 

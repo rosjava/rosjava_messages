@@ -56,7 +56,6 @@ task distclean << {
        if ( p.name != 'rosjava_test_msgs' ) {
             delete p.name
         }
-        delete 'map_store'
     }
 }
 
