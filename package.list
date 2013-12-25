@@ -81,15 +81,16 @@ rosapi 0.5.1
 rocon_app_manager_msgs 0.6.5
 brics_actuator 0.5.0
 roboteq_msgs 0.1.1
+concert_msgs 0.6.5
 nav_msgs 1.10.2
 rosbridge_library 0.5.1
-concert_msgs 0.6.5
 p2os_urdf 1.0.9
 hector_mapping 0.3.1
 household_objects_database_msgs 0.1.1
 pano_ros 2.2.4
 hector_worldmodel_msgs 0.3.0
 ackermann_msgs 0.9.0
+gazebo_taskboard 0.5.1
 move_base 1.11.4
 control_toolbox 1.10.3
 p2os_driver 1.0.9

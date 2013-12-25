@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.51</version>
+  <version>0.1.52</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -16,7 +16,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rosjava_build_tools</build_depend>
   <build_depend>rosjava_bootstrap</build_depend>
-  <build_depend>map_store</build_depend> <!-- ach - mixes msgs and needed for android apps -->
+  <build_depend>map_store</build_depend> <!-- waiting for https://github.com/ros-planning/map_store/pull/6 and needed for android apps -->
   <build_depend>r2_msgs</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>moveit_msgs</build_depend>
@@ -100,15 +100,16 @@
   <build_depend>rocon_app_manager_msgs</build_depend>
   <build_depend>brics_actuator</build_depend>
   <build_depend>roboteq_msgs</build_depend>
+  <build_depend>concert_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>rosbridge_library</build_depend>
-  <build_depend>concert_msgs</build_depend>
   <build_depend>p2os_urdf</build_depend>
   <build_depend>hector_mapping</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
   <build_depend>pano_ros</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>ackermann_msgs</build_depend>
+  <build_depend>gazebo_taskboard</build_depend>
   <build_depend>move_base</build_depend>
   <build_depend>control_toolbox</build_depend>
   <build_depend>p2os_driver</build_depend>
