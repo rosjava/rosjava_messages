@@ -2,6 +2,10 @@
 Changelog for package rosjava_messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.52 (2013-12-26)
+------------------
+* message generation and indexing now more intelligent, checks message_generation deps, not xxx_msgs naming.
+* scrapes for many more packages (too many to list) with the new indexing
 
 0.1.40 (2013-11-11)
 ------------------
