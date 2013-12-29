@@ -92,7 +92,7 @@ pano_ros 2.2.4
 hector_worldmodel_msgs 0.3.0
 gazebo_ros 2.3.4
 ackermann_msgs 0.9.0
-gazebo_taskboard 0.5.1
+gazebo_taskboard 0.5.3
 move_base 1.11.4
 control_toolbox 1.10.3
 p2os_driver 1.0.9
