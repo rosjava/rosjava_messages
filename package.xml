@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.55</version>
+  <version>0.1.56</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -111,7 +111,6 @@
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>ackermann_msgs</build_depend>
-  <build_depend>gazebo_taskboard</build_depend>
   <build_depend>move_base</build_depend>
   <build_depend>control_toolbox</build_depend>
   <build_depend>p2os_driver</build_depend>
