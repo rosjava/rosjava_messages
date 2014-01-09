@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.57</version>
+  <version>0.1.58</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -125,7 +125,6 @@
   <build_depend>wireless_msgs</build_depend>
   <build_depend>turtlebot_calibration</build_depend>
   <build_depend>pcl_msgs</build_depend>
-  <build_depend>rqt_cpp_common</build_depend>
   <build_depend>scheduler_msgs</build_depend>
   <build_depend>rosruby_messages</build_depend>
   <build_depend>velodyne_msgs</build_depend>
