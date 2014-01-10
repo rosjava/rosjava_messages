@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.58</version>
+  <version>0.1.59</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -64,16 +64,18 @@
   <build_depend>cmvision</build_depend>
   <build_depend>arbotix_msgs</build_depend>
   <build_depend>nodelet</build_depend>
-  <build_depend>gazebo_msgs</build_depend>
+  <build_depend>zeroconf_msgs</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>fingertip_pressure</build_depend>
   <build_depend>image_cb_detector</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>theora_image_transport</build_depend>
   <build_depend>actionlib</build_depend>
+  <build_depend>industrial_msgs</build_depend>
+  <build_depend>youbot_driver_ros_interface</build_depend>
   <build_depend>base_local_planner</build_depend>
   <build_depend>controller_manager_msgs</build_depend>
-  <build_depend>zeroconf_msgs</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
   <build_depend>rosserial_arduino</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
@@ -133,6 +135,7 @@
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>kobuki_msgs</build_depend>
   <build_depend>shared_serial</build_depend>
+  <build_depend>ecto_ros</build_depend>
   <build_depend>std_srvs</build_depend>
   <build_depend>yocs_msgs</build_depend>
   <build_depend>gazebo_plugins</build_depend>
@@ -141,7 +144,6 @@
   <build_depend>tf2_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>rospy_tutorials</build_depend>
-  <build_depend>ecto_ros</build_depend>
   <build_depend>qt_tutorials</build_depend>
   <build_depend>clearpath_base</build_depend>
 

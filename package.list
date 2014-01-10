@@ -45,16 +45,18 @@ object_recognition_msgs 0.4.0
 cmvision 0.4.1
 arbotix_msgs 0.9.0
 nodelet 1.8.2
-gazebo_msgs 2.3.4
+zeroconf_msgs 0.2.1
 sound_play 0.2.4
 fingertip_pressure 1.8.5
 image_cb_detector 0.10.6
 uuid_msgs 1.0.3
 theora_image_transport 1.8.21
 actionlib 1.10.3
+industrial_msgs 0.3.1
+youbot_driver_ros_interface 1.0.0
 base_local_planner 1.11.4
 controller_manager_msgs 0.5.8
-zeroconf_msgs 0.2.1
+gazebo_msgs 2.3.4
 rosserial_arduino 0.5.4
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.1
@@ -114,6 +116,7 @@ pr2_msgs 1.11.3
 dynamic_reconfigure 1.5.34
 kobuki_msgs 0.5.0
 shared_serial 0.2.0
+ecto_ros 0.3.23
 std_srvs 1.9.52
 yocs_msgs 0.5.2
 gazebo_plugins 2.3.4
@@ -122,6 +125,5 @@ roscpp 1.9.52
 tf2_msgs 0.4.10
 sensor_msgs 1.10.3
 rospy_tutorials 0.4.3
-ecto_ros 0.3.23
 qt_tutorials 0.2.2
 clearpath_base 0.4.4
