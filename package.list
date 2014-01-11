@@ -52,7 +52,7 @@ image_cb_detector 0.10.6
 uuid_msgs 1.0.3
 theora_image_transport 1.8.21
 actionlib 1.10.3
-industrial_msgs 0.3.1
+industrial_msgs 0.3.2
 youbot_driver_ros_interface 1.0.0
 base_local_planner 1.11.4
 controller_manager_msgs 0.5.8
