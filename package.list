@@ -26,7 +26,7 @@ laser_assembler 1.7.1
 sr_ronex_msgs 0.9.5
 geometry_msgs 1.10.3
 octomap_msgs 0.3.1
-linux_hardware 2.2.2
+linux_hardware 2.2.3
 costmap_2d 1.11.4
 diagnostic_msgs 1.10.3
 kobuki_testsuite 0.5.5
@@ -52,7 +52,7 @@ image_cb_detector 0.10.6
 uuid_msgs 1.0.3
 theora_image_transport 1.8.21
 actionlib 1.10.3
-industrial_msgs 0.3.2
+industrial_msgs 0.3.3
 youbot_driver_ros_interface 1.0.0
 base_local_planner 1.11.4
 controller_manager_msgs 0.5.8
@@ -73,18 +73,18 @@ smach_msgs 1.3.1
 turtlebot_actions 2.2.4
 actionlib_tutorials 0.1.7
 turtle_actionlib 0.1.7
-gateway_msgs 0.6.5
+gateway_msgs 0.6.6
 turtlesim 0.4.3
 ethercat_trigger_controllers 1.10.7
 calibration_msgs 0.10.6
 rosauth 0.1.3
 std_msgs 0.5.8
 rosapi 0.5.1
-rocon_app_manager_msgs 0.6.5
+rocon_app_manager_msgs 0.6.6
 brics_actuator 0.5.0
 roboteq_msgs 0.1.1
 create_node 2.2.0
-concert_msgs 0.6.5
+concert_msgs 0.6.6
 nav_msgs 1.10.3
 rosbridge_library 0.5.1
 p2os_urdf 1.0.9
@@ -98,7 +98,7 @@ move_base 1.11.4
 control_toolbox 1.10.3
 p2os_driver 1.0.9
 actionlib_msgs 1.10.3
-rocon_std_msgs 0.6.5
+rocon_std_msgs 0.6.6
 leap_motion 0.0.4
 ethercat_hardware 1.8.5
 nmea_msgs 0.1.0
@@ -108,7 +108,7 @@ um6 0.0.2
 wireless_msgs 0.0.2
 turtlebot_calibration 2.2.4
 pcl_msgs 0.1.0
-scheduler_msgs 0.6.5
+scheduler_msgs 0.6.6
 rosruby_messages 0.1.3
 velodyne_msgs 1.1.2
 control_msgs 1.2.0
