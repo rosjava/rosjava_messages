@@ -126,5 +126,5 @@ roscpp 1.9.53
 tf2_msgs 0.4.10
 sensor_msgs 1.10.3
 rospy_tutorials 0.4.3
-qt_tutorials 0.2.2
+qt_tutorials 0.2.3
 clearpath_base 0.4.4
