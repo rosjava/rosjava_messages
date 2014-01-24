@@ -47,7 +47,7 @@ cmvision 0.4.1
 arbotix_msgs 0.9.0
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
-sound_play 0.2.4
+sound_play 0.2.5
 fingertip_pressure 1.8.7
 image_cb_detector 0.10.7
 uuid_msgs 1.0.3
@@ -64,7 +64,7 @@ hector_nav_msgs 0.3.1
 rosserial_msgs 0.5.5
 wifi_ddwrt 0.2.0
 kingfisher_msgs 0.0.3
-audio_common_msgs 0.2.4
+audio_common_msgs 0.2.5
 shape_msgs 1.10.3
 turtlebot_msgs 2.2.0
 rosgraph_msgs 1.9.53
