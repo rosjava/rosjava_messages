@@ -7,7 +7,7 @@ dynamixel_msgs 0.4.0
 humanoid_nav_msgs 0.3.0
 rosruby 0.5.5
 visualization_msgs 1.10.3
-polled_camera 1.11.0
+polled_camera 1.11.1
 p2os_teleop 1.0.9
 roscpp_tutorials 0.4.3
 microstrain_3dmgx2_imu 1.5.12
