@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.69</version>
+  <version>0.1.70</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -59,6 +59,7 @@
   <build_depend>pr2_controllers_msgs</build_depend>
   <build_depend>geographic_msgs</build_depend>
   <build_depend>dynamixel_controllers</build_depend>
+  <build_depend>rosbridge_library</build_depend>
   <build_depend>stereo_msgs</build_depend>
   <build_depend>trajectory_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
@@ -78,6 +79,7 @@
   <build_depend>controller_manager_msgs</build_depend>
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>rosserial_arduino</build_depend>
+  <build_depend>bride_tutorials</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>rosserial_msgs</build_depend>
@@ -101,16 +103,15 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>rosapi</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
-  <build_depend>brics_actuator</build_depend>
   <build_depend>roboteq_msgs</build_depend>
   <build_depend>create_node</build_depend>
   <build_depend>concert_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
-  <build_depend>rosbridge_library</build_depend>
   <build_depend>p2os_urdf</build_depend>
   <build_depend>hector_mapping</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
   <build_depend>pano_ros</build_depend>
+  <build_depend>brics_actuator</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>ackermann_msgs</build_depend>
