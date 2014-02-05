@@ -57,7 +57,7 @@ actionlib 1.10.3
 industrial_msgs 0.3.4
 youbot_driver_ros_interface 1.0.0
 base_local_planner 1.11.4
-controller_manager_msgs 0.5.8
+controller_manager_msgs 0.6.0
 gazebo_msgs 2.3.4
 rosserial_arduino 0.5.5
 bride_tutorials 0.3.0
@@ -97,7 +97,7 @@ hector_worldmodel_msgs 0.3.0
 gazebo_ros 2.3.4
 ackermann_msgs 0.9.0
 move_base 1.11.4
-control_toolbox 1.10.3
+control_toolbox 1.10.4
 p2os_driver 1.0.9
 actionlib_msgs 1.10.3
 rocon_std_msgs 0.6.7
