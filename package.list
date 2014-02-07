@@ -19,6 +19,7 @@ rospy_message_converter 0.2.0
 hector_uav_msgs 0.3.1
 underwater_sensor_msgs 1.2.0
 pr2_mechanism_msgs 1.8.0
+stdr_msgs 0.1.0
 multimaster_msgs_fkie 0.3.9
 grizzly_msgs 0.1.2
 pr2_mechanism_controllers 1.10.7
