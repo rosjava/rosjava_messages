@@ -34,7 +34,7 @@ diagnostic_msgs 1.10.3
 kobuki_testsuite 0.5.5
 bond 1.7.13
 nao_msgs 0.2.2
-rtmbuild 1.0.6
+rtmbuild 1.0.5
 ar_track_alvar 0.4.1
 driver_base 1.6.7
 razer_hydra 0.0.12
