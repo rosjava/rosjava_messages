@@ -14,19 +14,17 @@
  * the License.
  */
 
-try {
-    project.catkin.tree.generateMessageArtifact(project, '@name@')
-} catch (NullPointerException e) {
-    println("Couldn't find @name@ on the ROS_PACKAGE_PATH")
+if (project.catkin.tree.pkgs.containsKey("@name@")) {
+  project.catkin.tree.pkgs.@name@.generateMessageArtifact(project)
 }
 
-/* 
- * Ugly hack to stop osgi/java plugin combination from barfing 
+/*
+ * Ugly hack to stop osgi/java plugin combination from barfing
  * when there are no sources (metapackages). I need to move this into
  * the catkin plugin, if I can bloody figure out how to write the
- * following code without closures - groovy sucks! 
+ * following code without closures - groovy sucks!
  */
 task bugfixtask << {
-    mkdir sourceSets.main.output.classesDir
+  mkdir sourceSets.main.output.classesDir
 }
 jar.dependsOn(bugfixtask)

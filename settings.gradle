@@ -13,11 +13,12 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
+
 /*
  * Some gradle magic to automatically extract a list of message packages to
  * build from package.xml's build_depends list.
 */
- 
+
 import org.apache.tools.ant.filters.*
 
 File packageXmlFilename = file('package.xml')
@@ -29,10 +30,6 @@ packageXml.build_depend.each { d ->
         packages.add(d.text())
     }
 }
-/* 
-packages.add('map_store')
-packages = ["std_msgs", "rosgraph_msgs", "nav_msgs", "geometry_msgs", "actionlib_msgs", "tf2_msgs"]
-*/
 
 include 'rosjava_test_msgs'
 

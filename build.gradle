@@ -15,51 +15,67 @@
  */
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '1.8'
+  gradleVersion = "1.9"
 }
 
 buildscript {
-    def rosMavenPath = "$System.env.ROS_MAVEN_PATH".split(':').collect { 'file://' + it }
-    def rosMavenRepository = "$System.env.ROS_MAVEN_REPOSITORY"
-    if ( rosMavenRepository == 'null' ) {
-        rosMavenRepository = "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
-    }
-    repositories {
-        rosMavenPath.each { p ->
-            maven {
-                url p
-            }
-        }
-        mavenLocal()
+  def rosMavenPath = System.getenv("ROS_MAVEN_PATH")
+  def rosMavenRepository = System.getenv("ROS_MAVEN_REPOSITORY")
+
+  repositories {
+    if (rosMavenPath != null) {
+      rosMavenPath.tokenize(":").each { path ->
         maven {
-            url rosMavenRepository
+          url uri(path)
         }
+      }
     }
-    dependencies {
-        classpath group: 'org.ros.rosjava_bootstrap', name: 'gradle_plugins', version: '[0.1,0.2)'
+    mavenLocal()
+    maven {
+      url "http://repository.springsource.com/maven/bundles/release"
     }
+    maven {
+      url "http://repository.springsource.com/maven/bundles/external"
+    }
+    if (rosMavenRepository != null) {
+      maven {
+        url rosMavenRepository
+      }
+    } else {
+      maven {
+        url "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
+      }
+    }
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath group: "org.ros.rosjava_bootstrap", name: "gradle_plugins", version: "[0.2,0.3)"
+  }
 }
 
-/* Apply this here so we can share and avoid reconstructing generated package tree for each subproject */
+// Apply this here so we can share and avoid reconstructing generated package
+// tree for each subproject.
 
-apply plugin: 'catkin'
+apply plugin: "catkin"
+
 project.catkin.tree.generate()
 
 allprojects {
-    group 'org.ros.rosjava_messages'
-    version = project.catkin.pkg.version
+  group "org.ros.rosjava_messages"
+  version = project.catkin.pkg.version
 }
 
 subprojects {
-    apply plugin: 'ros-java'
+  apply plugin: "ros"
 }
 
 task distclean << {
-    subprojects.each { p ->
-       if ( p.name != 'rosjava_test_msgs' ) {
-            delete p.name
-        }
+  subprojects.each {
+    if (it.name != "rosjava_test_msgs") {
+      delete it.name
     }
+  }
 }
 
-defaultTasks 'publishMavenJavaPublicationToMavenRepository'
+defaultTasks "publishMavenJavaPublicationToMavenRepository"
