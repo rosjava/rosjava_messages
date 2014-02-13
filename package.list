@@ -46,7 +46,7 @@ stereo_msgs 1.10.3
 trajectory_msgs 1.10.3
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
-arbotix_msgs 0.9.1
+arbotix_msgs 0.9.2
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
 sound_play 0.2.5
