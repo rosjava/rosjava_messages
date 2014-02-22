@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.80</version>
+  <version>0.1.81</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -90,11 +90,11 @@
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>audio_common_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
+  <build_depend>smach_msgs</build_depend>
   <build_depend>turtlebot_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>wge100_camera</build_depend>
   <build_depend>pr2_power_board</build_depend>
-  <build_depend>smach_msgs</build_depend>
   <build_depend>turtlebot_actions</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
