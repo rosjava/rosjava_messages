@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.82</version>
+  <version>0.1.83</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -28,6 +28,7 @@
   <build_depend>visualization_msgs</build_depend>
   <build_depend>polled_camera</build_depend>
   <build_depend>p2os_teleop</build_depend>
+  <build_depend>um6</build_depend>
   <build_depend>roscpp_tutorials</build_depend>
   <build_depend>microstrain_3dmgx2_imu</build_depend>
   <build_depend>topic_proxy</build_depend>
@@ -39,11 +40,10 @@
   <build_depend>underwater_sensor_msgs</build_depend>
   <build_depend>pr2_mechanism_msgs</build_depend>
   <build_depend>stdr_msgs</build_depend>
-  <build_depend>multimaster_msgs_fkie</build_depend>
   <build_depend>grizzly_msgs</build_depend>
+  <build_depend>multimaster_msgs_fkie</build_depend>
   <build_depend>pr2_mechanism_controllers</build_depend>
   <build_depend>sr_edc_ethercat_drivers</build_depend>
-  <build_depend>map_msgs</build_depend>
   <build_depend>laser_assembler</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
@@ -72,13 +72,11 @@
   <build_depend>zeroconf_msgs</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>fingertip_pressure</build_depend>
-  <build_depend>image_cb_detector</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>theora_image_transport</build_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>industrial_msgs</build_depend>
-  <build_depend>youbot_driver_ros_interface</build_depend>
   <build_depend>base_local_planner</build_depend>
   <build_depend>controller_manager_msgs</build_depend>
   <build_depend>gazebo_msgs</build_depend>
@@ -89,17 +87,18 @@
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>wifi_ddwrt</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
-  <build_depend>audio_common_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>smach_msgs</build_depend>
   <build_depend>turtlebot_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>wge100_camera</build_depend>
   <build_depend>pr2_power_board</build_depend>
+  <build_depend>image_cb_detector</build_depend>
   <build_depend>turtlebot_actions</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
   <build_depend>gateway_msgs</build_depend>
+  <build_depend>map_msgs</build_depend>
   <build_depend>turtlesim</build_depend>
   <build_depend>ardrone_autonomy</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
@@ -133,7 +132,6 @@
   <build_depend>nmea_msgs</build_depend>
   <build_depend>move_base_msgs</build_depend>
   <build_depend>gps_common</build_depend>
-  <build_depend>um6</build_depend>
   <build_depend>wireless_msgs</build_depend>
   <build_depend>turtlebot_calibration</build_depend>
   <build_depend>gazebo_plugins</build_depend>
@@ -147,6 +145,7 @@
   <build_depend>kobuki_msgs</build_depend>
   <build_depend>shared_serial</build_depend>
   <build_depend>ecto_ros</build_depend>
+  <build_depend>audio_common_msgs</build_depend>
   <build_depend>std_srvs</build_depend>
   <build_depend>yocs_msgs</build_depend>
   <build_depend>rosruby_tutorials</build_depend>
