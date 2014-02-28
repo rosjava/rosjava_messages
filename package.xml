@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.85</version>
+  <version>0.1.86</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -68,6 +68,7 @@
   <build_depend>object_recognition_msgs</build_depend>
   <build_depend>cmvision</build_depend>
   <build_depend>arbotix_msgs</build_depend>
+  <build_depend>people_msgs</build_depend>
   <build_depend>nodelet</build_depend>
   <build_depend>zeroconf_msgs</build_depend>
   <build_depend>sound_play</build_depend>
