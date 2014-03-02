@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.87</version>
+  <version>0.1.88</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -87,6 +87,7 @@
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>wifi_ddwrt</build_depend>
+  <build_depend>face_detector</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>smach_msgs</build_depend>
