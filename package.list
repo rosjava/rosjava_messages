@@ -31,7 +31,7 @@ sr_ronex_msgs 0.9.5
 geometry_msgs 1.10.6
 octomap_msgs 0.3.1
 linux_hardware 2.2.3
-costmap_2d 1.11.4
+costmap_2d 1.11.6
 diagnostic_msgs 1.10.6
 kobuki_testsuite 0.5.5
 bond 1.7.13
@@ -62,7 +62,7 @@ play_motion_msgs 0.3.5
 theora_image_transport 1.8.21
 actionlib 1.10.3
 industrial_msgs 0.3.4
-base_local_planner 1.11.4
+base_local_planner 1.11.6
 controller_manager_msgs 0.6.0
 gazebo_msgs 2.3.4
 rosserial_arduino 0.5.5
@@ -72,7 +72,7 @@ hector_nav_msgs 0.3.1
 rosserial_msgs 0.5.5
 wifi_ddwrt 0.2.0
 face_detector 1.0.3
-kingfisher_msgs 0.0.3
+kingfisher_msgs 0.0.4
 shape_msgs 1.10.6
 smach_msgs 1.3.1
 turtlebot_msgs 2.2.0
@@ -109,7 +109,7 @@ hector_worldmodel_msgs 0.3.0
 gazebo_ros 2.3.4
 sr_robot_msgs 1.3.0
 ackermann_msgs 0.9.0
-move_base 1.11.4
+move_base 1.11.6
 control_toolbox 1.10.4
 p2os_driver 1.0.9
 actionlib_msgs 1.10.6
@@ -117,7 +117,7 @@ rocon_std_msgs 0.6.7
 leap_motion 0.0.4
 ethercat_hardware 1.8.8
 nmea_msgs 0.1.0
-move_base_msgs 1.11.4
+move_base_msgs 1.11.6
 jsk_hark_msgs 1.0.0
 gps_common 0.1.6
 wireless_msgs 0.0.2
