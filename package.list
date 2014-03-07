@@ -7,7 +7,7 @@ dynamixel_msgs 0.4.0
 humanoid_nav_msgs 0.3.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
-jsk_topic_tools 1.0.0
+jsk_topic_tools 1.0.1
 polled_camera 1.11.1
 p2os_teleop 1.0.9
 um6 0.0.2
@@ -39,8 +39,8 @@ nao_msgs 0.2.2
 rtmbuild 1.0.5
 ar_track_alvar 0.4.1
 driver_base 1.6.7
-dynamic_tf_publisher 1.0.0
-jsk_gui_msgs 1.0.0
+dynamic_tf_publisher 1.0.1
+jsk_gui_msgs 1.0.1
 image_exposure_msgs 0.9.0
 razer_hydra 0.0.12
 pr2_controllers_msgs 1.10.8
@@ -79,7 +79,7 @@ turtlebot_msgs 2.2.0
 rosgraph_msgs 1.10.2
 wge100_camera 1.8.2
 pr2_power_board 1.1.2
-image_cb_detector 0.10.7
+image_cb_detector 0.10.8
 turtlebot_actions 2.2.4
 actionlib_tutorials 0.1.7
 turtle_actionlib 0.1.7
@@ -88,7 +88,7 @@ map_msgs 0.0.2
 turtlesim 0.4.3
 ardrone_autonomy 1.3.3
 ethercat_trigger_controllers 1.10.8
-calibration_msgs 0.10.7
+calibration_msgs 0.10.8
 rosauth 0.1.3
 std_msgs 0.5.8
 rosapi 0.5.1
@@ -104,7 +104,7 @@ household_objects_database_msgs 0.1.1
 wfov_camera_msgs 0.9.0
 pano_ros 2.2.4
 brics_actuator 0.5.0
-jsk_footstep_msgs 1.0.0
+jsk_footstep_msgs 1.0.1
 hector_worldmodel_msgs 0.3.0
 gazebo_ros 2.3.4
 sr_robot_msgs 1.3.0
@@ -118,7 +118,7 @@ leap_motion 0.0.4
 ethercat_hardware 1.8.8
 nmea_msgs 0.1.0
 move_base_msgs 1.11.6
-jsk_hark_msgs 1.0.0
+jsk_hark_msgs 1.0.1
 gps_common 0.1.6
 wireless_msgs 0.0.2
 turtlebot_calibration 2.2.4
