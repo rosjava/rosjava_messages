@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.92</version>
+  <version>0.1.93</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -134,6 +134,7 @@
   <build_depend>actionlib_msgs</build_depend>
   <build_depend>rocon_std_msgs</build_depend>
   <build_depend>leap_motion</build_depend>
+  <build_depend>handle_detector</build_depend>
   <build_depend>ethercat_hardware</build_depend>
   <build_depend>nmea_msgs</build_depend>
   <build_depend>move_base_msgs</build_depend>

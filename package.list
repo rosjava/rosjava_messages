@@ -115,6 +115,7 @@ p2os_driver 1.0.9
 actionlib_msgs 1.10.6
 rocon_std_msgs 0.6.7
 leap_motion 0.0.4
+handle_detector 1.0.0
 ethercat_hardware 1.8.8
 nmea_msgs 0.1.0
 move_base_msgs 1.11.6
