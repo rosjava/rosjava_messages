@@ -8,7 +8,7 @@ rosruby 0.5.5
 visualization_msgs 1.10.6
 p2os_teleop 1.0.9
 microstrain_3dmgx2_imu 1.5.12
-visp_camera_calibration 0.7.1
+visp_camera_calibration 0.7.2
 manipulation_msgs 0.2.0
 rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.2.0
@@ -19,13 +19,13 @@ octomap_msgs 0.3.1
 costmap_2d 1.11.6
 bond 1.7.13
 nao_msgs 0.2.2
-visp_tracker 0.7.1
+visp_tracker 0.7.2
 driver_base 1.6.7
 razer_hydra 0.0.12
 pr2_controllers_msgs 1.10.8
 geographic_msgs 0.3.1
 dynamixel_controllers 0.4.0
-rosbridge_library 0.5.1
+rosbridge_library 0.5.2
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
@@ -83,7 +83,7 @@ turtlebot_msgs 2.2.0
 jsk_topic_tools 1.0.2
 polled_camera 1.11.1
 roscpp_tutorials 0.4.3
-visp_hand2eye_calibration 0.7.1
+visp_hand2eye_calibration 0.7.2
 topic_proxy 0.1.0
 topic_tools 1.10.2
 gazebo_ros 2.3.4
@@ -116,7 +116,7 @@ turtle_actionlib 0.1.7
 turtlesim 0.4.3
 p2os_driver 1.0.9
 std_msgs 0.5.8
-rosapi 0.5.1
+rosapi 0.5.2
 dynamic_tf_publisher 1.0.2
 rocon_app_manager_msgs 0.6.7
 brics_actuator 0.5.0
@@ -134,7 +134,7 @@ control_toolbox 1.10.4
 actionlib_msgs 1.10.6
 rocon_std_msgs 0.6.7
 leap_motion 0.0.4
-handle_detector 1.0.3
+handle_detector 1.0.4
 nmea_msgs 0.1.0
 gazebo_plugins 2.3.4
 image_exposure_msgs 0.9.1
