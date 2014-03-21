@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.98</version>
+  <version>0.1.99</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -169,6 +169,7 @@
   <build_depend>pr2_msgs</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>kobuki_msgs</build_depend>
+  <build_depend>rocon_interaction_msgs</build_depend>
   <build_depend>audio_common_msgs</build_depend>
   <build_depend>std_srvs</build_depend>
   <build_depend>roscpp</build_depend>
