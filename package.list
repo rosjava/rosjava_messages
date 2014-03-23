@@ -46,7 +46,7 @@ cob_base_drive_chain 0.5.2
 rosserial_msgs 0.5.5
 hector_mapping 0.3.1
 wifi_ddwrt 0.2.0
-lizi 1.0.1
+lizi 1.0.2
 face_detector 1.0.3
 kingfisher_msgs 0.0.4
 wfov_camera_msgs 0.9.1
