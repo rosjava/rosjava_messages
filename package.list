@@ -1,6 +1,7 @@
 r2_msgs 0.1.3
 rocon_service_pair_msgs 0.6.9
 tf 1.10.8
+cob_lookat_action 0.5.1
 rosruby_tutorials 0.1.3
 moveit_msgs 0.5.3
 dynamixel_msgs 0.4.0
@@ -14,6 +15,7 @@ rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.2.0
 cob_trajectory_controller 0.5.2
 grizzly_msgs 0.2.0
+bride_tutorials 0.3.0
 laser_assembler 1.7.1
 sr_ronex_msgs 0.9.5
 octomap_msgs 0.3.1
@@ -42,7 +44,6 @@ actionlib 1.10.3
 industrial_msgs 0.3.4
 base_local_planner 1.11.6
 rosserial_arduino 0.5.5
-cob_base_drive_chain 0.5.2
 rosserial_msgs 0.5.5
 hector_mapping 0.3.1
 wifi_ddwrt 0.2.0
@@ -51,6 +52,7 @@ face_detector 1.0.3
 kingfisher_msgs 0.0.4
 wfov_camera_msgs 0.9.1
 shape_msgs 1.10.6
+cob_kinematics 0.5.1
 pr2_power_board 1.1.2
 smach_msgs 1.3.1
 image_cb_detector 0.10.8
@@ -70,7 +72,7 @@ wireless_msgs 0.0.2
 turtlebot_calibration 2.2.4
 ardrone_autonomy 1.3.3
 pcl_msgs 0.1.0
-bride_tutorials 0.3.0
+cob_base_drive_chain 0.5.2
 scheduler_msgs 0.6.9
 velodyne_msgs 1.1.2
 control_msgs 1.2.0
@@ -92,6 +94,7 @@ polled_camera 1.11.1
 roscpp_tutorials 0.4.3
 visp_hand2eye_calibration 0.7.2
 topic_proxy 0.1.0
+cob_grasp_generation 0.5.1
 topic_tools 1.10.2
 gazebo_ros 2.3.4
 hector_uav_msgs 0.3.1
@@ -112,6 +115,7 @@ gazebo_msgs 2.3.4
 ethercat_trigger_controllers 1.10.8
 uuid_msgs 1.0.3
 theora_image_transport 1.8.21
+cob_pick_place_action 0.5.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.1
 rosgraph_msgs 1.10.2

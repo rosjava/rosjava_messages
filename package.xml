@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.101</version>
+  <version>0.1.102</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -20,6 +20,7 @@
   <build_depend>r2_msgs</build_depend>
   <build_depend>rocon_service_pair_msgs</build_depend>
   <build_depend>tf</build_depend>
+  <build_depend>cob_lookat_action</build_depend>
   <build_depend>rosruby_tutorials</build_depend>
   <build_depend>moveit_msgs</build_depend>
   <build_depend>dynamixel_msgs</build_depend>
@@ -33,6 +34,7 @@
   <build_depend>underwater_sensor_msgs</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
   <build_depend>grizzly_msgs</build_depend>
+  <build_depend>bride_tutorials</build_depend>
   <build_depend>laser_assembler</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
@@ -61,7 +63,6 @@
   <build_depend>industrial_msgs</build_depend>
   <build_depend>base_local_planner</build_depend>
   <build_depend>rosserial_arduino</build_depend>
-  <build_depend>cob_base_drive_chain</build_depend>
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>hector_mapping</build_depend>
   <build_depend>wifi_ddwrt</build_depend>
@@ -70,6 +71,7 @@
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
+  <build_depend>cob_kinematics</build_depend>
   <build_depend>pr2_power_board</build_depend>
   <build_depend>smach_msgs</build_depend>
   <build_depend>image_cb_detector</build_depend>
@@ -89,7 +91,7 @@
   <build_depend>turtlebot_calibration</build_depend>
   <build_depend>ardrone_autonomy</build_depend>
   <build_depend>pcl_msgs</build_depend>
-  <build_depend>bride_tutorials</build_depend>
+  <build_depend>cob_base_drive_chain</build_depend>
   <build_depend>scheduler_msgs</build_depend>
   <build_depend>velodyne_msgs</build_depend>
   <build_depend>control_msgs</build_depend>
@@ -111,6 +113,7 @@
   <build_depend>roscpp_tutorials</build_depend>
   <build_depend>visp_hand2eye_calibration</build_depend>
   <build_depend>topic_proxy</build_depend>
+  <build_depend>cob_grasp_generation</build_depend>
   <build_depend>topic_tools</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
@@ -131,6 +134,7 @@
   <build_depend>ethercat_trigger_controllers</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>theora_image_transport</build_depend>
+  <build_depend>cob_pick_place_action</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
