@@ -16,11 +16,11 @@ underwater_sensor_msgs 1.2.0
 cob_trajectory_controller 0.5.2
 grizzly_msgs 0.2.0
 laser_assembler 1.7.1
-sr_ronex_msgs 0.9.5
+sr_ronex_msgs 0.9.6
 octomap_msgs 0.3.1
 costmap_2d 1.11.6
 bond 1.7.13
-nao_msgs 0.2.2
+nao_msgs 0.2.3
 visp_tracker 0.7.2
 cob_light 0.5.2
 driver_base 1.6.7
@@ -35,7 +35,7 @@ pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
-frontier_exploration 0.1.0
+frontier_exploration 0.1.3
 people_msgs 1.0.3
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
@@ -97,7 +97,7 @@ visp_hand2eye_calibration 0.7.2
 topic_proxy 0.1.0
 cob_grasp_generation 0.5.1
 topic_tools 1.10.2
-gazebo_ros 2.3.4
+gazebo_ros 2.3.5
 pr2_mechanism_msgs 1.8.0
 stdr_msgs 0.1.3
 multimaster_msgs_fkie 0.3.9
@@ -111,7 +111,7 @@ yocs_msgs 0.5.2
 rtmbuild 1.0.7
 stereo_msgs 1.10.6
 sound_play 0.2.6
-gazebo_msgs 2.3.4
+gazebo_msgs 2.3.5
 ethercat_trigger_controllers 1.10.8
 uuid_msgs 1.0.3
 theora_image_transport 1.8.21
@@ -151,7 +151,7 @@ kobuki_testsuite 0.5.5
 leap_motion 0.0.4
 handle_detector 1.0.6
 nmea_msgs 0.1.0
-gazebo_plugins 2.3.4
+gazebo_plugins 2.3.5
 move_base_msgs 1.11.6
 image_exposure_msgs 0.9.1
 rosruby_messages 0.1.3
@@ -164,3 +164,4 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
+roseus 1.0.1
