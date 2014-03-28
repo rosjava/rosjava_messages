@@ -29,13 +29,13 @@ cob_sound 0.5.2
 pr2_controllers_msgs 1.10.8
 geographic_msgs 0.3.1
 dynamixel_controllers 0.4.0
-rosbridge_library 0.5.2
+rosbridge_library 0.5.3
 cob_footprint_observer 0.5.2
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
-frontier_exploration 0.1.3
+frontier_exploration 0.1.4
 people_msgs 1.0.3
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
@@ -62,11 +62,11 @@ gateway_msgs 0.6.9
 calibration_msgs 0.10.8
 blob 0.1.0
 concert_msgs 0.6.9
-jsk_gui_msgs 1.0.3
+jsk_gui_msgs 1.0.4
 pano_ros 2.2.5
 ackermann_msgs 0.9.0
 ethercat_hardware 1.8.8
-jsk_hark_msgs 1.0.3
+jsk_hark_msgs 1.0.4
 gps_common 0.1.6
 um6 0.0.2
 wireless_msgs 0.0.2
@@ -90,7 +90,7 @@ cob_phidgets 0.5.2
 arbotix_msgs 0.9.2
 humanoid_nav_msgs 0.3.0
 turtlebot_msgs 2.2.0
-jsk_topic_tools 1.0.3
+jsk_topic_tools 1.0.4
 polled_camera 1.11.1
 roscpp_tutorials 0.4.3
 visp_hand2eye_calibration 0.7.2
@@ -128,8 +128,8 @@ turtle_actionlib 0.1.7
 turtlesim 0.4.3
 p2os_driver 1.0.9
 std_msgs 0.5.8
-rosapi 0.5.2
-dynamic_tf_publisher 1.0.3
+rosapi 0.5.3
+dynamic_tf_publisher 1.0.4
 rocon_app_manager_msgs 0.6.9
 brics_actuator 0.5.2
 roboteq_msgs 0.1.1
@@ -137,7 +137,7 @@ statistics_msgs 0.9.1
 nav_msgs 1.10.6
 p2os_urdf 1.0.9
 household_objects_database_msgs 0.1.1
-jsk_footstep_msgs 1.0.3
+jsk_footstep_msgs 1.0.4
 hector_worldmodel_msgs 0.3.0
 rosauth 0.1.3
 sr_robot_msgs 1.3.0
@@ -145,7 +145,7 @@ move_base 1.11.6
 control_toolbox 1.10.4
 cob_camera_sensors 0.5.2
 actionlib_msgs 1.10.6
-schunk_sdh 0.5.1
+schunk_sdh 0.5.4
 rocon_std_msgs 0.6.9
 kobuki_testsuite 0.5.5
 leap_motion 0.0.4
@@ -164,4 +164,4 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
-roseus 1.0.1
+roseus 1.0.2
