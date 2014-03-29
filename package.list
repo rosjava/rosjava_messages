@@ -35,7 +35,7 @@ pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
-frontier_exploration 0.1.4
+frontier_exploration 0.1.8
 people_msgs 1.0.3
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
@@ -78,7 +78,7 @@ scheduler_msgs 0.6.9
 velodyne_msgs 1.1.2
 control_msgs 1.2.0
 shared_serial 0.2.0
-controller_manager_msgs 0.6.0
+controller_manager_msgs 0.7.0
 create_node 2.2.0
 sensor_msgs 1.10.6
 rospy_tutorials 0.4.3
@@ -164,4 +164,4 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
-roseus 1.0.2
+roseus 1.0.3
