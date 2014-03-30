@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.107</version>
+  <version>0.1.108</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -98,6 +98,7 @@
   <build_depend>control_msgs</build_depend>
   <build_depend>shared_serial</build_depend>
   <build_depend>controller_manager_msgs</build_depend>
+  <build_depend>image_view2</build_depend>
   <build_depend>create_node</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>rospy_tutorials</build_depend>
@@ -152,6 +153,7 @@
   <build_depend>rocon_app_manager_msgs</build_depend>
   <build_depend>brics_actuator</build_depend>
   <build_depend>roboteq_msgs</build_depend>
+  <build_depend>posedetection_msgs</build_depend>
   <build_depend>statistics_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>p2os_urdf</build_depend>
