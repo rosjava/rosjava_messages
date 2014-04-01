@@ -78,7 +78,7 @@ scheduler_msgs 0.6.9
 velodyne_msgs 1.1.2
 control_msgs 1.2.0
 shared_serial 0.2.0
-controller_manager_msgs 0.7.1
+controller_manager_msgs 0.7.2
 image_view2 1.0.5
 create_node 2.2.0
 sensor_msgs 1.10.6
