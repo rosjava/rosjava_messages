@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.112</version>
+  <version>0.1.113</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -26,6 +26,7 @@
   <build_depend>dynamixel_msgs</build_depend>
   <build_depend>rosruby</build_depend>
   <build_depend>visualization_msgs</build_depend>
+  <build_depend>baxter_maintenance_msgs</build_depend>
   <build_depend>microstrain_3dmgx2_imu</build_depend>
   <build_depend>visp_camera_calibration</build_depend>
   <build_depend>cob_relayboard</build_depend>
@@ -67,9 +68,7 @@
   <build_depend>hector_mapping</build_depend>
   <build_depend>wifi_ddwrt</build_depend>
   <build_depend>lizi</build_depend>
-  <build_depend>face_detector</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
-  <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>cob_kinematics</build_depend>
@@ -82,6 +81,7 @@
   <build_depend>blob</build_depend>
   <build_depend>concert_msgs</build_depend>
   <build_depend>jsk_gui_msgs</build_depend>
+  <build_depend>baxter_core_msgs</build_depend>
   <build_depend>pano_ros</build_depend>
   <build_depend>ackermann_msgs</build_depend>
   <build_depend>ethercat_hardware</build_depend>
@@ -114,6 +114,7 @@
   <build_depend>polled_camera</build_depend>
   <build_depend>roscpp_tutorials</build_depend>
   <build_depend>visp_hand2eye_calibration</build_depend>
+  <build_depend>face_detector</build_depend>
   <build_depend>topic_proxy</build_depend>
   <build_depend>cob_grasp_generation</build_depend>
   <build_depend>topic_tools</build_depend>
@@ -138,6 +139,7 @@
   <build_depend>cob_pick_place_action</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
+  <build_depend>rovio_shared</build_depend>
   <build_depend>cob_base_drive_chain</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>ar_track_alvar</build_depend>
@@ -158,6 +160,7 @@
   <build_depend>nav_msgs</build_depend>
   <build_depend>p2os_urdf</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
+  <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>jsk_footstep_msgs</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>rosauth</build_depend>
