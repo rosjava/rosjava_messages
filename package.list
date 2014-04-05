@@ -36,7 +36,7 @@ pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
-frontier_exploration 0.1.9
+frontier_exploration 0.2.0
 people_msgs 1.0.3
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
