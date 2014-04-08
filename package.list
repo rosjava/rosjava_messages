@@ -65,6 +65,7 @@ jsk_gui_msgs 1.0.6
 baxter_core_msgs 0.7.0
 pano_ros 2.2.5
 ackermann_msgs 0.9.0
+graph_msgs 0.0.2
 ethercat_hardware 1.8.8
 jsk_hark_msgs 1.0.6
 gps_common 0.1.6
@@ -169,4 +170,4 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
-roseus 1.1.1
+roseus 1.1.2
