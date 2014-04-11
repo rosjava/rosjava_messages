@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.118</version>
+  <version>0.1.119</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -65,7 +65,6 @@
   <build_depend>base_local_planner</build_depend>
   <build_depend>rosserial_arduino</build_depend>
   <build_depend>rosserial_msgs</build_depend>
-  <build_depend>hector_mapping</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
   <build_depend>wifi_ddwrt</build_depend>
   <build_depend>lizi</build_depend>
@@ -83,6 +82,7 @@
   <build_depend>concert_msgs</build_depend>
   <build_depend>jsk_gui_msgs</build_depend>
   <build_depend>baxter_core_msgs</build_depend>
+  <build_depend>hector_mapping</build_depend>
   <build_depend>pano_ros</build_depend>
   <build_depend>ackermann_msgs</build_depend>
   <build_depend>graph_msgs</build_depend>
