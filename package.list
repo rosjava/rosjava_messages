@@ -60,6 +60,7 @@ p2os_teleop 1.0.9
 gateway_msgs 0.6.9
 calibration_msgs 0.10.9
 blob 0.1.0
+pr2_gazebo_plugins 2.0.0
 concert_msgs 0.6.9
 jsk_gui_msgs 1.0.9
 baxter_core_msgs 0.7.0
@@ -173,4 +174,4 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
-roseus 1.1.2
+roseus 1.1.3
