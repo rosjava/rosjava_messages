@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.121</version>
+  <version>0.1.122</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -50,7 +50,6 @@
   <build_depend>geographic_msgs</build_depend>
   <build_depend>dynamixel_controllers</build_depend>
   <build_depend>rosbridge_library</build_depend>
-  <build_depend>cob_footprint_observer</build_depend>
   <build_depend>pr2_mechanism_controllers</build_depend>
   <build_depend>trajectory_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
@@ -68,6 +67,7 @@
   <build_depend>household_objects_database_msgs</build_depend>
   <build_depend>wifi_ddwrt</build_depend>
   <build_depend>lizi</build_depend>
+  <build_depend>cob_footprint_observer</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
@@ -77,6 +77,7 @@
   <build_depend>image_cb_detector</build_depend>
   <build_depend>p2os_teleop</build_depend>
   <build_depend>gateway_msgs</build_depend>
+  <build_depend>capabilities</build_depend>
   <build_depend>calibration_msgs</build_depend>
   <build_depend>blob</build_depend>
   <build_depend>pr2_gazebo_plugins</build_depend>

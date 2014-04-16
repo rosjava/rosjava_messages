@@ -31,12 +31,11 @@ pr2_controllers_msgs 1.10.8
 geographic_msgs 0.3.1
 dynamixel_controllers 0.4.0
 rosbridge_library 0.5.3
-cob_footprint_observer 0.5.3
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
-frontier_exploration 0.2.0
+frontier_exploration 0.2.1
 people_msgs 1.0.3
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
@@ -49,6 +48,7 @@ rosserial_msgs 0.5.5
 household_objects_database_msgs 0.1.1
 wifi_ddwrt 0.2.0
 lizi 1.0.2
+cob_footprint_observer 0.5.3
 kingfisher_msgs 0.0.4
 hector_uav_msgs 0.3.2
 shape_msgs 1.10.6
@@ -58,6 +58,7 @@ smach_msgs 1.3.1
 image_cb_detector 0.10.9
 p2os_teleop 1.0.9
 gateway_msgs 0.6.9
+capabilities 0.1.0
 calibration_msgs 0.10.9
 blob 0.1.0
 pr2_gazebo_plugins 2.0.0
