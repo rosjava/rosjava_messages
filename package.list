@@ -30,7 +30,7 @@ cob_sound 0.5.3
 pr2_controllers_msgs 1.10.8
 geographic_msgs 0.3.1
 dynamixel_controllers 0.4.0
-rosbridge_library 0.5.3
+rosbridge_library 0.5.4
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
@@ -115,7 +115,7 @@ linux_hardware 2.2.4
 diagnostic_msgs 1.10.6
 cob_script_server 0.5.1
 yocs_msgs 0.5.2
-rtmbuild 1.0.7
+rtmbuild 1.0.11
 stereo_msgs 1.10.6
 sound_play 0.2.6
 gazebo_msgs 2.3.5
@@ -137,7 +137,7 @@ turtle_actionlib 0.1.7
 turtlesim 0.4.3
 p2os_driver 1.0.9
 std_msgs 0.5.8
-rosapi 0.5.3
+rosapi 0.5.4
 dynamic_tf_publisher 1.0.9
 rocon_app_manager_msgs 0.6.9
 brics_actuator 0.5.3
