@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.123</version>
+  <version>0.1.124</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -195,6 +195,7 @@
   <build_depend>tf2_msgs</build_depend>
   <build_depend>map_msgs</build_depend>
   <build_depend>roseus</build_depend>
+  <build_depend>segbot_sensors</build_depend>
 
 
   <run_depend>rosjava_build_tools</run_depend>
