@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.124</version>
+  <version>0.1.125</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -121,6 +121,7 @@
   <build_depend>face_detector</build_depend>
   <build_depend>topic_proxy</build_depend>
   <build_depend>cob_grasp_generation</build_depend>
+  <build_depend>bwi_planning_common</build_depend>
   <build_depend>topic_tools</build_depend>
   <build_depend>jsk_pcl_ros</build_depend>
   <build_depend>gazebo_ros</build_depend>
