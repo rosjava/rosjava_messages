@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.125</version>
+  <version>0.1.126</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -33,6 +33,7 @@
   <build_depend>manipulation_msgs</build_depend>
   <build_depend>rospy_message_converter</build_depend>
   <build_depend>underwater_sensor_msgs</build_depend>
+  <build_depend>segbot_gui</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
   <build_depend>grizzly_msgs</build_depend>
   <build_depend>laser_assembler</build_depend>
