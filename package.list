@@ -118,6 +118,7 @@ diagnostic_msgs 1.10.6
 cob_script_server 0.5.1
 yocs_msgs 0.5.2
 rtmbuild 1.0.11
+segbot_simulation_apps 0.2.0
 stereo_msgs 1.10.6
 sound_play 0.2.6
 gazebo_msgs 2.3.5
