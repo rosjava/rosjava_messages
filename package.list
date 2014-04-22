@@ -62,7 +62,7 @@ gateway_msgs 0.6.9
 capabilities 0.1.0
 calibration_msgs 0.10.9
 blob 0.1.0
-pr2_gazebo_plugins 2.0.0
+pr2_gazebo_plugins 2.0.1
 concert_msgs 0.6.9
 jsk_gui_msgs 1.0.17
 baxter_core_msgs 0.7.0
