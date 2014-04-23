@@ -14,7 +14,7 @@ cob_relayboard 0.5.3
 manipulation_msgs 0.2.0
 rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.2.0
-segbot_gui 0.2.0
+segbot_gui 0.2.1
 cob_trajectory_controller 0.5.3
 grizzly_msgs 0.2.0
 laser_assembler 1.7.2
@@ -51,6 +51,7 @@ wifi_ddwrt 0.2.0
 lizi 1.0.2
 cob_footprint_observer 0.5.3
 kingfisher_msgs 0.0.4
+wfov_camera_msgs 0.9.1
 hector_uav_msgs 0.3.2
 shape_msgs 1.10.6
 cob_kinematics 0.5.1
@@ -62,7 +63,7 @@ gateway_msgs 0.6.9
 capabilities 0.1.0
 calibration_msgs 0.10.9
 blob 0.1.0
-pr2_gazebo_plugins 2.0.1
+pr2_gazebo_plugins 2.0.2
 concert_msgs 0.6.9
 jsk_gui_msgs 1.0.17
 baxter_core_msgs 0.7.0
@@ -118,7 +119,7 @@ diagnostic_msgs 1.10.6
 cob_script_server 0.5.1
 yocs_msgs 0.5.2
 rtmbuild 1.0.11
-segbot_simulation_apps 0.2.0
+segbot_simulation_apps 0.2.1
 stereo_msgs 1.10.6
 sound_play 0.2.6
 gazebo_msgs 2.3.5
@@ -149,7 +150,6 @@ posedetection_msgs 1.0.17
 statistics_msgs 0.9.1
 nav_msgs 1.10.6
 p2os_urdf 1.0.9
-wfov_camera_msgs 0.9.1
 jsk_footstep_msgs 1.0.17
 hector_worldmodel_msgs 0.3.1
 rosauth 0.1.4
