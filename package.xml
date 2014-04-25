@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.130</version>
+  <version>0.1.131</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -36,6 +36,7 @@
   <build_depend>segbot_gui</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
   <build_depend>grizzly_msgs</build_depend>
+  <build_depend>bride_tutorials</build_depend>
   <build_depend>laser_assembler</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
@@ -71,7 +72,6 @@
   <build_depend>lizi</build_depend>
   <build_depend>cob_footprint_observer</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
-  <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>cob_kinematics</build_depend>
@@ -99,7 +99,7 @@
   <build_depend>turtlebot_calibration</build_depend>
   <build_depend>ardrone_autonomy</build_depend>
   <build_depend>pcl_msgs</build_depend>
-  <build_depend>bride_tutorials</build_depend>
+  <build_depend>cob_base_drive_chain</build_depend>
   <build_depend>scheduler_msgs</build_depend>
   <build_depend>velodyne_msgs</build_depend>
   <build_depend>control_msgs</build_depend>
@@ -150,7 +150,6 @@
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>rovio_shared</build_depend>
-  <build_depend>cob_base_drive_chain</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>ar_track_alvar</build_depend>
   <build_depend>jsk_perception</build_depend>
@@ -170,6 +169,7 @@
   <build_depend>statistics_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>p2os_urdf</build_depend>
+  <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>jsk_footstep_msgs</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>rosauth</build_depend>

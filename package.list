@@ -17,6 +17,7 @@ underwater_sensor_msgs 1.2.0
 segbot_gui 0.2.1
 cob_trajectory_controller 0.5.3
 grizzly_msgs 0.2.0
+bride_tutorials 0.3.0
 laser_assembler 1.7.2
 sr_ronex_msgs 0.9.6
 octomap_msgs 0.3.1
@@ -52,7 +53,6 @@ wifi_ddwrt 0.2.0
 lizi 1.0.2
 cob_footprint_observer 0.5.3
 kingfisher_msgs 0.0.4
-wfov_camera_msgs 0.9.1
 hector_uav_msgs 0.3.2
 shape_msgs 1.10.6
 cob_kinematics 0.5.1
@@ -80,7 +80,7 @@ wireless_msgs 0.0.2
 turtlebot_calibration 2.2.5
 ardrone_autonomy 1.3.3
 pcl_msgs 0.1.0
-bride_tutorials 0.3.0
+cob_base_drive_chain 0.5.3
 scheduler_msgs 0.6.9
 velodyne_msgs 1.1.2
 control_msgs 1.2.0
@@ -105,9 +105,9 @@ visp_hand2eye_calibration 0.7.3
 face_detector 1.0.3
 topic_proxy 0.1.0
 cob_grasp_generation 0.5.1
-bwi_planning_common 0.2.2
+bwi_planning_common 0.2.3
 topic_tools 1.10.2
-jsk_pcl_ros 0.1.3
+jsk_pcl_ros 0.1.4
 gazebo_ros 2.3.5
 pr2_mechanism_msgs 1.8.0
 stdr_msgs 0.1.3
@@ -131,10 +131,9 @@ cob_pick_place_action 0.5.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.2
 rovio_shared 0.2.1
-cob_base_drive_chain 0.5.3
 rosgraph_msgs 1.10.2
 ar_track_alvar 0.4.1
-jsk_perception 0.1.3
+jsk_perception 0.1.4
 wge100_camera 1.8.2
 turtlebot_actions 2.2.5
 actionlib_tutorials 0.1.7
@@ -151,6 +150,7 @@ posedetection_msgs 1.0.17
 statistics_msgs 0.9.1
 nav_msgs 1.10.6
 p2os_urdf 1.0.9
+wfov_camera_msgs 0.9.1
 jsk_footstep_msgs 1.0.17
 hector_worldmodel_msgs 0.3.1
 rosauth 0.1.4
@@ -171,7 +171,7 @@ image_exposure_msgs 0.9.1
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.36
-resized_image_transport 0.1.3
+resized_image_transport 0.1.4
 kobuki_msgs 0.5.0
 rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.6
@@ -180,4 +180,4 @@ roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
 roseus 1.1.3
-segbot_sensors 0.2.0
+segbot_sensors 0.2.1
