@@ -179,5 +179,5 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
-roseus 1.1.5
+roseus 1.1.7
 segbot_sensors 0.2.1
