@@ -32,7 +32,7 @@ cob_sound 0.5.3
 pr2_controllers_msgs 1.10.8
 geographic_msgs 0.3.1
 dynamixel_controllers 0.4.0
-rosbridge_library 0.5.4
+rosbridge_library 0.5.2
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
@@ -90,7 +90,7 @@ image_view2 1.0.17
 create_node 2.2.0
 sensor_msgs 1.10.6
 rospy_tutorials 0.4.3
-ecto_ros 0.4.1
+ecto_ros 0.4.2
 qt_tutorials 0.2.5
 clearpath_base 0.4.4
 cob_srvs 0.5.3
@@ -141,7 +141,7 @@ turtle_actionlib 0.1.7
 turtlesim 0.4.3
 p2os_driver 1.0.9
 std_msgs 0.5.8
-rosapi 0.5.4
+rosapi 0.5.2
 dynamic_tf_publisher 1.0.17
 rocon_app_manager_msgs 0.6.9
 brics_actuator 0.5.3
