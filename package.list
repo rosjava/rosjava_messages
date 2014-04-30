@@ -105,7 +105,7 @@ visp_hand2eye_calibration 0.7.3
 face_detector 1.0.3
 topic_proxy 0.1.0
 cob_grasp_generation 0.5.1
-bwi_planning_common 0.2.3
+bwi_planning_common 0.2.4
 topic_tools 1.10.2
 jsk_pcl_ros 0.1.4
 gazebo_ros 2.3.5
