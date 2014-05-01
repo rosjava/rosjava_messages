@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.136</version>
+  <version>0.1.137</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -57,7 +57,6 @@
   <build_depend>object_recognition_msgs</build_depend>
   <build_depend>cmvision</build_depend>
   <build_depend>bwi_planning</build_depend>
-  <build_depend>frontier_exploration</build_depend>
   <build_depend>people_msgs</build_depend>
   <build_depend>nodelet</build_depend>
   <build_depend>zeroconf_msgs</build_depend>
@@ -84,6 +83,7 @@
   <build_depend>calibration_msgs</build_depend>
   <build_depend>blob</build_depend>
   <build_depend>pr2_gazebo_plugins</build_depend>
+  <build_depend>frontier_exploration</build_depend>
   <build_depend>concert_msgs</build_depend>
   <build_depend>jsk_gui_msgs</build_depend>
   <build_depend>baxter_core_msgs</build_depend>

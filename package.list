@@ -38,7 +38,6 @@ trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.0
 cmvision 0.4.1
 bwi_planning 0.2.0
-frontier_exploration 0.2.1
 people_msgs 1.0.3
 nodelet 1.8.2
 zeroconf_msgs 0.2.1
@@ -65,12 +64,13 @@ capabilities 0.1.0
 calibration_msgs 0.10.9
 blob 0.1.0
 pr2_gazebo_plugins 2.0.2
+frontier_exploration 0.2.1
 concert_msgs 0.6.9
 jsk_gui_msgs 1.0.17
 baxter_core_msgs 0.7.0
 hector_mapping 0.3.2
 pano_ros 2.2.5
-ackermann_msgs 0.9.0
+ackermann_msgs 0.9.1
 graph_msgs 0.0.2
 ethercat_hardware 1.8.8
 jsk_hark_msgs 1.0.17
@@ -125,7 +125,7 @@ stereo_msgs 1.10.6
 sound_play 0.2.6
 gazebo_msgs 2.3.5
 ethercat_trigger_controllers 1.10.8
-uuid_msgs 1.0.3
+uuid_msgs 1.0.4
 theora_image_transport 1.8.21
 cob_pick_place_action 0.5.1
 segway_rmp 0.1.1
