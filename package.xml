@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.139</version>
+  <version>0.1.140</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -36,7 +36,6 @@
   <build_depend>segbot_gui</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
   <build_depend>grizzly_msgs</build_depend>
-  <build_depend>bride_tutorials</build_depend>
   <build_depend>laser_assembler</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
@@ -77,7 +76,6 @@
   <build_depend>pr2_power_board</build_depend>
   <build_depend>smach_msgs</build_depend>
   <build_depend>image_cb_detector</build_depend>
-  <build_depend>p2os_teleop</build_depend>
   <build_depend>gateway_msgs</build_depend>
   <build_depend>capabilities</build_depend>
   <build_depend>calibration_msgs</build_depend>
@@ -114,6 +112,7 @@
   <build_depend>clearpath_base</build_depend>
   <build_depend>cob_srvs</build_depend>
   <build_depend>cob_phidgets</build_depend>
+  <build_depend>segbot_simulation_apps</build_depend>
   <build_depend>arbotix_msgs</build_depend>
   <build_depend>humanoid_nav_msgs</build_depend>
   <build_depend>turtlebot_msgs</build_depend>
@@ -139,7 +138,6 @@
   <build_depend>cob_script_server</build_depend>
   <build_depend>yocs_msgs</build_depend>
   <build_depend>rtmbuild</build_depend>
-  <build_depend>segbot_simulation_apps</build_depend>
   <build_depend>stereo_msgs</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>gazebo_msgs</build_depend>
@@ -165,6 +163,7 @@
   <build_depend>rocon_app_manager_msgs</build_depend>
   <build_depend>brics_actuator</build_depend>
   <build_depend>roboteq_msgs</build_depend>
+  <build_depend>bride_tutorials</build_depend>
   <build_depend>posedetection_msgs</build_depend>
   <build_depend>statistics_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
@@ -186,6 +185,7 @@
   <build_depend>nmea_msgs</build_depend>
   <build_depend>gazebo_plugins</build_depend>
   <build_depend>move_base_msgs</build_depend>
+  <build_depend>p2os_teleop</build_depend>
   <build_depend>image_exposure_msgs</build_depend>
   <build_depend>rosruby_messages</build_depend>
   <build_depend>pr2_msgs</build_depend>
