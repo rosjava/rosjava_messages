@@ -122,6 +122,7 @@ rtmbuild 1.0.11
 stereo_msgs 1.10.6
 sound_play 0.2.6
 gazebo_msgs 2.3.5
+pddl_msgs 0.1.1
 ethercat_trigger_controllers 1.10.8
 uuid_msgs 1.0.4
 theora_image_transport 1.8.21

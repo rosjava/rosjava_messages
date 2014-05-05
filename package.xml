@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.140</version>
+  <version>0.1.141</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -141,6 +141,7 @@
   <build_depend>stereo_msgs</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>gazebo_msgs</build_depend>
+  <build_depend>pddl_msgs</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>theora_image_transport</build_depend>
