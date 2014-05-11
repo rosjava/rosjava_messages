@@ -34,7 +34,7 @@ dynamixel_controllers 0.4.0
 rosbridge_library 0.5.5
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
-object_recognition_msgs 0.4.0
+object_recognition_msgs 0.4.1
 cmvision 0.4.1
 bwi_planning 0.2.1
 people_msgs 1.0.3
@@ -180,5 +180,5 @@ std_srvs 1.10.2
 roscpp 1.10.2
 tf2_msgs 0.4.10
 map_msgs 0.0.2
-roseus 1.1.15
+roseus 1.1.17
 segbot_sensors 0.2.1
