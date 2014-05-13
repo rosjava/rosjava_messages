@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.147</version>
+  <version>0.1.148</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -39,6 +39,7 @@
   <build_depend>laser_assembler</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
+  <build_depend>theora_image_transport</build_depend>
   <build_depend>costmap_2d</build_depend>
   <build_depend>bond</build_depend>
   <build_depend>nao_msgs</build_depend>
@@ -50,7 +51,6 @@
   <build_depend>pr2_controllers_msgs</build_depend>
   <build_depend>geographic_msgs</build_depend>
   <build_depend>dynamixel_controllers</build_depend>
-  <build_depend>rosbridge_library</build_depend>
   <build_depend>pr2_mechanism_controllers</build_depend>
   <build_depend>trajectory_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
@@ -144,7 +144,6 @@
   <build_depend>pddl_msgs</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
   <build_depend>uuid_msgs</build_depend>
-  <build_depend>theora_image_transport</build_depend>
   <build_depend>cob_pick_place_action</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
@@ -168,6 +167,7 @@
   <build_depend>posedetection_msgs</build_depend>
   <build_depend>statistics_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
+  <build_depend>rosbridge_library</build_depend>
   <build_depend>p2os_urdf</build_depend>
   <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>jsk_footstep_msgs</build_depend>

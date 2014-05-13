@@ -7,7 +7,7 @@ moveit_msgs 0.5.3
 dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
-baxter_maintenance_msgs 0.7.0
+baxter_maintenance_msgs 1.0.0
 microstrain_3dmgx2_imu 1.5.12
 visp_camera_calibration 0.7.3
 cob_relayboard 0.5.3
@@ -20,6 +20,7 @@ grizzly_msgs 0.2.0
 laser_assembler 1.7.2
 sr_ronex_msgs 0.9.6
 octomap_msgs 0.3.1
+theora_image_transport 1.8.21
 costmap_2d 1.11.6
 bond 1.7.13
 nao_msgs 0.2.3
@@ -31,7 +32,6 @@ cob_sound 0.5.3
 pr2_controllers_msgs 1.10.8
 geographic_msgs 0.3.1
 dynamixel_controllers 0.4.0
-rosbridge_library 0.5.5
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.1
@@ -65,7 +65,7 @@ pr2_gazebo_plugins 2.0.2
 frontier_exploration 0.2.1
 concert_msgs 0.6.9
 jsk_gui_msgs 1.0.20
-baxter_core_msgs 0.7.0
+baxter_core_msgs 1.0.0
 hector_mapping 0.3.2
 pano_ros 2.2.5
 ackermann_msgs 0.9.1
@@ -125,7 +125,6 @@ gazebo_msgs 2.3.5
 pddl_msgs 0.1.2
 ethercat_trigger_controllers 1.10.8
 uuid_msgs 1.0.4
-theora_image_transport 1.8.21
 cob_pick_place_action 0.5.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.2
@@ -149,6 +148,7 @@ bride_tutorials 0.3.1
 posedetection_msgs 1.0.20
 statistics_msgs 0.9.1
 nav_msgs 1.10.6
+rosbridge_library 0.5.5
 p2os_urdf 1.0.9
 wfov_camera_msgs 0.9.1
 jsk_footstep_msgs 1.0.20
