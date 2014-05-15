@@ -4,6 +4,7 @@ tf 1.10.8
 cob_lookat_action 0.5.1
 rosruby_tutorials 0.1.3
 moveit_msgs 0.5.3
+jsk_rviz_plugins 0.0.3
 dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
@@ -18,7 +19,7 @@ segbot_gui 0.2.1
 cob_trajectory_controller 0.5.3
 grizzly_msgs 0.2.0
 laser_assembler 1.7.2
-sr_ronex_msgs 0.9.6
+sr_ronex_msgs 0.9.9
 octomap_msgs 0.3.1
 theora_image_transport 1.8.21
 costmap_2d 1.11.6
@@ -27,6 +28,7 @@ nao_msgs 0.2.3
 visp_tracker 0.7.3
 cob_light 0.5.3
 driver_base 1.6.7
+interaction_cursor_msgs 0.0.3
 razer_hydra 0.0.12
 cob_sound 0.5.3
 pr2_controllers_msgs 1.10.8
@@ -51,6 +53,7 @@ wifi_ddwrt 0.2.0
 lizi 1.0.2
 cob_footprint_observer 0.5.3
 kingfisher_msgs 0.0.4
+wfov_camera_msgs 0.9.1
 hector_uav_msgs 0.3.2
 shape_msgs 1.10.6
 cob_kinematics 0.5.1
@@ -118,7 +121,7 @@ linux_hardware 2.2.4
 diagnostic_msgs 1.10.6
 cob_script_server 0.5.1
 yocs_msgs 0.5.2
-rtmbuild 1.0.12
+rtmbuild 1.2.0
 stereo_msgs 1.10.6
 sound_play 0.2.6
 gazebo_msgs 2.3.5
@@ -150,7 +153,6 @@ statistics_msgs 0.9.1
 nav_msgs 1.10.6
 rosbridge_library 0.5.5
 p2os_urdf 1.0.9
-wfov_camera_msgs 0.9.1
 jsk_footstep_msgs 1.0.20
 hector_worldmodel_msgs 0.3.1
 rosauth 0.1.4

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.148</version>
+  <version>0.1.149</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -23,6 +23,7 @@
   <build_depend>cob_lookat_action</build_depend>
   <build_depend>rosruby_tutorials</build_depend>
   <build_depend>moveit_msgs</build_depend>
+  <build_depend>jsk_rviz_plugins</build_depend>
   <build_depend>dynamixel_msgs</build_depend>
   <build_depend>rosruby</build_depend>
   <build_depend>visualization_msgs</build_depend>
@@ -46,6 +47,7 @@
   <build_depend>visp_tracker</build_depend>
   <build_depend>cob_light</build_depend>
   <build_depend>driver_base</build_depend>
+  <build_depend>interaction_cursor_msgs</build_depend>
   <build_depend>razer_hydra</build_depend>
   <build_depend>cob_sound</build_depend>
   <build_depend>pr2_controllers_msgs</build_depend>
@@ -70,6 +72,7 @@
   <build_depend>lizi</build_depend>
   <build_depend>cob_footprint_observer</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
+  <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>cob_kinematics</build_depend>
@@ -169,7 +172,6 @@
   <build_depend>nav_msgs</build_depend>
   <build_depend>rosbridge_library</build_depend>
   <build_depend>p2os_urdf</build_depend>
-  <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>jsk_footstep_msgs</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
   <build_depend>rosauth</build_depend>
