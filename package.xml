@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.149</version>
+  <version>0.1.150</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -36,7 +36,9 @@
   <build_depend>underwater_sensor_msgs</build_depend>
   <build_depend>segbot_gui</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
+  <build_depend>iai_pancake_perception_action</build_depend>
   <build_depend>grizzly_msgs</build_depend>
+  <build_depend>data_vis_msgs</build_depend>
   <build_depend>laser_assembler</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
@@ -48,6 +50,7 @@
   <build_depend>cob_light</build_depend>
   <build_depend>driver_base</build_depend>
   <build_depend>interaction_cursor_msgs</build_depend>
+  <build_depend>grasp_stability_msgs</build_depend>
   <build_depend>razer_hydra</build_depend>
   <build_depend>cob_sound</build_depend>
   <build_depend>pr2_controllers_msgs</build_depend>
@@ -92,6 +95,7 @@
   <build_depend>pano_ros</build_depend>
   <build_depend>ackermann_msgs</build_depend>
   <build_depend>graph_msgs</build_depend>
+  <build_depend>ml_classifiers</build_depend>
   <build_depend>ethercat_hardware</build_depend>
   <build_depend>jsk_hark_msgs</build_depend>
   <build_depend>gps_common</build_depend>
@@ -101,6 +105,7 @@
   <build_depend>ardrone_autonomy</build_depend>
   <build_depend>pcl_msgs</build_depend>
   <build_depend>cob_base_drive_chain</build_depend>
+  <build_depend>designator_integration_msgs</build_depend>
   <build_depend>scheduler_msgs</build_depend>
   <build_depend>velodyne_msgs</build_depend>
   <build_depend>control_msgs</build_depend>
@@ -114,6 +119,7 @@
   <build_depend>qt_tutorials</build_depend>
   <build_depend>clearpath_base</build_depend>
   <build_depend>cob_srvs</build_depend>
+  <build_depend>scanning_table_msgs</build_depend>
   <build_depend>cob_phidgets</build_depend>
   <build_depend>segbot_simulation_apps</build_depend>
   <build_depend>arbotix_msgs</build_depend>
@@ -136,6 +142,7 @@
   <build_depend>sr_edc_ethercat_drivers</build_depend>
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
+  <build_depend>mln_robosherlock_msgs</build_depend>
   <build_depend>linux_hardware</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>cob_script_server</build_depend>
@@ -143,11 +150,13 @@
   <build_depend>rtmbuild</build_depend>
   <build_depend>stereo_msgs</build_depend>
   <build_depend>sound_play</build_depend>
+  <build_depend>iai_content_msgs</build_depend>
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>pddl_msgs</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>cob_pick_place_action</build_depend>
+  <build_depend>iai_kinematics_msgs</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>rovio_shared</build_depend>
@@ -170,6 +179,7 @@
   <build_depend>posedetection_msgs</build_depend>
   <build_depend>statistics_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
+  <build_depend>dna_extraction_msgs</build_depend>
   <build_depend>rosbridge_library</build_depend>
   <build_depend>p2os_urdf</build_depend>
   <build_depend>jsk_footstep_msgs</build_depend>
@@ -191,6 +201,7 @@
   <build_depend>p2os_teleop</build_depend>
   <build_depend>image_exposure_msgs</build_depend>
   <build_depend>rosruby_messages</build_depend>
+  <build_depend>sherlock_sim_msgs</build_depend>
   <build_depend>pr2_msgs</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>resized_image_transport</build_depend>
@@ -200,6 +211,7 @@
   <build_depend>std_srvs</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>tf2_msgs</build_depend>
+  <build_depend>saphari_msgs</build_depend>
   <build_depend>map_msgs</build_depend>
   <build_depend>roseus</build_depend>
   <build_depend>segbot_sensors</build_depend>
