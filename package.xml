@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.150</version>
+  <version>0.1.151</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -82,6 +82,7 @@
   <build_depend>pr2_power_board</build_depend>
   <build_depend>smach_msgs</build_depend>
   <build_depend>image_cb_detector</build_depend>
+  <build_depend>nav2d_operator</build_depend>
   <build_depend>gateway_msgs</build_depend>
   <build_depend>capabilities</build_depend>
   <build_depend>calibration_msgs</build_depend>
@@ -121,6 +122,7 @@
   <build_depend>cob_srvs</build_depend>
   <build_depend>scanning_table_msgs</build_depend>
   <build_depend>cob_phidgets</build_depend>
+  <build_depend>nav2d_navigator</build_depend>
   <build_depend>segbot_simulation_apps</build_depend>
   <build_depend>arbotix_msgs</build_depend>
   <build_depend>humanoid_nav_msgs</build_depend>
@@ -139,6 +141,7 @@
   <build_depend>pr2_mechanism_msgs</build_depend>
   <build_depend>stdr_msgs</build_depend>
   <build_depend>multimaster_msgs_fkie</build_depend>
+  <build_depend>nav2d_msgs</build_depend>
   <build_depend>sr_edc_ethercat_drivers</build_depend>
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
