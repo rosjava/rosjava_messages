@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.152</version>
+  <version>0.1.153</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -171,6 +171,7 @@
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
   <build_depend>turtlesim</build_depend>
+  <build_depend>view_controller_msgs</build_depend>
   <build_depend>p2os_driver</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>rosapi</build_depend>

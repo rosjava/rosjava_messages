@@ -4,7 +4,7 @@ tf 1.10.8
 cob_lookat_action 0.5.1
 rosruby_tutorials 0.1.3
 moveit_msgs 0.5.3
-jsk_rviz_plugins 1.0.1
+jsk_rviz_plugins 1.0.2
 dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
@@ -152,6 +152,7 @@ turtlebot_actions 2.2.5
 actionlib_tutorials 0.1.7
 turtle_actionlib 0.1.7
 turtlesim 0.4.3
+view_controller_msgs 0.1.2
 p2os_driver 1.0.9
 std_msgs 0.5.8
 rosapi 0.5.5
