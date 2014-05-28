@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.158</version>
+  <version>0.1.159</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -23,6 +23,7 @@
   <build_depend>cob_lookat_action</build_depend>
   <build_depend>rosruby_tutorials</build_depend>
   <build_depend>moveit_msgs</build_depend>
+  <build_depend>grasp_stability_msgs</build_depend>
   <build_depend>jsk_rviz_plugins</build_depend>
   <build_depend>dynamixel_msgs</build_depend>
   <build_depend>rosruby</build_depend>
@@ -50,7 +51,6 @@
   <build_depend>cob_light</build_depend>
   <build_depend>driver_base</build_depend>
   <build_depend>interaction_cursor_msgs</build_depend>
-  <build_depend>grasp_stability_msgs</build_depend>
   <build_depend>razer_hydra</build_depend>
   <build_depend>cob_sound</build_depend>
   <build_depend>pr2_controllers_msgs</build_depend>
