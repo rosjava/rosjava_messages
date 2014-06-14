@@ -10,7 +10,7 @@ dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
 baxter_maintenance_msgs 1.0.0
-epos_driver 0.0.2
+epos_driver 0.0.3
 microstrain_3dmgx2_imu 1.5.12
 moveit_simple_grasps 1.0.1
 visp_camera_calibration 0.7.3
@@ -24,7 +24,7 @@ iai_pancake_perception_action 0.0.2
 grizzly_msgs 0.2.0
 data_vis_msgs 0.0.2
 laser_assembler 1.7.2
-sr_ronex_msgs 0.9.12
+sr_ronex_msgs 0.9.14
 octomap_msgs 0.3.1
 theora_image_transport 1.8.21
 costmap_2d 1.11.9
