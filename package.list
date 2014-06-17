@@ -10,7 +10,7 @@ dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
 baxter_maintenance_msgs 1.0.0
-epos_driver 0.0.3
+epos_driver 0.0.5
 microstrain_3dmgx2_imu 1.5.12
 moveit_simple_grasps 1.0.1
 visp_camera_calibration 0.7.3
@@ -32,7 +32,7 @@ bond 1.7.13
 nao_msgs 0.2.3
 visp_tracker 0.7.3
 cob_light 0.5.3
-driver_base 1.6.7
+driver_base 1.6.8
 interaction_cursor_msgs 0.0.3
 razer_hydra 0.1.1
 cob_sound 0.5.3
@@ -45,7 +45,7 @@ object_recognition_msgs 0.4.1
 cmvision 0.4.1
 bwi_planning 0.2.1
 people_msgs 1.0.3
-nodelet 1.8.2
+nodelet 1.8.4
 zeroconf_msgs 0.2.1
 fingertip_pressure 1.8.8
 actionlib 1.10.3
@@ -121,7 +121,7 @@ face_detector 1.0.3
 topic_proxy 0.1.0
 cob_grasp_generation 0.5.1
 bwi_planning_common 0.2.4
-topic_tools 1.10.2
+topic_tools 1.10.10
 jsk_pcl_ros 0.1.7
 gazebo_ros 2.3.5
 pr2_mechanism_msgs 1.8.0
@@ -151,7 +151,7 @@ iai_kinematics_msgs 0.0.2
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.2
 rovio_shared 0.2.1
-rosgraph_msgs 1.10.2
+rosgraph_msgs 1.10.10
 ar_track_alvar 0.4.1
 jsk_perception 0.1.7
 wge100_camera 1.8.2
@@ -196,15 +196,15 @@ image_exposure_msgs 0.9.1
 rosruby_messages 0.1.3
 sherlock_sim_msgs 0.0.2
 pr2_msgs 1.11.4
-dynamic_reconfigure 1.5.36
+dynamic_reconfigure 1.5.37
 resized_image_transport 0.1.7
 kobuki_msgs 0.5.0
 grasping_msgs 0.3.0
 rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.6
-std_srvs 1.10.2
-roscpp 1.10.2
-tf2_msgs 0.4.10
+std_srvs 1.10.10
+roscpp 1.10.10
+tf2_msgs 0.4.11
 saphari_msgs 0.0.2
 map_msgs 0.0.2
 roseus 1.1.19
