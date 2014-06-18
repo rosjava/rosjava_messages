@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.165</version>
+  <version>0.1.166</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -208,6 +208,7 @@
   <build_depend>leap_motion</build_depend>
   <build_depend>handle_detector</build_depend>
   <build_depend>nmea_msgs</build_depend>
+  <build_depend>rtt_ros_msgs</build_depend>
   <build_depend>gazebo_plugins</build_depend>
   <build_depend>move_base_msgs</build_depend>
   <build_depend>p2os_teleop</build_depend>

@@ -189,6 +189,7 @@ kobuki_testsuite 0.5.6
 leap_motion 0.0.4
 handle_detector 1.0.7
 nmea_msgs 0.1.0
+rtt_ros_msgs 2.7.0
 gazebo_plugins 2.3.5
 move_base_msgs 1.11.9
 p2os_teleop 1.0.10
