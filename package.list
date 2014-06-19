@@ -10,7 +10,7 @@ dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
 baxter_maintenance_msgs 1.0.0
-epos_driver 0.0.5
+epos_driver 0.0.6
 microstrain_3dmgx2_imu 1.5.12
 moveit_simple_grasps 1.0.1
 visp_camera_calibration 0.7.3
@@ -168,7 +168,7 @@ dynamic_tf_publisher 1.0.27
 rocon_app_manager_msgs 0.6.9
 brics_actuator 0.5.3
 roboteq_msgs 0.1.1
-bride_tutorials 0.3.2
+bride_tutorials 0.3.3
 posedetection_msgs 1.0.27
 statistics_msgs 0.9.1
 nav_msgs 1.10.6
