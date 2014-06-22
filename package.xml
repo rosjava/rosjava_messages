@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.168</version>
+  <version>0.1.169</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -153,6 +153,7 @@
   <build_depend>geometry_msgs</build_depend>
   <build_depend>mln_robosherlock_msgs</build_depend>
   <build_depend>linux_hardware</build_depend>
+  <build_depend>mavros</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>cob_script_server</build_depend>
   <build_depend>bayesian_belief_networks</build_depend>
