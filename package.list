@@ -139,7 +139,7 @@ diagnostic_msgs 1.10.6
 cob_script_server 0.5.1
 bayesian_belief_networks 1.0.27
 yocs_msgs 0.5.2
-rtmbuild 1.2.0
+rtmbuild 1.2.1
 stereo_msgs 1.10.6
 interactive_marker_proxy 0.1.2
 iai_content_msgs 0.0.2
