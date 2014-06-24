@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.170</version>
+  <version>0.1.171</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -202,6 +202,7 @@
   <build_depend>move_base</build_depend>
   <build_depend>control_toolbox</build_depend>
   <build_depend>cob_camera_sensors</build_depend>
+  <build_depend>speech_recognition_msgs</build_depend>
   <build_depend>actionlib_msgs</build_depend>
   <build_depend>schunk_sdh</build_depend>
   <build_depend>rocon_std_msgs</build_depend>
