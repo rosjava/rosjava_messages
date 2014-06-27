@@ -190,6 +190,7 @@ kobuki_testsuite 0.5.6
 leap_motion 0.0.4
 handle_detector 1.0.7
 nmea_msgs 0.1.0
+multisense_ros 1.0.0
 nav2d_operator 0.1.2
 rtt_ros_msgs 2.7.0
 gazebo_plugins 2.3.5
