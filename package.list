@@ -5,7 +5,7 @@ cob_lookat_action 0.5.1
 rosruby_tutorials 0.1.3
 moveit_msgs 0.5.3
 grasp_stability_msgs 0.0.2
-jsk_rviz_plugins 1.0.4
+jsk_rviz_plugins 1.0.5
 dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
@@ -102,7 +102,7 @@ sensor_msgs 1.10.6
 rospy_tutorials 0.4.3
 ecto_ros 0.4.2
 sound_play 0.2.6
-qt_tutorials 0.2.5
+qt_tutorials 0.2.6
 clearpath_base 0.4.4
 cob_srvs 0.5.3
 scanning_table_msgs 0.0.2
@@ -121,7 +121,7 @@ face_detector 1.0.3
 topic_proxy 0.1.0
 bwi_planning_common 0.2.4
 topic_tools 1.10.10
-jsk_pcl_ros 0.1.7
+jsk_pcl_ros 0.1.8
 gazebo_ros 2.3.5
 pr2_mechanism_msgs 1.8.0
 stdr_msgs 0.1.3
@@ -153,7 +153,7 @@ hector_nav_msgs 0.3.3
 rovio_shared 0.2.1
 rosgraph_msgs 1.10.10
 ar_track_alvar 0.4.1
-jsk_perception 0.1.7
+jsk_perception 0.1.8
 wge100_camera 1.8.2
 keyboard 0.1.1
 turtlebot_actions 2.2.5
@@ -201,7 +201,7 @@ rosruby_messages 0.1.3
 sherlock_sim_msgs 0.0.2
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.37
-resized_image_transport 0.1.7
+resized_image_transport 0.1.8
 kobuki_msgs 0.5.0
 grasping_msgs 0.3.0
 rocon_interaction_msgs 0.6.9
@@ -211,5 +211,5 @@ roscpp 1.10.10
 tf2_msgs 0.4.11
 saphari_msgs 0.0.2
 map_msgs 0.0.2
-roseus 1.1.19
+roseus 1.1.21
 segbot_sensors 0.2.1
