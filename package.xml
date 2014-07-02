@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.177</version>
+  <version>0.1.178</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -158,6 +158,7 @@
   <build_depend>bayesian_belief_networks</build_depend>
   <build_depend>yocs_msgs</build_depend>
   <build_depend>rtmbuild</build_depend>
+  <build_depend>simple_robot_control</build_depend>
   <build_depend>stereo_msgs</build_depend>
   <build_depend>interactive_marker_proxy</build_depend>
   <build_depend>iai_content_msgs</build_depend>
