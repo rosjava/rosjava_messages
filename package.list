@@ -13,7 +13,7 @@ baxter_maintenance_msgs 1.0.0
 epos_driver 0.0.6
 microstrain_3dmgx2_imu 1.5.12
 moveit_simple_grasps 1.0.1
-visp_camera_calibration 0.7.3
+visp_camera_calibration 0.7.4
 cob_relayboard 0.5.3
 manipulation_msgs 0.2.0
 rospy_message_converter 0.2.0
@@ -30,7 +30,7 @@ theora_image_transport 1.8.21
 costmap_2d 1.11.10
 bond 1.7.13
 nao_msgs 0.2.3
-visp_tracker 0.7.3
+visp_tracker 0.7.4
 cob_light 0.5.3
 driver_base 1.6.8
 interaction_cursor_msgs 0.0.3
@@ -116,7 +116,7 @@ turtlebot_msgs 2.2.0
 jsk_topic_tools 1.0.29
 polled_camera 1.11.3
 roscpp_tutorials 0.4.3
-visp_hand2eye_calibration 0.7.3
+visp_hand2eye_calibration 0.7.4
 face_detector 1.0.3
 topic_proxy 0.1.0
 bwi_planning_common 0.2.4
