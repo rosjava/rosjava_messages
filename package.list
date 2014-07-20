@@ -28,7 +28,7 @@ sr_ronex_msgs 0.9.14
 octomap_msgs 0.3.1
 theora_image_transport 1.8.21
 costmap_2d 1.11.10
-bond 1.7.13
+bond 1.7.14
 nao_msgs 0.2.3
 visp_tracker 0.7.4
 cob_light 0.5.3
