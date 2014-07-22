@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.184</version>
+  <version>0.1.185</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -182,6 +182,7 @@
   <build_depend>turtlesim</build_depend>
   <build_depend>view_controller_msgs</build_depend>
   <build_depend>p2os_driver</build_depend>
+  <build_depend>sherlock_sim_msgs</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>rosapi</build_depend>
   <build_depend>dynamic_tf_publisher</build_depend>
@@ -218,7 +219,6 @@
   <build_depend>p2os_teleop</build_depend>
   <build_depend>image_exposure_msgs</build_depend>
   <build_depend>rosruby_messages</build_depend>
-  <build_depend>sherlock_sim_msgs</build_depend>
   <build_depend>pr2_msgs</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>resized_image_transport</build_depend>
