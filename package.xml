@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.186</version>
+  <version>0.1.187</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -66,6 +66,7 @@
   <build_depend>people_msgs</build_depend>
   <build_depend>nodelet</build_depend>
   <build_depend>zeroconf_msgs</build_depend>
+  <build_depend>interactive_marker_proxy</build_depend>
   <build_depend>fingertip_pressure</build_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>industrial_msgs</build_depend>
@@ -117,10 +118,10 @@
   <build_depend>image_view2</build_depend>
   <build_depend>create_node</build_depend>
   <build_depend>graft</build_depend>
+  <build_depend>ptu_control</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>rospy_tutorials</build_depend>
   <build_depend>ecto_ros</build_depend>
-  <build_depend>sound_play</build_depend>
   <build_depend>qt_tutorials</build_depend>
   <build_depend>clearpath_base</build_depend>
   <build_depend>cob_srvs</build_depend>
@@ -160,7 +161,7 @@
   <build_depend>rtmbuild</build_depend>
   <build_depend>simple_robot_control</build_depend>
   <build_depend>stereo_msgs</build_depend>
-  <build_depend>interactive_marker_proxy</build_depend>
+  <build_depend>sound_play</build_depend>
   <build_depend>iai_content_msgs</build_depend>
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>pddl_msgs</build_depend>
