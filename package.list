@@ -198,6 +198,7 @@ handle_detector 1.1.0
 nmea_msgs 0.1.0
 multisense_ros 1.0.0
 nav2d_operator 0.1.2
+s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
 gazebo_plugins 2.3.5
 move_base_msgs 1.11.11
