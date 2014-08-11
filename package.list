@@ -10,7 +10,7 @@ dynamixel_msgs 0.4.0
 rosruby 0.5.5
 visualization_msgs 1.10.6
 baxter_maintenance_msgs 1.0.0
-epos_driver 0.0.6
+epos_driver 0.0.7
 microstrain_3dmgx2_imu 1.5.12
 moveit_simple_grasps 1.1.0
 visp_camera_calibration 0.7.5
@@ -88,6 +88,7 @@ ethercat_hardware 1.8.8
 jsk_hark_msgs 1.0.33
 gps_common 0.1.7
 um6 0.0.2
+jaco_msgs 1.0.0
 wireless_msgs 0.0.2
 turtlebot_calibration 2.2.5
 ardrone_autonomy 1.3.4
