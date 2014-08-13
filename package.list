@@ -72,7 +72,7 @@ image_cb_detector 0.10.10
 gateway_msgs 0.6.9
 sr_robot_msgs 1.3.0
 calibration_msgs 0.10.10
-rmp_msgs 0.0.1
+rmp_msgs 0.0.2
 blob 0.1.0
 pr2_gazebo_plugins 2.0.2
 concert_msgs 0.6.9
