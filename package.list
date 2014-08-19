@@ -129,9 +129,9 @@ pr2_mechanism_msgs 1.8.0
 rosapi 0.6.0
 stdr_msgs 0.2.0
 bwi_planning_common 0.2.4
-topic_tools 1.10.10
+topic_tools 1.10.11
 jsk_pcl_ros 0.1.14
-gazebo_ros 2.3.5
+gazebo_ros 2.3.6
 hector_uav_msgs 0.3.2
 multimaster_msgs_fkie 0.3.13
 shape_msgs 1.10.6
@@ -153,7 +153,7 @@ stereo_msgs 1.10.6
 visp_tracker 0.7.5
 interactive_marker_proxy 0.1.2
 iai_content_msgs 0.0.2
-gazebo_msgs 2.3.5
+gazebo_msgs 2.3.6
 octomap_msgs 0.3.1
 pddl_msgs 0.1.2
 ethercat_trigger_controllers 1.10.8
@@ -164,7 +164,7 @@ iai_kinematics_msgs 0.0.2
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
 rovio_shared 0.2.1
-rosgraph_msgs 1.10.10
+rosgraph_msgs 1.10.11
 ar_track_alvar 0.4.1
 jsk_perception 0.1.14
 wge100_camera 1.8.2
@@ -180,11 +180,11 @@ rocon_app_manager_msgs 0.6.9
 brics_actuator 0.5.3
 roboteq_msgs 0.1.1
 posedetection_msgs 1.0.35
-statistics_msgs 0.9.2
+statistics_msgs 0.10.0
 nav_msgs 1.10.6
 dna_extraction_msgs 0.0.2
 p2os_urdf 1.0.10
-wfov_camera_msgs 0.9.2
+wfov_camera_msgs 0.10.0
 capabilities 0.2.0
 jsk_footstep_msgs 1.0.35
 hector_worldmodel_msgs 0.3.1
@@ -206,7 +206,7 @@ s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
 move_base_msgs 1.11.11
 p2os_teleop 1.0.10
-image_exposure_msgs 0.9.2
+image_exposure_msgs 0.10.0
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.37
@@ -215,9 +215,9 @@ kobuki_msgs 0.5.0
 grasping_msgs 0.3.0
 rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.7
-std_srvs 1.10.10
-roscpp 1.10.10
+std_srvs 1.10.11
+roscpp 1.10.11
 tf2_msgs 0.4.11
-gazebo_plugins 2.3.5
+gazebo_plugins 2.3.6
 map_msgs 0.0.2
 roseus 1.1.21
