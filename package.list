@@ -31,7 +31,7 @@ robotnik_msgs 0.1.0
 keyboard 0.1.1
 costmap_2d 1.11.11
 bond 1.7.14
-nao_msgs 0.2.3
+nao_msgs 0.3.0
 cob_light 0.5.3
 driver_base 1.6.8
 interaction_cursor_msgs 0.0.3
@@ -144,7 +144,7 @@ mln_robosherlock_msgs 0.0.2
 linux_hardware 2.2.5
 mavros 0.7.0
 diagnostic_msgs 1.10.6
-kobuki_testsuite 0.5.7
+kobuki_testsuite 0.5.8
 cob_script_server 0.5.1
 bayesian_belief_networks 1.0.35
 yocs_msgs 0.5.2
