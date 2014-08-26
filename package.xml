@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.205</version>
+  <version>0.1.206</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -26,6 +26,7 @@
   <build_depend>grasp_stability_msgs</build_depend>
   <build_depend>jsk_rviz_plugins</build_depend>
   <build_depend>dynamixel_msgs</build_depend>
+  <build_depend>cob_object_detection_msgs</build_depend>
   <build_depend>rosruby</build_depend>
   <build_depend>visualization_msgs</build_depend>
   <build_depend>baxter_maintenance_msgs</build_depend>
@@ -83,6 +84,7 @@
   <build_depend>lizi</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>axis_camera</build_depend>
+  <build_depend>cob_perception_msgs</build_depend>
   <build_depend>cob_kinematics</build_depend>
   <build_depend>pr2_power_board</build_depend>
   <build_depend>segbot_sensors</build_depend>
