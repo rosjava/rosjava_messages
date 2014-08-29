@@ -7,7 +7,7 @@ moveit_msgs 0.5.3
 grasp_stability_msgs 0.0.2
 jsk_rviz_plugins 1.0.7
 dynamixel_msgs 0.4.0
-cob_object_detection_msgs 0.5.6
+cob_object_detection_msgs 0.5.10
 rosruby 0.5.5
 visualization_msgs 1.10.6
 baxter_maintenance_msgs 1.0.0
@@ -65,7 +65,7 @@ segbot_simulation_apps 0.2.1
 lizi 1.0.2
 kingfisher_msgs 0.0.4
 axis_camera 0.1.0
-cob_perception_msgs 0.5.6
+cob_perception_msgs 0.5.10
 cob_kinematics 0.5.1
 pr2_power_board 1.1.2
 segbot_sensors 0.2.1
