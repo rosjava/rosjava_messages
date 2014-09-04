@@ -7,7 +7,7 @@ moveit_msgs 0.5.3
 grasp_stability_msgs 0.0.2
 jsk_rviz_plugins 1.0.7
 dynamixel_msgs 0.4.0
-cob_object_detection_msgs 0.5.11
+cob_object_detection_msgs 0.5.4
 rosruby 0.5.5
 visualization_msgs 1.10.6
 baxter_maintenance_msgs 1.0.0
@@ -21,6 +21,7 @@ simple_robot_control 0.0.2
 manipulation_msgs 0.2.0
 rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.3.1
+jsk_footstep_controller 0.1.1
 segbot_gui 0.2.1
 cob_trajectory_controller 0.5.5
 iai_pancake_perception_action 0.0.2
@@ -65,7 +66,7 @@ segbot_simulation_apps 0.2.1
 lizi 1.0.2
 kingfisher_msgs 0.0.4
 axis_camera 0.1.0
-cob_perception_msgs 0.5.11
+cob_perception_msgs 0.5.4
 cob_kinematics 0.5.1
 pr2_power_board 1.1.2
 segbot_sensors 0.2.1
@@ -92,7 +93,7 @@ um6 0.0.2
 jaco_msgs 1.0.1
 wireless_msgs 0.0.2
 turtlebot_calibration 2.2.5
-ardrone_autonomy 1.3.4
+ardrone_autonomy 1.3.5
 pcl_msgs 0.1.0
 bride_tutorials 0.3.3
 designator_integration_msgs 0.0.2
@@ -132,7 +133,7 @@ rosapi 0.6.0
 stdr_msgs 0.2.0
 bwi_planning_common 0.2.4
 topic_tools 1.10.11
-jsk_pcl_ros 0.1.15
+jsk_pcl_ros 0.1.16
 gazebo_ros 2.3.7
 hector_uav_msgs 0.3.3
 multimaster_msgs_fkie 0.3.13
@@ -168,7 +169,7 @@ hector_nav_msgs 0.3.3
 rovio_shared 0.2.1
 rosgraph_msgs 1.10.11
 ar_track_alvar 0.4.1
-jsk_perception 0.1.15
+jsk_perception 0.1.16
 wge100_camera 1.8.2
 turtlebot_actions 2.2.5
 actionlib_tutorials 0.1.7
@@ -212,7 +213,7 @@ image_exposure_msgs 0.10.0
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.37
-resized_image_transport 0.1.15
+resized_image_transport 0.1.16
 kobuki_msgs 0.5.0
 grasping_msgs 0.3.0
 rocon_interaction_msgs 0.6.9
