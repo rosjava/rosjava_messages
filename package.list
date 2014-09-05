@@ -223,4 +223,4 @@ roscpp 1.10.11
 tf2_msgs 0.4.11
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
-roseus 1.1.21
+roseus 1.1.22
