@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.214</version>
+  <version>0.1.215</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -123,11 +123,13 @@
   <build_depend>controller_manager_msgs</build_depend>
   <build_depend>p2os_driver</build_depend>
   <build_depend>image_view2</build_depend>
+  <build_depend>pr2_tilt_laser_interface</build_depend>
   <build_depend>rocon_std_msgs</build_depend>
   <build_depend>create_node</build_depend>
   <build_depend>graft</build_depend>
   <build_depend>ptu_control</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>pr2_common_action_msgs</build_depend>
   <build_depend>rospy_tutorials</build_depend>
   <build_depend>ecto_ros</build_depend>
   <build_depend>sound_play</build_depend>
@@ -149,7 +151,6 @@
   <build_depend>topic_proxy</build_depend>
   <build_depend>pr2_mechanism_msgs</build_depend>
   <build_depend>rosapi</build_depend>
-  <build_depend>stdr_msgs</build_depend>
   <build_depend>bwi_planning_common</build_depend>
   <build_depend>topic_tools</build_depend>
   <build_depend>jsk_pcl_ros</build_depend>
@@ -199,6 +200,7 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>dynamic_tf_publisher</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
+  <build_depend>stdr_msgs</build_depend>
   <build_depend>brics_actuator</build_depend>
   <build_depend>roboteq_msgs</build_depend>
   <build_depend>posedetection_msgs</build_depend>
