@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.215</version>
+  <version>0.1.216</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -47,7 +47,6 @@
   <build_depend>grizzly_msgs</build_depend>
   <build_depend>data_vis_msgs</build_depend>
   <build_depend>laser_assembler</build_depend>
-  <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>robotnik_msgs</build_depend>
   <build_depend>keyboard</build_depend>
   <build_depend>costmap_2d</build_depend>
@@ -181,6 +180,7 @@
   <build_depend>pddl_msgs</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
   <build_depend>uuid_msgs</build_depend>
+  <build_depend>sr_ronex_msgs</build_depend>
   <build_depend>theora_image_transport</build_depend>
   <build_depend>cob_pick_place_action</build_depend>
   <build_depend>iai_kinematics_msgs</build_depend>
@@ -188,10 +188,10 @@
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>rovio_shared</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>turtlebot_actions</build_depend>
   <build_depend>ar_track_alvar</build_depend>
   <build_depend>jsk_perception</build_depend>
   <build_depend>wge100_camera</build_depend>
-  <build_depend>turtlebot_actions</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
   <build_depend>turtlesim</build_depend>
@@ -218,6 +218,7 @@
   <build_depend>cob_camera_sensors</build_depend>
   <build_depend>speech_recognition_msgs</build_depend>
   <build_depend>actionlib_msgs</build_depend>
+  <build_depend>nao_interaction_msgs</build_depend>
   <build_depend>schunk_sdh</build_depend>
   <build_depend>leap_motion</build_depend>
   <build_depend>qt_tutorials</build_depend>
