@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.216</version>
+  <version>0.1.217</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -49,6 +49,7 @@
   <build_depend>laser_assembler</build_depend>
   <build_depend>robotnik_msgs</build_depend>
   <build_depend>keyboard</build_depend>
+  <build_depend>pr2_calibration_launch</build_depend>
   <build_depend>costmap_2d</build_depend>
   <build_depend>bond</build_depend>
   <build_depend>nao_msgs</build_depend>
@@ -81,6 +82,7 @@
   <build_depend>hector_mapping</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
   <build_depend>segbot_simulation_apps</build_depend>
+  <build_depend>mongodb_store_msgs</build_depend>
   <build_depend>lizi</build_depend>
   <build_depend>kingfisher_msgs</build_depend>
   <build_depend>axis_camera</build_depend>
@@ -90,11 +92,12 @@
   <build_depend>segbot_sensors</build_depend>
   <build_depend>smach_msgs</build_depend>
   <build_depend>image_cb_detector</build_depend>
+  <build_depend>p2os_teleop</build_depend>
   <build_depend>gateway_msgs</build_depend>
   <build_depend>sr_robot_msgs</build_depend>
   <build_depend>calibration_msgs</build_depend>
   <build_depend>rmp_msgs</build_depend>
-  <build_depend>blob</build_depend>
+  <build_depend>rosauth</build_depend>
   <build_depend>pr2_gazebo_plugins</build_depend>
   <build_depend>concert_msgs</build_depend>
   <build_depend>jsk_gui_msgs</build_depend>
@@ -159,6 +162,7 @@
   <build_depend>shape_msgs</build_depend>
   <build_depend>nav2d_msgs</build_depend>
   <build_depend>sr_edc_ethercat_drivers</build_depend>
+  <build_depend>blob</build_depend>
   <build_depend>universal_teleop</build_depend>
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
@@ -186,6 +190,7 @@
   <build_depend>iai_kinematics_msgs</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
+  <build_depend>mongodb_store</build_depend>
   <build_depend>rovio_shared</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>turtlebot_actions</build_depend>
@@ -212,7 +217,6 @@
   <build_depend>capabilities</build_depend>
   <build_depend>jsk_footstep_msgs</build_depend>
   <build_depend>hector_worldmodel_msgs</build_depend>
-  <build_depend>rosauth</build_depend>
   <build_depend>move_base</build_depend>
   <build_depend>control_toolbox</build_depend>
   <build_depend>cob_camera_sensors</build_depend>
@@ -230,7 +234,6 @@
   <build_depend>s3000_laser</build_depend>
   <build_depend>rtt_ros_msgs</build_depend>
   <build_depend>move_base_msgs</build_depend>
-  <build_depend>p2os_teleop</build_depend>
   <build_depend>image_exposure_msgs</build_depend>
   <build_depend>rosruby_messages</build_depend>
   <build_depend>pr2_msgs</build_depend>
