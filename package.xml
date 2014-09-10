@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.217</version>
+  <version>0.1.218</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -38,6 +38,7 @@
   <build_depend>geographic_msgs</build_depend>
   <build_depend>simple_robot_control</build_depend>
   <build_depend>manipulation_msgs</build_depend>
+  <build_depend>pr2_gripper_sensor_action</build_depend>
   <build_depend>rospy_message_converter</build_depend>
   <build_depend>underwater_sensor_msgs</build_depend>
   <build_depend>jsk_footstep_controller</build_depend>
@@ -53,6 +54,7 @@
   <build_depend>costmap_2d</build_depend>
   <build_depend>bond</build_depend>
   <build_depend>nao_msgs</build_depend>
+  <build_depend>saphari_msgs</build_depend>
   <build_depend>cob_light</build_depend>
   <build_depend>driver_base</build_depend>
   <build_depend>interaction_cursor_msgs</build_depend>
@@ -226,7 +228,6 @@
   <build_depend>schunk_sdh</build_depend>
   <build_depend>leap_motion</build_depend>
   <build_depend>qt_tutorials</build_depend>
-  <build_depend>saphari_msgs</build_depend>
   <build_depend>handle_detector</build_depend>
   <build_depend>nmea_msgs</build_depend>
   <build_depend>multisense_ros</build_depend>
@@ -239,8 +240,8 @@
   <build_depend>pr2_msgs</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>resized_image_transport</build_depend>
+  <build_depend>pr2_gripper_sensor_msgs</build_depend>
   <build_depend>kobuki_msgs</build_depend>
-  <build_depend>grasping_msgs</build_depend>
   <build_depend>rocon_interaction_msgs</build_depend>
   <build_depend>audio_common_msgs</build_depend>
   <build_depend>std_srvs</build_depend>
@@ -248,6 +249,7 @@
   <build_depend>tf2_msgs</build_depend>
   <build_depend>gazebo_plugins</build_depend>
   <build_depend>map_msgs</build_depend>
+  <build_depend>grasping_msgs</build_depend>
   <build_depend>roseus</build_depend>
 
 

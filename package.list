@@ -19,6 +19,7 @@ cob_relayboard 0.5.5
 geographic_msgs 0.3.1
 simple_robot_control 0.0.2
 manipulation_msgs 0.2.0
+pr2_gripper_sensor_action 1.0.2
 rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.3.1
 jsk_footstep_controller 0.1.1
@@ -34,6 +35,7 @@ pr2_calibration_launch 1.0.2
 costmap_2d 1.11.11
 bond 1.7.14
 nao_msgs 0.3.0
+saphari_msgs 0.0.2
 cob_light 0.5.5
 driver_base 1.6.8
 interaction_cursor_msgs 0.0.3
@@ -207,7 +209,6 @@ nao_interaction_msgs 0.1.3
 schunk_sdh 0.5.4
 leap_motion 0.0.4
 qt_tutorials 0.2.6
-saphari_msgs 0.0.2
 handle_detector 1.1.0
 nmea_msgs 0.1.0
 multisense_ros 1.0.0
@@ -220,8 +221,8 @@ rosruby_messages 0.1.3
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.37
 resized_image_transport 0.1.17
+pr2_gripper_sensor_msgs 1.0.2
 kobuki_msgs 0.5.0
-grasping_msgs 0.3.0
 rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.7
 std_srvs 1.10.11
@@ -229,4 +230,5 @@ roscpp 1.10.11
 tf2_msgs 0.4.11
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
+grasping_msgs 0.3.0
 roseus 1.1.22
