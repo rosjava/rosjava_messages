@@ -10,7 +10,7 @@ dynamixel_msgs 0.4.0
 cob_object_detection_msgs 0.5.12
 rosruby 0.5.5
 visualization_msgs 1.10.6
-baxter_maintenance_msgs 1.0.0
+baxter_maintenance_msgs 1.0.1
 epos_driver 0.0.7
 microstrain_3dmgx2_imu 1.5.12
 moveit_simple_grasps 1.1.0
@@ -84,7 +84,7 @@ rosauth 0.1.4
 pr2_gazebo_plugins 2.0.2
 concert_msgs 0.6.9
 jsk_gui_msgs 1.0.37
-baxter_core_msgs 1.0.0
+baxter_core_msgs 1.0.1
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
 graph_msgs 0.0.2
