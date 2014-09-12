@@ -35,7 +35,7 @@ pr2_calibration_launch 1.0.2
 costmap_2d 1.11.11
 bond 1.7.14
 nao_msgs 0.3.0
-saphari_msgs 0.0.2
+visp_tracker 0.7.5
 cob_light 0.5.5
 driver_base 1.6.8
 interaction_cursor_msgs 0.0.3
@@ -64,6 +64,7 @@ cob_base_drive_chain 0.5.5
 rosserial_msgs 0.5.6
 hector_mapping 0.3.3
 household_objects_database_msgs 0.1.1
+saphari_msgs 0.0.2
 segbot_simulation_apps 0.2.1
 mongodb_store_msgs 0.0.3
 lizi 1.0.2
@@ -159,7 +160,6 @@ bayesian_belief_networks 1.0.37
 yocs_msgs 0.5.2
 rtmbuild 1.2.4
 stereo_msgs 1.10.6
-visp_tracker 0.7.5
 interactive_marker_proxy 0.1.2
 iai_content_msgs 0.0.2
 gazebo_msgs 2.3.7
@@ -171,6 +171,7 @@ sr_ronex_msgs 0.9.14
 theora_image_transport 1.8.21
 cob_pick_place_action 0.5.1
 iai_kinematics_msgs 0.0.2
+pr2_precise_trajectory 1.0.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
 mongodb_store 0.0.3

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.219</version>
+  <version>0.1.220</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -54,7 +54,7 @@
   <build_depend>costmap_2d</build_depend>
   <build_depend>bond</build_depend>
   <build_depend>nao_msgs</build_depend>
-  <build_depend>saphari_msgs</build_depend>
+  <build_depend>visp_tracker</build_depend>
   <build_depend>cob_light</build_depend>
   <build_depend>driver_base</build_depend>
   <build_depend>interaction_cursor_msgs</build_depend>
@@ -83,6 +83,7 @@
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>hector_mapping</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
+  <build_depend>saphari_msgs</build_depend>
   <build_depend>segbot_simulation_apps</build_depend>
   <build_depend>mongodb_store_msgs</build_depend>
   <build_depend>lizi</build_depend>
@@ -178,7 +179,6 @@
   <build_depend>yocs_msgs</build_depend>
   <build_depend>rtmbuild</build_depend>
   <build_depend>stereo_msgs</build_depend>
-  <build_depend>visp_tracker</build_depend>
   <build_depend>interactive_marker_proxy</build_depend>
   <build_depend>iai_content_msgs</build_depend>
   <build_depend>gazebo_msgs</build_depend>
@@ -190,6 +190,7 @@
   <build_depend>theora_image_transport</build_depend>
   <build_depend>cob_pick_place_action</build_depend>
   <build_depend>iai_kinematics_msgs</build_depend>
+  <build_depend>pr2_precise_trajectory</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>mongodb_store</build_depend>
