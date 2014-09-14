@@ -51,7 +51,7 @@ trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.1
 cmvision 0.4.1
 bwi_planning 0.2.1
-frontier_exploration 0.2.1
+frontier_exploration 0.2.2
 people_msgs 1.0.4
 nodelet 1.8.4
 zeroconf_msgs 0.2.1
@@ -66,7 +66,7 @@ hector_mapping 0.3.3
 household_objects_database_msgs 0.1.1
 saphari_msgs 0.0.2
 segbot_simulation_apps 0.2.1
-mongodb_store_msgs 0.0.3
+mongodb_store_msgs 0.0.4
 lizi 1.0.2
 kingfisher_msgs 0.0.4
 axis_camera 0.1.0
@@ -174,7 +174,7 @@ iai_kinematics_msgs 0.0.2
 pr2_precise_trajectory 1.0.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
-mongodb_store 0.0.3
+mongodb_store 0.0.4
 rovio_shared 0.2.1
 rosgraph_msgs 1.10.11
 turtlebot_actions 2.2.5
