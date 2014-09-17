@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.223</version>
+  <version>0.1.224</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -18,10 +18,10 @@
   <build_depend>rosjava_bootstrap</build_depend>
   <build_depend>map_store</build_depend> <!-- waiting for https://github.com/ros-planning/map_store/pull/6 and needed for android apps -->
   <build_depend>r2_msgs</build_depend>
-  <build_depend>rocon_service_pair_msgs</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>cob_lookat_action</build_depend>
   <build_depend>rosruby_tutorials</build_depend>
+  <build_depend>rocon_service_pair_msgs</build_depend>
   <build_depend>moveit_msgs</build_depend>
   <build_depend>grasp_stability_msgs</build_depend>
   <build_depend>jsk_rviz_plugins</build_depend>
@@ -102,6 +102,7 @@
   <build_depend>rmp_msgs</build_depend>
   <build_depend>rosauth</build_depend>
   <build_depend>pr2_gazebo_plugins</build_depend>
+  <build_depend>visp_hand2eye_calibration</build_depend>
   <build_depend>concert_msgs</build_depend>
   <build_depend>jsk_gui_msgs</build_depend>
   <build_depend>baxter_core_msgs</build_depend>
@@ -151,7 +152,7 @@
   <build_depend>jsk_topic_tools</build_depend>
   <build_depend>polled_camera</build_depend>
   <build_depend>roscpp_tutorials</build_depend>
-  <build_depend>visp_hand2eye_calibration</build_depend>
+  <build_depend>pr2_self_test_msgs</build_depend>
   <build_depend>face_detector</build_depend>
   <build_depend>topic_proxy</build_depend>
   <build_depend>pr2_mechanism_msgs</build_depend>
@@ -192,9 +193,11 @@
   <build_depend>iai_kinematics_msgs</build_depend>
   <build_depend>pr2_precise_trajectory</build_depend>
   <build_depend>segway_rmp</build_depend>
+  <build_depend>pr2_gripper_sensor_msgs</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>mongodb_store</build_depend>
   <build_depend>rovio_shared</build_depend>
+  <build_depend>stdr_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>turtlebot_actions</build_depend>
   <build_depend>ar_track_alvar</build_depend>
@@ -208,7 +211,6 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>dynamic_tf_publisher</build_depend>
   <build_depend>rocon_app_manager_msgs</build_depend>
-  <build_depend>stdr_msgs</build_depend>
   <build_depend>brics_actuator</build_depend>
   <build_depend>roboteq_msgs</build_depend>
   <build_depend>posedetection_msgs</build_depend>
@@ -241,7 +243,6 @@
   <build_depend>pr2_msgs</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>resized_image_transport</build_depend>
-  <build_depend>pr2_gripper_sensor_msgs</build_depend>
   <build_depend>kobuki_msgs</build_depend>
   <build_depend>rocon_interaction_msgs</build_depend>
   <build_depend>audio_common_msgs</build_depend>
