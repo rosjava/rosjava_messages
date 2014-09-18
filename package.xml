@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.224</version>
+  <version>0.1.225</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -80,6 +80,7 @@
   <build_depend>base_local_planner</build_depend>
   <build_depend>rosserial_arduino</build_depend>
   <build_depend>cob_base_drive_chain</build_depend>
+  <build_depend>applanix_msgs</build_depend>
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>hector_mapping</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
@@ -179,6 +180,7 @@
   <build_depend>bayesian_belief_networks</build_depend>
   <build_depend>yocs_msgs</build_depend>
   <build_depend>rtmbuild</build_depend>
+  <build_depend>stereo_wall_detection</build_depend>
   <build_depend>stereo_msgs</build_depend>
   <build_depend>interactive_marker_proxy</build_depend>
   <build_depend>iai_content_msgs</build_depend>

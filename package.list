@@ -31,10 +31,10 @@ data_vis_msgs 0.0.2
 laser_assembler 1.7.2
 robotnik_msgs 0.1.0
 keyboard 0.1.1
-pr2_calibration_launch 1.0.2
+pr2_calibration_launch 1.0.4
 costmap_2d 1.11.11
 bond 1.7.14
-nao_msgs 0.3.0
+nao_msgs 0.4.0
 visp_tracker 0.7.5
 cob_light 0.5.5
 driver_base 1.6.8
@@ -61,6 +61,7 @@ industrial_msgs 0.3.4
 base_local_planner 1.11.11
 rosserial_arduino 0.5.6
 cob_base_drive_chain 0.5.5
+applanix_msgs 0.0.4
 rosserial_msgs 0.5.6
 hector_mapping 0.3.3
 household_objects_database_msgs 0.1.1
@@ -160,6 +161,7 @@ cob_script_server 0.5.1
 bayesian_belief_networks 1.0.39
 yocs_msgs 0.5.2
 rtmbuild 1.2.4
+stereo_wall_detection 1.0.9
 stereo_msgs 1.10.6
 interactive_marker_proxy 0.1.2
 iai_content_msgs 0.0.2
