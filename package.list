@@ -19,7 +19,7 @@ cob_relayboard 0.5.5
 geographic_msgs 0.3.1
 simple_robot_control 0.0.2
 manipulation_msgs 0.2.0
-pr2_gripper_sensor_action 1.0.2
+pr2_gripper_sensor_action 1.0.3
 rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.3.1
 jsk_footstep_controller 0.1.1
@@ -79,7 +79,7 @@ smach_msgs 1.3.1
 image_cb_detector 0.10.10
 p2os_teleop 1.0.10
 gateway_msgs 0.6.9
-sr_robot_msgs 1.3.0
+sr_robot_msgs 1.3.4
 calibration_msgs 0.10.10
 rmp_msgs 0.0.2
 rosauth 0.1.4
@@ -147,7 +147,7 @@ hector_uav_msgs 0.3.3
 multimaster_msgs_fkie 0.3.13
 shape_msgs 1.10.6
 nav2d_msgs 0.2.0
-sr_edc_ethercat_drivers 1.3.0
+sr_edc_ethercat_drivers 1.3.4
 blob 0.1.0
 universal_teleop 0.1.0
 play_motion_msgs 0.4.0
@@ -176,7 +176,7 @@ cob_pick_place_action 0.5.1
 iai_kinematics_msgs 0.0.2
 pr2_precise_trajectory 1.0.1
 segway_rmp 0.1.1
-pr2_gripper_sensor_msgs 1.0.2
+pr2_gripper_sensor_msgs 1.0.3
 hector_nav_msgs 0.3.3
 mongodb_store 0.0.4
 rovio_shared 0.2.1
@@ -231,7 +231,7 @@ rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.7
 std_srvs 1.10.11
 roscpp 1.10.11
-tf2_msgs 0.4.11
+tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.0
