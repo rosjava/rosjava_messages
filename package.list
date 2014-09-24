@@ -141,7 +141,7 @@ pr2_mechanism_msgs 1.8.0
 rosapi 0.6.0
 bwi_planning_common 0.2.4
 topic_tools 1.10.11
-jsk_pcl_ros 0.1.21
+jsk_pcl_ros 0.1.22
 gazebo_ros 2.3.7
 hector_uav_msgs 0.3.3
 multimaster_msgs_fkie 0.3.13
@@ -184,7 +184,7 @@ stdr_msgs 0.2.0
 rosgraph_msgs 1.10.11
 turtlebot_actions 2.2.5
 ar_track_alvar 0.4.1
-jsk_perception 0.1.21
+jsk_perception 0.1.22
 wge100_camera 1.8.2
 actionlib_tutorials 0.1.7
 turtle_actionlib 0.1.7
@@ -225,7 +225,7 @@ image_exposure_msgs 0.10.0
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.37
-resized_image_transport 0.1.21
+resized_image_transport 0.1.22
 kobuki_msgs 0.5.0
 rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.7
@@ -235,4 +235,4 @@ tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.0
-roseus 1.1.22
+roseus 1.1.24
