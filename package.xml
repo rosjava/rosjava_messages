@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.231</version>
+  <version>0.1.232</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -48,6 +48,7 @@
   <build_depend>grizzly_msgs</build_depend>
   <build_depend>data_vis_msgs</build_depend>
   <build_depend>laser_assembler</build_depend>
+  <build_depend>hrpsys_gazebo_msgs</build_depend>
   <build_depend>robotnik_msgs</build_depend>
   <build_depend>keyboard</build_depend>
   <build_depend>pr2_calibration_launch</build_depend>
@@ -141,6 +142,7 @@
   <build_depend>ecto_ros</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>clearpath_base</build_depend>
+  <build_depend>eusgazebo</build_depend>
   <build_depend>cob_srvs</build_depend>
   <build_depend>scanning_table_msgs</build_depend>
   <build_depend>cob_phidgets</build_depend>

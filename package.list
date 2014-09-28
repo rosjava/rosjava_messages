@@ -29,6 +29,7 @@ iai_pancake_perception_action 0.0.2
 grizzly_msgs 0.2.0
 data_vis_msgs 0.0.2
 laser_assembler 1.7.2
+hrpsys_gazebo_msgs 0.1.1
 robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.4
@@ -122,6 +123,7 @@ rospy_tutorials 0.4.3
 ecto_ros 0.4.4
 sound_play 0.2.7
 clearpath_base 0.4.4
+eusgazebo 0.1.1
 cob_srvs 0.5.3
 scanning_table_msgs 0.0.2
 cob_phidgets 0.5.5
