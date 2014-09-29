@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.232</version>
+  <version>0.1.233</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -142,6 +142,7 @@
   <build_depend>ecto_ros</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>clearpath_base</build_depend>
+  <build_depend>map_merger</build_depend>
   <build_depend>eusgazebo</build_depend>
   <build_depend>cob_srvs</build_depend>
   <build_depend>scanning_table_msgs</build_depend>
@@ -171,6 +172,7 @@
   <build_depend>sr_edc_ethercat_drivers</build_depend>
   <build_depend>blob</build_depend>
   <build_depend>universal_teleop</build_depend>
+  <build_depend>explorer</build_depend>
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>mln_robosherlock_msgs</build_depend>
@@ -207,6 +209,7 @@
   <build_depend>ar_track_alvar</build_depend>
   <build_depend>jsk_perception</build_depend>
   <build_depend>wge100_camera</build_depend>
+  <build_depend>adhoc_communication</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
   <build_depend>turtlesim</build_depend>
