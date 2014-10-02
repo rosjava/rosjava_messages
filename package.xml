@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.234</version>
+  <version>0.1.235</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -69,6 +69,7 @@
   <build_depend>pr2_mechanism_controllers</build_depend>
   <build_depend>trajectory_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
+  <build_depend>app_manager</build_depend>
   <build_depend>cmvision</build_depend>
   <build_depend>bwi_planning</build_depend>
   <build_depend>frontier_exploration</build_depend>
@@ -199,7 +200,6 @@
   <build_depend>iai_kinematics_msgs</build_depend>
   <build_depend>pr2_precise_trajectory</build_depend>
   <build_depend>segway_rmp</build_depend>
-  <build_depend>pr2_gripper_sensor_msgs</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>mongodb_store</build_depend>
   <build_depend>rovio_shared</build_depend>
@@ -250,6 +250,7 @@
   <build_depend>pr2_msgs</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>resized_image_transport</build_depend>
+  <build_depend>pr2_gripper_sensor_msgs</build_depend>
   <build_depend>kobuki_msgs</build_depend>
   <build_depend>rocon_interaction_msgs</build_depend>
   <build_depend>audio_common_msgs</build_depend>
