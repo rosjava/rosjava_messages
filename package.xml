@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.236</version>
+  <version>0.1.237</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -85,6 +85,7 @@
   <build_depend>applanix_msgs</build_depend>
   <build_depend>rosserial_msgs</build_depend>
   <build_depend>hector_mapping</build_depend>
+  <build_depend>asmach_tutorials</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
   <build_depend>saphari_msgs</build_depend>
   <build_depend>segbot_simulation_apps</build_depend>
@@ -192,6 +193,7 @@
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
   <build_depend>pddl_msgs</build_depend>
+  <build_depend>network_monitor_udp</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>sr_ronex_msgs</build_depend>

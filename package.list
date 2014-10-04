@@ -66,6 +66,7 @@ cob_base_drive_chain 0.5.5
 applanix_msgs 0.0.4
 rosserial_msgs 0.5.6
 hector_mapping 0.3.3
+asmach_tutorials 1.0.4
 household_objects_database_msgs 0.1.1
 saphari_msgs 0.0.2
 segbot_simulation_apps 0.2.1
@@ -173,6 +174,7 @@ iai_content_msgs 0.0.2
 gazebo_msgs 2.3.7
 octomap_msgs 0.3.1
 pddl_msgs 0.1.2
+network_monitor_udp 1.0.4
 ethercat_trigger_controllers 1.10.8
 uuid_msgs 1.0.4
 sr_ronex_msgs 0.9.14
