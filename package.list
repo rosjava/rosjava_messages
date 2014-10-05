@@ -166,7 +166,7 @@ kobuki_testsuite 0.5.8
 cob_script_server 0.5.1
 bayesian_belief_networks 1.0.46
 yocs_msgs 0.5.2
-rtmbuild 1.2.4
+rtmbuild 1.2.5
 stereo_wall_detection 1.0.9
 stereo_msgs 1.10.6
 interactive_marker_proxy 0.1.2
