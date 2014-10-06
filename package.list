@@ -29,7 +29,7 @@ iai_pancake_perception_action 0.0.2
 grizzly_msgs 0.2.0
 data_vis_msgs 0.0.2
 laser_assembler 1.7.2
-hrpsys_gazebo_msgs 0.1.1
+hrpsys_gazebo_msgs 0.1.2
 robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.4
@@ -44,7 +44,7 @@ razer_hydra 0.1.1
 cob_sound 0.5.5
 pr2_controllers_msgs 1.10.8
 dynamixel_controllers 0.4.0
-rosbridge_library 0.6.0
+rosbridge_library 0.6.2
 cob_footprint_observer 0.5.5
 ethzasl_icp_mapper 0.9.6
 pr2_mechanism_controllers 1.10.8
@@ -126,7 +126,7 @@ ecto_ros 0.4.4
 sound_play 0.2.7
 clearpath_base 0.4.4
 map_merger 0.1.3
-eusgazebo 0.1.1
+eusgazebo 0.1.2
 cob_srvs 0.5.3
 scanning_table_msgs 0.0.2
 cob_phidgets 0.5.5
@@ -143,7 +143,7 @@ pr2_self_test_msgs 1.0.2
 face_detector 1.0.4
 topic_proxy 0.1.0
 pr2_mechanism_msgs 1.8.0
-rosapi 0.6.0
+rosapi 0.6.2
 bwi_planning_common 0.2.4
 topic_tools 1.10.11
 jsk_pcl_ros 0.1.22
