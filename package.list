@@ -5,7 +5,7 @@ rosruby_tutorials 0.1.3
 rocon_service_pair_msgs 0.6.9
 moveit_msgs 0.5.3
 grasp_stability_msgs 0.0.2
-jsk_rviz_plugins 1.0.12
+jsk_rviz_plugins 1.0.13
 dynamixel_msgs 0.4.0
 cob_object_detection_msgs 0.5.12
 rosruby 0.5.5
@@ -166,7 +166,7 @@ kobuki_testsuite 0.5.8
 cob_script_server 0.5.1
 bayesian_belief_networks 1.0.47
 yocs_msgs 0.5.2
-rtmbuild 1.2.5
+rtmbuild 1.2.6
 jsk_network_tools 1.0.47
 stereo_wall_detection 1.0.9
 stereo_msgs 1.10.6
@@ -224,7 +224,7 @@ leap_motion 0.0.4
 qt_tutorials 0.2.6
 handle_detector 1.1.0
 nmea_msgs 0.1.0
-multisense_ros 3.3.0
+multisense_ros 3.3.1
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
@@ -244,4 +244,4 @@ tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.0
-roseus 1.1.24
+roseus 1.1.25
