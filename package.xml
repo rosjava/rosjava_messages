@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.246</version>
+  <version>0.1.247</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -44,7 +44,6 @@
   <build_depend>jsk_footstep_controller</build_depend>
   <build_depend>segbot_gui</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
-  <build_depend>iai_pancake_perception_action</build_depend>
   <build_depend>grizzly_msgs</build_depend>
   <build_depend>data_vis_msgs</build_depend>
   <build_depend>laser_assembler</build_depend>
@@ -242,6 +241,7 @@
   <build_depend>schunk_sdh</build_depend>
   <build_depend>leap_motion</build_depend>
   <build_depend>qt_tutorials</build_depend>
+  <build_depend>iai_robosherlock_actions</build_depend>
   <build_depend>handle_detector</build_depend>
   <build_depend>nmea_msgs</build_depend>
   <build_depend>multisense_ros</build_depend>
