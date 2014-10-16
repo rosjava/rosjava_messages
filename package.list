@@ -49,7 +49,7 @@ ethzasl_icp_mapper 0.9.6
 pr2_mechanism_controllers 1.10.8
 trajectory_msgs 1.10.6
 object_recognition_msgs 0.4.1
-app_manager 1.0.1
+app_manager 1.0.2
 cmvision 0.4.1
 bwi_planning 0.2.1
 frontier_exploration 0.2.2
@@ -167,7 +167,7 @@ bayesian_belief_networks 1.0.49
 yocs_msgs 0.5.2
 rtmbuild 1.2.6
 jsk_network_tools 1.0.49
-stereo_wall_detection 1.0.12
+stereo_wall_detection 1.0.13
 stereo_msgs 1.10.6
 interactive_marker_proxy 0.1.2
 iai_content_msgs 0.0.3
