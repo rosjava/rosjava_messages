@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.253</version>
+  <version>0.1.254</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -32,6 +32,7 @@
   <build_depend>baxter_maintenance_msgs</build_depend>
   <build_depend>epos_driver</build_depend>
   <build_depend>microstrain_3dmgx2_imu</build_depend>
+  <build_depend>novatel_msgs</build_depend>
   <build_depend>moveit_simple_grasps</build_depend>
   <build_depend>visp_camera_calibration</build_depend>
   <build_depend>cob_relayboard</build_depend>
