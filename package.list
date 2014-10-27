@@ -35,7 +35,7 @@ keyboard 0.1.1
 pr2_calibration_launch 1.0.5
 costmap_2d 1.11.13
 bond 1.7.14
-nao_msgs 0.4.0
+nao_msgs 0.4.1
 visp_tracker 0.7.5
 cob_light 0.5.5
 driver_base 1.6.8
