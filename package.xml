@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.256</version>
+  <version>0.1.257</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -18,10 +18,10 @@
   <build_depend>rosjava_bootstrap</build_depend>
   <build_depend>map_store</build_depend> <!-- waiting for https://github.com/ros-planning/map_store/pull/6 and needed for android apps -->
   <build_depend>r2_msgs</build_depend>
+  <build_depend>smart_battery_msgs</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>cob_lookat_action</build_depend>
   <build_depend>rosruby_tutorials</build_depend>
-  <build_depend>rocon_service_pair_msgs</build_depend>
   <build_depend>moveit_msgs</build_depend>
   <build_depend>grasp_stability_msgs</build_depend>
   <build_depend>jsk_rviz_plugins</build_depend>
@@ -76,6 +76,7 @@
   <build_depend>people_msgs</build_depend>
   <build_depend>nodelet</build_depend>
   <build_depend>zeroconf_msgs</build_depend>
+  <build_depend>apriltags_ros</build_depend>
   <build_depend>fingertip_pressure</build_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>industrial_msgs</build_depend>
@@ -159,6 +160,7 @@
   <build_depend>polled_camera</build_depend>
   <build_depend>roscpp_tutorials</build_depend>
   <build_depend>pr2_self_test_msgs</build_depend>
+  <build_depend>rocon_service_pair_msgs</build_depend>
   <build_depend>face_detector</build_depend>
   <build_depend>topic_proxy</build_depend>
   <build_depend>pr2_mechanism_msgs</build_depend>
