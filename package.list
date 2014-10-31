@@ -34,7 +34,7 @@ robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.5
 costmap_2d 1.11.13
-bond 1.7.15
+bond 1.7.16
 nao_msgs 0.4.1
 visp_tracker 0.7.5
 cob_light 0.5.5
@@ -55,9 +55,9 @@ cmvision 0.4.1
 bwi_planning 0.2.1
 frontier_exploration 0.2.2
 people_msgs 1.0.4
-nodelet 1.8.5
+nodelet 1.8.6
 zeroconf_msgs 0.2.1
-apriltags_ros 0.0.1
+apriltags_ros 0.0.2
 fingertip_pressure 1.8.11
 actionlib 1.10.3
 industrial_msgs 0.3.4
