@@ -162,7 +162,7 @@ play_motion_msgs 0.4.0
 geometry_msgs 1.10.6
 mln_robosherlock_msgs 0.0.3
 linux_hardware 2.2.5
-mavros 0.8.0
+mavros 0.8.3
 diagnostic_msgs 1.10.6
 kobuki_testsuite 0.5.8
 cob_script_server 0.5.1
@@ -247,5 +247,5 @@ roscpp 1.10.11
 tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
-grasping_msgs 0.3.0
+grasping_msgs 0.3.1
 roseus 1.1.25
