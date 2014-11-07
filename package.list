@@ -35,7 +35,6 @@ keyboard 0.1.1
 pr2_calibration_launch 1.0.5
 costmap_2d 1.11.13
 bond 1.7.16
-nao_msgs 0.4.1
 visp_tracker 0.7.5
 cob_light 0.5.5
 driver_base 1.6.8
@@ -95,6 +94,7 @@ jsk_gui_msgs 1.0.53
 baxter_core_msgs 1.0.1
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
+naoqi_msgs 0.4.0
 graph_msgs 0.0.3
 ml_classifiers 0.3.0
 ethercat_hardware 1.8.11
@@ -152,6 +152,7 @@ topic_tools 1.10.11
 jsk_pcl_ros 0.1.23
 gazebo_ros 2.3.7
 hector_uav_msgs 0.3.3
+robot_localization 1.1.6
 multimaster_msgs_fkie 0.3.14
 shape_msgs 1.10.6
 nav2d_msgs 0.2.0
