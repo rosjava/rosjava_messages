@@ -56,7 +56,7 @@ frontier_exploration 0.2.2
 people_msgs 1.0.4
 nodelet 1.8.6
 zeroconf_msgs 0.2.1
-apriltags_ros 0.0.2
+apriltags_ros 0.0.3
 fingertip_pressure 1.8.11
 actionlib 1.10.3
 industrial_msgs 0.3.4
