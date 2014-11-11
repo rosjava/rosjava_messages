@@ -230,7 +230,7 @@ qt_tutorials 0.2.6
 iai_robosherlock_actions 0.0.3
 handle_detector 1.1.0
 nmea_msgs 0.1.0
-multisense_ros 3.3.5
+multisense_ros 3.3.6
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
