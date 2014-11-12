@@ -124,7 +124,7 @@ ptu_control 1.1.1
 sensor_msgs 1.10.6
 pr2_common_action_msgs 0.0.3
 rospy_tutorials 0.4.3
-ecto_ros 0.4.4
+ecto_ros 0.4.5
 sound_play 0.2.7
 clearpath_base 0.4.4
 map_merger 0.1.3
