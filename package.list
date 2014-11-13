@@ -94,7 +94,7 @@ jsk_gui_msgs 1.0.53
 baxter_core_msgs 1.0.1
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
-naoqi_msgs 0.4.0
+naoqi_msgs 0.4.1
 graph_msgs 0.0.3
 ml_classifiers 0.3.0
 ethercat_hardware 1.8.11
@@ -212,6 +212,7 @@ posedetection_msgs 1.0.53
 statistics_msgs 0.11.0
 nav_msgs 1.10.6
 dna_extraction_msgs 0.0.3
+twist_mux_msgs 0.0.1
 p2os_urdf 1.0.10
 wfov_camera_msgs 0.11.0
 capabilities 0.2.0
@@ -223,7 +224,7 @@ control_toolbox 1.10.4
 cob_camera_sensors 0.5.5
 speech_recognition_msgs 1.0.53
 actionlib_msgs 1.10.6
-nao_interaction_msgs 0.1.3
+nao_interaction_msgs 0.1.4
 schunk_sdh 0.5.4
 leap_motion 0.0.4
 qt_tutorials 0.2.6

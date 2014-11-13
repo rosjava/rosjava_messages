@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.270</version>
+  <version>0.1.271</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -231,6 +231,7 @@
   <build_depend>statistics_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>dna_extraction_msgs</build_depend>
+  <build_depend>twist_mux_msgs</build_depend>
   <build_depend>p2os_urdf</build_depend>
   <build_depend>wfov_camera_msgs</build_depend>
   <build_depend>capabilities</build_depend>
