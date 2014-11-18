@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.272</version>
+  <version>0.1.273</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -38,12 +38,10 @@
   <build_depend>cob_relayboard</build_depend>
   <build_depend>geographic_msgs</build_depend>
   <build_depend>simple_robot_control</build_depend>
-  <build_depend>manipulation_msgs</build_depend>
   <build_depend>pr2_gripper_sensor_action</build_depend>
   <build_depend>rospy_message_converter</build_depend>
   <build_depend>underwater_sensor_msgs</build_depend>
   <build_depend>jsk_footstep_controller</build_depend>
-  <build_depend>segbot_gui</build_depend>
   <build_depend>cob_trajectory_controller</build_depend>
   <build_depend>grizzly_msgs</build_depend>
   <build_depend>data_vis_msgs</build_depend>
@@ -95,6 +93,7 @@
   <build_depend>axis_camera</build_depend>
   <build_depend>cob_perception_msgs</build_depend>
   <build_depend>cob_kinematics</build_depend>
+  <build_depend>qt_tutorials</build_depend>
   <build_depend>pr2_power_board</build_depend>
   <build_depend>segbot_sensors</build_depend>
   <build_depend>ur_msgs</build_depend>
@@ -148,6 +147,7 @@
   <build_depend>clearpath_base</build_depend>
   <build_depend>map_merger</build_depend>
   <build_depend>eusgazebo</build_depend>
+  <build_depend>manipulation_msgs</build_depend>
   <build_depend>cob_srvs</build_depend>
   <build_depend>scanning_table_msgs</build_depend>
   <build_depend>cob_phidgets</build_depend>
@@ -216,6 +216,7 @@
   <build_depend>ar_track_alvar</build_depend>
   <build_depend>jsk_perception</build_depend>
   <build_depend>wge100_camera</build_depend>
+  <build_depend>segbot_gui</build_depend>
   <build_depend>adhoc_communication</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
@@ -246,7 +247,6 @@
   <build_depend>nao_interaction_msgs</build_depend>
   <build_depend>schunk_sdh</build_depend>
   <build_depend>leap_motion</build_depend>
-  <build_depend>qt_tutorials</build_depend>
   <build_depend>iai_robosherlock_actions</build_depend>
   <build_depend>handle_detector</build_depend>
   <build_depend>nmea_msgs</build_depend>
