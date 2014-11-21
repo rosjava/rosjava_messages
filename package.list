@@ -229,6 +229,7 @@ nao_interaction_msgs 0.1.4
 schunk_sdh 0.5.4
 leap_motion 0.0.4
 iai_robosherlock_actions 0.0.3
+ndt_map 1.0.22
 handle_detector 1.1.0
 nmea_msgs 0.1.0
 multisense_ros 3.3.6
