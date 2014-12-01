@@ -88,6 +88,8 @@ if __name__ == "__main__":
             f.write(contents)
         with open(package_xml_path, 'w') as f:
             f.write(new_package_xml)
+        # update .gitignore with all the packages from package.list
+        os.system('cat .gitignore.static package.list | awk \'{print $1;}\' > .gitignore')
         console.pretty_println("package.xml and package.list updated.\n")
         sys.exit(1)  # drop out with failure so I get an email (until I can automate a rosdistro pull request).
         
