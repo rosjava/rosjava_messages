@@ -69,7 +69,7 @@ if __name__ == "__main__":
         console.logerror("no package.xml found - execute this script from the root of rosjava_messages")
         sys.exit(1)
     try:
-        packages = scrape_for_release_message_packages('hydro')
+        packages = scrape_for_release_message_packages('indigo')
         contents = ""
         for package in packages:
             contents += "%s %s\n" % (package['name'], package['version'])
