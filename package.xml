@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.282</version>
+  <version>0.1.283</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -35,6 +35,7 @@
   <build_depend>novatel_msgs</build_depend>
   <build_depend>moveit_simple_grasps</build_depend>
   <build_depend>visp_camera_calibration</build_depend>
+  <build_depend>fs100_motoman</build_depend>
   <build_depend>cob_relayboard</build_depend>
   <build_depend>geographic_msgs</build_depend>
   <build_depend>simple_robot_control</build_depend>

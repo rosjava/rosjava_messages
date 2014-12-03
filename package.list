@@ -16,6 +16,7 @@ microstrain_3dmgx2_imu 1.5.12
 novatel_msgs 1.0.0
 moveit_simple_grasps 1.1.0
 visp_camera_calibration 0.7.5
+fs100_motoman 0.1.0
 cob_relayboard 0.5.5
 geographic_msgs 0.3.1
 simple_robot_control 0.0.2
@@ -141,7 +142,7 @@ turtlebot_msgs 2.2.0
 jsk_topic_tools 1.0.54
 polled_camera 1.11.4
 roscpp_tutorials 0.4.3
-pr2_self_test_msgs 1.0.6
+pr2_self_test_msgs 1.0.7
 rocon_service_pair_msgs 0.6.9
 face_detector 1.0.4
 topic_proxy 0.1.0
@@ -230,10 +231,10 @@ nao_interaction_msgs 0.1.4
 schunk_sdh 0.5.4
 leap_motion 0.0.4
 iai_robosherlock_actions 0.0.3
-ndt_map 1.0.25
+ndt_map 1.0.26
 handle_detector 1.1.0
 nmea_msgs 0.1.0
-multisense_ros 3.3.7
+multisense_ros 3.3.8
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
