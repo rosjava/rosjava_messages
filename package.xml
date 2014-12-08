@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.286</version>
+  <version>0.1.287</version>
   <description>
     Message generation for rosjava.
   </description>
