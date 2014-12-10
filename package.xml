@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.288</version>
+  <version>0.1.289</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -52,7 +52,7 @@
   <build_depend>pr2_calibration_launch</build_depend>
   <build_depend>costmap_2d</build_depend>
   <build_depend>bond</build_depend>
-  <build_depend>visp_tracker</build_depend>
+  <build_depend>saphari_msgs</build_depend>
   <build_depend>cob_light</build_depend>
   <build_depend>driver_base</build_depend>
   <build_depend>interaction_cursor_msgs</build_depend>
@@ -85,7 +85,6 @@
   <build_depend>hector_mapping</build_depend>
   <build_depend>asmach_tutorials</build_depend>
   <build_depend>household_objects_database_msgs</build_depend>
-  <build_depend>saphari_msgs</build_depend>
   <build_depend>segbot_simulation_apps</build_depend>
   <build_depend>mongodb_store_msgs</build_depend>
   <build_depend>lizi</build_depend>
@@ -169,6 +168,7 @@
   <build_depend>bwi_planning_common</build_depend>
   <build_depend>topic_tools</build_depend>
   <build_depend>jsk_pcl_ros</build_depend>
+  <build_depend>iai_control_msgs</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
   <build_depend>robot_localization</build_depend>
@@ -193,6 +193,7 @@
   <build_depend>jsk_network_tools</build_depend>
   <build_depend>stereo_wall_detection</build_depend>
   <build_depend>stereo_msgs</build_depend>
+  <build_depend>visp_tracker</build_depend>
   <build_depend>interactive_marker_proxy</build_depend>
   <build_depend>iai_content_msgs</build_depend>
   <build_depend>gazebo_msgs</build_depend>
@@ -217,10 +218,12 @@
   <build_depend>ar_track_alvar</build_depend>
   <build_depend>jsk_perception</build_depend>
   <build_depend>wge100_camera</build_depend>
+  <build_depend>iai_urdf_msgs</build_depend>
   <build_depend>segbot_gui</build_depend>
   <build_depend>adhoc_communication</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
+  <build_depend>person_msgs</build_depend>
   <build_depend>turtlesim</build_depend>
   <build_depend>view_controller_msgs</build_depend>
   <build_depend>sherlock_sim_msgs</build_depend>
