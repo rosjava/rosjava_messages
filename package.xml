@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.289</version>
+  <version>0.1.290</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -99,6 +99,7 @@
   <build_depend>smach_msgs</build_depend>
   <build_depend>image_cb_detector</build_depend>
   <build_depend>p2os_teleop</build_depend>
+  <build_depend>read_omni_dataset</build_depend>
   <build_depend>gateway_msgs</build_depend>
   <build_depend>sr_robot_msgs</build_depend>
   <build_depend>calibration_msgs</build_depend>
