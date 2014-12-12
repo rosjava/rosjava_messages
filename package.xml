@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.290</version>
+  <version>0.1.291</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -208,6 +208,7 @@
   <build_depend>cob_pick_place_action</build_depend>
   <build_depend>iai_kinematics_msgs</build_depend>
   <build_depend>pr2_precise_trajectory</build_depend>
+  <build_depend>interactive_world_msgs</build_depend>
   <build_depend>segway_rmp</build_depend>
   <build_depend>hector_nav_msgs</build_depend>
   <build_depend>romeo_dcm_msgs</build_depend>

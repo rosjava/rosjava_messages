@@ -61,7 +61,7 @@ industrial_msgs 0.3.4
 base_local_planner 1.11.14
 rosserial_arduino 0.5.6
 cob_base_drive_chain 0.5.5
-applanix_msgs 0.0.5
+applanix_msgs 0.0.6
 rosserial_msgs 0.5.6
 hector_mapping 0.3.3
 asmach_tutorials 1.0.9
@@ -189,6 +189,7 @@ theora_image_transport 1.8.21
 cob_pick_place_action 0.5.1
 iai_kinematics_msgs 0.0.3
 pr2_precise_trajectory 1.0.1
+interactive_world_msgs 0.0.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
 romeo_dcm_msgs 0.0.13
@@ -238,7 +239,7 @@ ndt_map 1.0.28
 handle_detector 1.1.0
 nmea_msgs 0.1.0
 simple_robot_control 0.0.2
-multisense_ros 3.3.9
+multisense_ros 3.4.0
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
