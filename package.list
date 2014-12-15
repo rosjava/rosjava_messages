@@ -41,7 +41,7 @@ razer_hydra 0.1.1
 cob_sound 0.5.5
 pr2_controllers_msgs 1.10.8
 dynamixel_controllers 0.4.0
-rosbridge_library 0.7.0
+rosbridge_library 0.7.2
 cob_footprint_observer 0.5.5
 ethzasl_icp_mapper 0.9.6
 pr2_mechanism_controllers 1.10.8
@@ -93,7 +93,7 @@ jsk_gui_msgs 1.0.55
 baxter_core_msgs 1.0.1
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
-naoqi_msgs 0.4.2
+naoqi_msgs 0.4.3
 graph_msgs 0.0.3
 ml_classifiers 0.3.0
 ethercat_hardware 1.8.11
@@ -146,7 +146,7 @@ rocon_service_pair_msgs 0.6.9
 face_detector 1.0.4
 topic_proxy 0.1.0
 pr2_mechanism_msgs 1.8.0
-rosapi 0.7.0
+rosapi 0.7.2
 bwi_planning_common 0.2.4
 topic_tools 1.10.11
 jsk_pcl_ros 0.1.27
@@ -189,7 +189,6 @@ theora_image_transport 1.8.21
 cob_pick_place_action 0.5.1
 iai_kinematics_msgs 0.0.3
 pr2_precise_trajectory 1.0.1
-interactive_world_msgs 0.0.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
 romeo_dcm_msgs 0.0.13
@@ -231,7 +230,7 @@ control_toolbox 1.10.4
 cob_camera_sensors 0.5.5
 speech_recognition_msgs 1.0.55
 actionlib_msgs 1.10.6
-nao_interaction_msgs 0.1.4
+nao_interaction_msgs 0.1.5
 schunk_sdh 0.5.4
 leap_motion 0.0.4
 iai_robosherlock_actions 0.0.3
