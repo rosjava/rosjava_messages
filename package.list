@@ -41,7 +41,7 @@ razer_hydra 0.1.1
 cob_sound 0.5.5
 pr2_controllers_msgs 1.10.8
 dynamixel_controllers 0.4.0
-rosbridge_library 0.7.4
+rosbridge_library 0.7.6
 cob_footprint_observer 0.5.5
 ethzasl_icp_mapper 0.9.6
 pr2_mechanism_controllers 1.10.8
@@ -56,6 +56,7 @@ nodelet 1.8.6
 zeroconf_msgs 0.2.1
 apriltags_ros 0.0.4
 fingertip_pressure 1.8.11
+rospeex_msgs 2.12.0
 actionlib 1.10.3
 industrial_msgs 0.3.4
 base_local_planner 1.11.14
@@ -146,7 +147,7 @@ rocon_service_pair_msgs 0.6.9
 face_detector 1.0.4
 topic_proxy 0.1.0
 pr2_mechanism_msgs 1.8.0
-rosapi 0.7.4
+rosapi 0.7.6
 bwi_planning_common 0.2.4
 topic_tools 1.10.11
 jsk_pcl_ros 0.1.30
@@ -258,4 +259,4 @@ tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.1
-roseus 1.1.27
+roseus 1.1.29

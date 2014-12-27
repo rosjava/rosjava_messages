@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.299</version>
+  <version>0.1.300</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -75,6 +75,7 @@
   <build_depend>zeroconf_msgs</build_depend>
   <build_depend>apriltags_ros</build_depend>
   <build_depend>fingertip_pressure</build_depend>
+  <build_depend>rospeex_msgs</build_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>industrial_msgs</build_depend>
   <build_depend>base_local_planner</build_depend>
