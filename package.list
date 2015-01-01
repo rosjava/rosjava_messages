@@ -149,7 +149,7 @@ topic_proxy 0.1.0
 pr2_mechanism_msgs 1.8.0
 rosapi 0.7.6
 bwi_planning_common 0.2.4
-topic_tools 1.10.11
+topic_tools 1.10.12
 jsk_pcl_ros 0.1.30
 iai_control_msgs 0.0.3
 gazebo_ros 2.3.7
@@ -196,7 +196,7 @@ romeo_dcm_msgs 0.0.13
 mongodb_store 0.1.3
 rovio_shared 0.2.1
 stdr_msgs 0.2.0
-rosgraph_msgs 1.10.11
+rosgraph_msgs 1.10.12
 turtlebot_actions 2.2.5
 ar_track_alvar 0.4.1
 jsk_perception 0.1.30
@@ -253,8 +253,8 @@ pr2_gripper_sensor_msgs 1.0.4
 kobuki_msgs 0.5.0
 rocon_interaction_msgs 0.6.9
 audio_common_msgs 0.2.7
-std_srvs 1.10.11
-roscpp 1.10.11
+std_srvs 1.10.12
+roscpp 1.10.12
 tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
