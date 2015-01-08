@@ -22,12 +22,13 @@ geographic_msgs 0.3.1
 pr2_gripper_sensor_action 1.0.4
 rospy_message_converter 0.2.0
 underwater_sensor_msgs 1.3.1
-jsk_footstep_controller 0.1.4
+jsk_footstep_controller 0.1.5
+segbot_gui 0.2.1
 cob_trajectory_controller 0.5.5
 grizzly_msgs 0.2.0
 data_vis_msgs 0.0.3
 laser_assembler 1.7.2
-hrpsys_gazebo_msgs 0.1.5
+hrpsys_gazebo_msgs 0.1.6
 robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.6
@@ -56,7 +57,7 @@ nodelet 1.8.6
 zeroconf_msgs 0.2.1
 apriltags_ros 0.0.4
 fingertip_pressure 1.8.11
-rospeex_msgs 2.12.1
+rospeex_msgs 2.12.2
 actionlib 1.10.3
 industrial_msgs 0.3.4
 base_local_planner 1.11.14
@@ -71,6 +72,7 @@ segbot_simulation_apps 0.2.1
 mongodb_store_msgs 0.1.3
 lizi 1.0.2
 kingfisher_msgs 0.0.4
+shape_msgs 1.10.6
 axis_camera 0.1.0
 cob_perception_msgs 0.5.12
 cob_kinematics 0.5.1
@@ -128,7 +130,7 @@ ecto_ros 0.4.5
 sound_play 0.2.7
 clearpath_base 0.4.4
 map_merger 0.1.3
-eusgazebo 0.1.5
+eusgazebo 0.1.6
 manipulation_msgs 0.2.0
 cob_srvs 0.5.3
 scanning_table_msgs 0.0.3
@@ -150,13 +152,12 @@ pr2_mechanism_msgs 1.8.0
 rosapi 0.7.7
 bwi_planning_common 0.2.4
 topic_tools 1.10.12
-jsk_pcl_ros 0.1.30
+jsk_pcl_ros 0.1.31
 iai_control_msgs 0.0.3
 gazebo_ros 2.3.7
 hector_uav_msgs 0.3.3
 robot_localization 1.1.7
 multimaster_msgs_fkie 0.3.16
-shape_msgs 1.10.6
 nav2d_msgs 0.2.0
 sr_edc_ethercat_drivers 1.3.4
 blob 0.1.0
@@ -199,10 +200,9 @@ stdr_msgs 0.2.0
 rosgraph_msgs 1.10.12
 turtlebot_actions 2.2.5
 ar_track_alvar 0.4.1
-jsk_perception 0.1.30
+jsk_perception 0.1.31
 wge100_camera 1.8.2
 iai_urdf_msgs 0.0.3
-segbot_gui 0.2.1
 adhoc_communication 0.1.3
 actionlib_tutorials 0.1.7
 turtle_actionlib 0.1.7
@@ -248,7 +248,7 @@ image_exposure_msgs 0.11.0
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
 dynamic_reconfigure 1.5.37
-resized_image_transport 0.1.30
+resized_image_transport 0.1.31
 pr2_gripper_sensor_msgs 1.0.4
 kobuki_msgs 0.5.0
 rocon_interaction_msgs 0.6.9
