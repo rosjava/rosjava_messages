@@ -28,7 +28,7 @@ cob_trajectory_controller 0.5.5
 grizzly_msgs 0.2.0
 data_vis_msgs 0.0.3
 laser_assembler 1.7.2
-hrpsys_gazebo_msgs 0.1.6
+hrpsys_gazebo_msgs 0.1.8
 robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.6
@@ -130,7 +130,7 @@ ecto_ros 0.4.5
 sound_play 0.2.7
 clearpath_base 0.4.4
 map_merger 0.1.3
-eusgazebo 0.1.6
+eusgazebo 0.1.8
 manipulation_msgs 0.2.0
 cob_srvs 0.5.3
 scanning_table_msgs 0.0.3
