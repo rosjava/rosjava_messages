@@ -42,7 +42,7 @@ razer_hydra 0.1.1
 cob_sound 0.5.5
 pr2_controllers_msgs 1.10.8
 dynamixel_controllers 0.4.0
-rosbridge_library 0.7.7
+rosbridge_library 0.7.8
 cob_footprint_observer 0.5.5
 ethzasl_icp_mapper 0.9.6
 pr2_mechanism_controllers 1.10.8
@@ -96,7 +96,7 @@ jsk_gui_msgs 1.0.58
 baxter_core_msgs 1.0.1
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
-naoqi_msgs 0.4.3
+naoqi_msgs 0.4.4
 graph_msgs 0.0.3
 ml_classifiers 0.3.0
 ethercat_hardware 1.8.11
@@ -149,7 +149,7 @@ rocon_service_pair_msgs 0.6.9
 face_detector 1.0.4
 topic_proxy 0.1.0
 pr2_mechanism_msgs 1.8.0
-rosapi 0.7.7
+rosapi 0.7.8
 bwi_planning_common 0.2.4
 topic_tools 1.10.12
 jsk_pcl_ros 0.1.32
