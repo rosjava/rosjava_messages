@@ -260,4 +260,4 @@ tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.1
-roseus 1.2.0
+roseus 1.2.2
