@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.316</version>
+  <version>0.1.317</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -132,6 +132,7 @@
   <build_depend>pcl_msgs</build_depend>
   <build_depend>bride_tutorials</build_depend>
   <build_depend>designator_integration_msgs</build_depend>
+  <build_depend>jsk_pr2_startup</build_depend>
   <build_depend>scheduler_msgs</build_depend>
   <build_depend>velodyne_msgs</build_depend>
   <build_depend>control_msgs</build_depend>
