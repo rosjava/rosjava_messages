@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.317</version>
+  <version>0.1.318</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -9,8 +9,8 @@
   <url type="repository">https://github.com/rosjava/rosjava_messages</url>
   <url type="bugtracker">https://github.com/rosjava/rosjava_messages/issues</url>
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
-  <author email="d.stonier@gmail.com">Daniel Stonier</author>
-  <author email="damonkohler@google.com">Damon Kohler</author>
+  <author>Daniel Stonier</author>
+  <author>Damon Kohler</author>
   <license>Apache 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
@@ -65,7 +65,7 @@
   <build_depend>dynamixel_controllers</build_depend>
   <build_depend>rosbridge_library</build_depend>
   <build_depend>cob_footprint_observer</build_depend>
-  <build_depend>ethzasl_icp_mapper</build_depend>
+  <!--<build_depend>ethzasl_icp_mapper</build_depend>-->
   <build_depend>pr2_mechanism_controllers</build_depend>
   <build_depend>trajectory_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
@@ -104,11 +104,11 @@
   <build_depend>smach_msgs</build_depend>
   <build_depend>image_cb_detector</build_depend>
   <build_depend>p2os_teleop</build_depend>
-  <build_depend>read_omni_dataset</build_depend>
+  <!--<build_depend>read_omni_dataset</build_depend>-->
   <build_depend>gateway_msgs</build_depend>
   <build_depend>sr_robot_msgs</build_depend>
   <build_depend>calibration_msgs</build_depend>
-  <build_depend>rmp_msgs</build_depend>
+  <!--<build_depend>rmp_msgs</build_depend>-->
   <build_depend>rosauth</build_depend>
   <build_depend>pr2_gazebo_plugins</build_depend>
   <build_depend>visp_hand2eye_calibration</build_depend>
@@ -151,7 +151,7 @@
   <build_depend>ecto_ros</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>clearpath_base</build_depend>
-  <build_depend>map_merger</build_depend>
+  <!--<build_depend>map_merger</build_depend>-->
   <build_depend>eusgazebo</build_depend>
   <build_depend>manipulation_msgs</build_depend>
   <build_depend>cob_srvs</build_depend>
@@ -183,7 +183,7 @@
   <build_depend>sr_edc_ethercat_drivers</build_depend>
   <build_depend>blob</build_depend>
   <build_depend>universal_teleop</build_depend>
-  <build_depend>explorer</build_depend>
+  <!--<build_depend>explorer</build_depend>-->
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>mln_robosherlock_msgs</build_depend>
@@ -224,7 +224,7 @@
   <build_depend>jsk_perception</build_depend>
   <build_depend>wge100_camera</build_depend>
   <build_depend>iai_urdf_msgs</build_depend>
-  <build_depend>adhoc_communication</build_depend>
+  <!--<build_depend>adhoc_communication</build_depend>-->
   <build_depend>actionlib_tutorials</build_depend>
   <build_depend>turtle_actionlib</build_depend>
   <build_depend>person_msgs</build_depend>
