@@ -34,7 +34,7 @@ hrpsys_gazebo_msgs 0.1.8
 robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.6
-costmap_2d 1.11.14
+costmap_2d 1.11.15
 bond 1.7.16
 saphari_msgs 0.0.3
 cob_light 0.5.5
@@ -62,7 +62,7 @@ fingertip_pressure 1.8.11
 rospeex_msgs 2.12.2
 actionlib 1.10.3
 industrial_msgs 0.3.4
-base_local_planner 1.11.14
+base_local_planner 1.11.15
 rosserial_arduino 0.5.6
 cob_base_drive_chain 0.5.5
 applanix_msgs 0.0.6
@@ -228,7 +228,7 @@ capabilities 0.2.0
 jsk_footstep_msgs 1.0.60
 hector_worldmodel_msgs 0.3.2
 program_queue 1.0.7
-move_base 1.11.14
+move_base 1.11.15
 control_toolbox 1.10.4
 cob_camera_sensors 0.5.5
 speech_recognition_msgs 1.0.60
@@ -245,7 +245,7 @@ multisense_ros 3.4.2
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
-move_base_msgs 1.11.14
+move_base_msgs 1.11.15
 image_exposure_msgs 0.11.0
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
