@@ -71,7 +71,7 @@ hector_mapping 0.3.3
 asmach_tutorials 1.0.9
 household_objects_database_msgs 0.1.1
 segbot_simulation_apps 0.2.1
-mongodb_store_msgs 0.1.3
+mongodb_store_msgs 0.1.12
 lizi 1.0.2
 kingfisher_msgs 0.0.4
 shape_msgs 1.10.6
@@ -196,7 +196,7 @@ pr2_precise_trajectory 1.0.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
 romeo_dcm_msgs 0.0.13
-mongodb_store 0.1.3
+mongodb_store 0.1.12
 rovio_shared 0.2.1
 stdr_msgs 0.2.0
 rosgraph_msgs 1.10.12
