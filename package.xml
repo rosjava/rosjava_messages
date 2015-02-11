@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.324</version>
+  <version>0.1.325</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -124,7 +124,6 @@
   <build_depend>cob_grasp_generation</build_depend>
   <build_depend>jsk_hark_msgs</build_depend>
   <build_depend>gps_common</build_depend>
-  <build_depend>um6</build_depend>
   <build_depend>jaco_msgs</build_depend>
   <build_depend>wireless_msgs</build_depend>
   <build_depend>turtlebot_calibration</build_depend>
@@ -175,6 +174,7 @@
   <build_depend>topic_tools</build_depend>
   <build_depend>jsk_pcl_ros</build_depend>
   <build_depend>iai_control_msgs</build_depend>
+  <build_depend>um6</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>hector_uav_msgs</build_depend>
   <build_depend>robot_localization</build_depend>
