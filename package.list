@@ -12,7 +12,7 @@ dynamixel_msgs 0.4.0
 cob_object_detection_msgs 0.5.12
 rosruby 0.5.5
 visualization_msgs 1.10.6
-baxter_maintenance_msgs 1.0.1
+baxter_maintenance_msgs 1.1.0
 epos_driver 0.0.7
 microstrain_3dmgx2_imu 1.5.12
 novatel_msgs 1.0.0
@@ -34,7 +34,7 @@ hrpsys_gazebo_msgs 0.1.8
 robotnik_msgs 0.1.0
 keyboard 0.1.1
 pr2_calibration_launch 1.0.6
-costmap_2d 1.11.14
+costmap_2d 1.11.15
 bond 1.7.16
 saphari_msgs 0.0.3
 cob_light 0.5.5
@@ -62,7 +62,7 @@ fingertip_pressure 1.8.11
 rospeex_msgs 2.12.2
 actionlib 1.10.3
 industrial_msgs 0.3.4
-base_local_planner 1.11.14
+base_local_planner 1.11.15
 rosserial_arduino 0.5.6
 cob_base_drive_chain 0.5.5
 applanix_msgs 0.0.6
@@ -71,7 +71,7 @@ hector_mapping 0.3.3
 asmach_tutorials 1.0.9
 household_objects_database_msgs 0.1.1
 segbot_simulation_apps 0.2.1
-mongodb_store_msgs 0.1.3
+mongodb_store_msgs 0.1.12
 lizi 1.0.2
 kingfisher_msgs 0.0.4
 shape_msgs 1.10.6
@@ -94,8 +94,8 @@ rosauth 0.1.5
 pr2_gazebo_plugins 2.0.3
 visp_hand2eye_calibration 0.7.5
 concert_msgs 0.6.9
-jsk_gui_msgs 1.0.58
-baxter_core_msgs 1.0.1
+jsk_gui_msgs 1.0.60
+baxter_core_msgs 1.1.0
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
 naoqi_msgs 0.4.4
@@ -103,7 +103,7 @@ graph_msgs 0.0.3
 ml_classifiers 0.3.0
 ethercat_hardware 1.8.11
 cob_grasp_generation 0.5.1
-jsk_hark_msgs 1.0.58
+jsk_hark_msgs 1.0.60
 gps_common 0.1.7
 um6 0.0.2
 jaco_msgs 1.0.1
@@ -120,7 +120,7 @@ control_msgs 1.2.0
 shared_serial 0.2.0
 controller_manager_msgs 0.7.3
 p2os_driver 1.0.10
-image_view2 1.0.58
+image_view2 1.0.60
 pr2_tilt_laser_interface 0.0.3
 rocon_std_msgs 0.6.9
 create_node 2.2.1
@@ -129,7 +129,7 @@ ptu_control 1.1.1
 sensor_msgs 1.10.6
 pr2_common_action_msgs 0.0.3
 rospy_tutorials 0.4.3
-ecto_ros 0.4.5
+ecto_ros 0.4.6
 sound_play 0.2.7
 clearpath_base 0.4.4
 map_merger 0.1.3
@@ -144,7 +144,7 @@ arbotix_msgs 0.9.2
 humanoid_nav_msgs 0.3.0
 wifi_ddwrt 0.2.0
 turtlebot_msgs 2.2.0
-jsk_topic_tools 1.0.58
+jsk_topic_tools 1.0.60
 polled_camera 1.11.4
 roscpp_tutorials 0.4.3
 pr2_self_test_msgs 1.0.7
@@ -173,10 +173,10 @@ mavros 0.8.5
 diagnostic_msgs 1.10.6
 kobuki_testsuite 0.5.8
 cob_script_server 0.5.1
-bayesian_belief_networks 1.0.58
+bayesian_belief_networks 1.0.60
 yocs_msgs 0.5.2
 rtmbuild 1.2.6
-jsk_network_tools 1.0.58
+jsk_network_tools 1.0.60
 stereo_wall_detection 1.0.21
 stereo_msgs 1.10.6
 visp_tracker 0.7.5
@@ -196,7 +196,7 @@ pr2_precise_trajectory 1.0.1
 segway_rmp 0.1.1
 hector_nav_msgs 0.3.3
 romeo_dcm_msgs 0.0.13
-mongodb_store 0.1.3
+mongodb_store 0.1.12
 rovio_shared 0.2.1
 stdr_msgs 0.2.0
 rosgraph_msgs 1.10.12
@@ -213,11 +213,11 @@ turtlesim 0.4.3
 view_controller_msgs 0.1.2
 sherlock_sim_msgs 0.0.3
 std_msgs 0.5.8
-dynamic_tf_publisher 1.0.58
+dynamic_tf_publisher 1.0.60
 rocon_app_manager_msgs 0.6.9
 brics_actuator 0.5.3
 roboteq_msgs 0.1.1
-posedetection_msgs 1.0.58
+posedetection_msgs 1.0.60
 statistics_msgs 0.11.0
 nav_msgs 1.10.6
 dna_extraction_msgs 0.0.3
@@ -225,13 +225,13 @@ twist_mux_msgs 0.0.1
 p2os_urdf 1.0.10
 wfov_camera_msgs 0.11.0
 capabilities 0.2.0
-jsk_footstep_msgs 1.0.58
+jsk_footstep_msgs 1.0.60
 hector_worldmodel_msgs 0.3.2
 program_queue 1.0.7
-move_base 1.11.14
+move_base 1.11.15
 control_toolbox 1.10.4
 cob_camera_sensors 0.5.5
-speech_recognition_msgs 1.0.58
+speech_recognition_msgs 1.0.60
 actionlib_msgs 1.10.6
 nao_interaction_msgs 0.1.5
 schunk_sdh 0.5.4
@@ -245,7 +245,7 @@ multisense_ros 3.4.2
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
-move_base_msgs 1.11.14
+move_base_msgs 1.11.15
 image_exposure_msgs 0.11.0
 rosruby_messages 0.1.3
 pr2_msgs 1.11.4
