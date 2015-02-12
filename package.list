@@ -98,7 +98,7 @@ jsk_gui_msgs 1.0.61
 baxter_core_msgs 1.1.0
 ackermann_msgs 0.9.1
 pano_ros 2.2.5
-naoqi_msgs 0.4.4
+naoqi_msgs 0.4.5
 graph_msgs 0.0.3
 ml_classifiers 0.3.0
 ethercat_hardware 1.8.11
@@ -261,4 +261,4 @@ tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.1
-roseus 1.2.3
+roseus 1.2.4
