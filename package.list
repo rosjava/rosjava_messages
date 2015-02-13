@@ -59,7 +59,7 @@ nodelet 1.8.6
 zeroconf_msgs 0.2.1
 apriltags_ros 0.0.4
 fingertip_pressure 1.8.11
-rospeex_msgs 2.12.2
+rospeex_msgs 2.12.3
 actionlib 1.10.3
 industrial_msgs 0.3.4
 base_local_planner 1.11.15
@@ -175,7 +175,7 @@ kobuki_testsuite 0.5.8
 cob_script_server 0.5.1
 bayesian_belief_networks 1.0.61
 yocs_msgs 0.5.2
-rtmbuild 1.2.6
+rtmbuild 1.2.7
 jsk_network_tools 1.0.61
 stereo_wall_detection 1.0.21
 stereo_msgs 1.10.6
@@ -241,7 +241,7 @@ ndt_map 1.0.28
 handle_detector 1.1.0
 nmea_msgs 0.1.0
 simple_robot_control 0.0.2
-multisense_ros 3.4.2
+multisense_ros 3.4.3
 nav2d_operator 0.2.0
 s3000_laser 0.1.0
 rtt_ros_msgs 2.7.0
@@ -261,4 +261,4 @@ tf2_msgs 0.4.12
 gazebo_plugins 2.3.7
 map_msgs 0.0.2
 grasping_msgs 0.3.1
-roseus 1.2.4
+roseus 1.2.5
