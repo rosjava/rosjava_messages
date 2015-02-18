@@ -29,3 +29,12 @@ try {
 dependencies {
   compile project(':std_msgs')
 }
+
+//fix from http://forums.gradle.org/gradle/topics/repackage_jar_as_bundle
+//noinspection GroovyAssignabilityCheck
+classes {
+    doLast {
+        // without this, the jar task fails with "java.lang.IllegalArgumentException: A Jar can only accept a valid file or directory:" as underlying cause
+        ant.mkdir(dir: "$buildDir/classes/main")
+    }
+}
