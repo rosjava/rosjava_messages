@@ -1,6 +1,9 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rosjava_messages
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog
+=========
+
+Forthcoming
+-----------
+* restructured as a meta-message artifact generator of core messages only for indigo.
 
 0.1.52 (2013-12-26)
 ------------------
