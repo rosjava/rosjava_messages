@@ -14,7 +14,8 @@ find_package(catkin REQUIRED genjava)
 generate_rosjava_messages(
   PACKAGES
     std_msgs
-    ros_comm_msgs            # ros/ros_comm_msgs
+    rosgraph_msgs            # ros/ros_comm_msgs
+    std_srvs
     rosjava_test_msgs        # rosjava/rosjava_test_msgs
     actionlib_msgs           # ros/common_msgs
     common_msgs
