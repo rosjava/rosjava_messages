@@ -52,7 +52,7 @@ allprojects {
 
 /* We do not want to build message packages for which we don't have sources in the local workspaces */
 def nonEmptyProjects() {
-    return subprojects.findAll { project.catkin.tree.pkgs.containsKey(it.name) }
+    return subprojects.findAll { project.catkin.tree.pkgs.containsKey(it.name) || it.name == "rosjava_test_msgs" }
 }
 
 configure(nonEmptyProjects()) {
