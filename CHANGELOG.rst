@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.2.0 (2015-02-25)
+0.2.1 (2015-02-25)
 ------------------
 * workaround for move_base_msgs (add roscpp as a msg package).
 * dependencies for builds of rosjava/android core and android interactions added.
