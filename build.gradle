@@ -50,7 +50,12 @@ allprojects {
     version = project.catkin.pkg.version
 }
 
-subprojects {
+/* We do not want to build message packages for which we don't have sources in the local workspaces */
+def nonEmptyProjects() {
+    return subprojects.findAll { project.catkin.tree.pkgs.containsKey(it.name) }
+}
+
+configure(nonEmptyProjects()) {
     apply plugin: 'ros-java'
 }
 
@@ -61,5 +66,3 @@ task distclean << {
         }
     }
 }
-
-defaultTasks 'publishMavenJavaPublicationToMavenRepository'

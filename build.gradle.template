@@ -14,12 +14,6 @@
  * the License.
  */
 
-try {
-    project.catkin.tree.generateMessageArtifact(project, '@name@')
-} catch (NullPointerException e) {
-    println("Couldn't find @name@ on the ROS_PACKAGE_PATH")
-}
-
 /* 
  * Ugly hack to stop osgi/java plugin combination from barfing 
  * when there are no sources (metapackages). I need to move this into
@@ -29,4 +23,18 @@ try {
 task bugfixtask << {
     mkdir sourceSets.main.output.classesDir
 }
-jar.dependsOn(bugfixtask)
+
+try {
+    project.catkin.tree.generateMessageArtifact(project, '@name@')
+
+    defaultTasks 'publishMavenJavaPublicationToMavenRepository'
+
+    // Part of the osgi/java plugin hack
+    jar.dependsOn(bugfixtask)
+} catch (NullPointerException e) {
+    /* This is the case for message packages which do not have sources in local workspaces.
+     * We do not want to deploy the JAR archives for missing packages, 
+     * because such JARs are just "empty" archives with just the manifest.
+     */
+    println("Couldn't find @name@ on the ROS_PACKAGE_PATH")
+}
