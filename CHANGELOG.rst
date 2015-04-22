@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.2.2 (2015-04-22)
+------------------
+* add world_canvas_msgs
+
 0.2.1 (2015-02-25)
 ------------------
 * workaround for move_base_msgs (add roscpp as a msg package).
