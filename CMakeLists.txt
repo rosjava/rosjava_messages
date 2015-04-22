@@ -40,6 +40,7 @@ generate_rosjava_messages(
     rocon_service_pair_msgs
     rocon_std_msgs
     rocon_tutorial_msgs
+    world_canvas_msgs
     scheduler_msgs
     move_base_msgs           # ros-planning/navigation
     map_store                # ros-planning/map_store
