@@ -43,6 +43,7 @@
   <build_depend>rocon_std_msgs</build_depend>
   <build_depend>rocon_tutorial_msgs</build_depend>
   <build_depend>scheduler_msgs</build_depend>
+  <build_depend>world_canvas_msgs</build_depend>
   <build_depend>map_store</build_depend>                # ros-planning/map_store
   <build_depend>move_base_msgs</build_depend>           # ros-planning/navigation
   
