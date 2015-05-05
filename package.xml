@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.330</version>
+  <version>0.1.331</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -179,9 +179,7 @@
   <build_depend>novatel_msgs</build_depend>
   <build_depend>object_recognition_msgs</build_depend>
   <build_depend>octomap_msgs</build_depend>
-  <build_depend>p2os_driver</build_depend>
-  <build_depend>p2os_teleop</build_depend>
-  <build_depend>p2os_urdf</build_depend>
+  <build_depend>p2os_msgs</build_depend>
   <build_depend>pano_ros</build_depend>
   <build_depend>pcl_msgs</build_depend>
   <build_depend>pddl_msgs</build_depend>
