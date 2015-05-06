@@ -118,7 +118,7 @@ jsk_recognition_msgs 0.2.12
 jsk_rviz_plugins 1.0.20
 jsk_topic_tools 1.0.69
 json_prolog_msgs 0.0.5
-katana_msgs 1.0.1
+katana_msgs 1.0.2
 keyboard 0.1.1
 kingfisher_msgs 0.0.4
 kobuki_msgs 0.5.0
