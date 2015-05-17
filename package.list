@@ -3,7 +3,7 @@ actionlib 1.10.3
 actionlib_msgs 1.10.6
 actionlib_tutorials 0.1.7
 adhoc_communication 0.1.3
-agile_grasp 0.6.2
+agile_grasp 0.7.2
 app_manager 1.0.2
 applanix_msgs 0.0.10
 apriltags_ros 0.0.4
