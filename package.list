@@ -16,8 +16,8 @@ axis_camera 0.2.0
 base_local_planner 1.11.16
 basic_states_skill_msgs 0.0.1
 batteries_skill_msgs 0.0.1
-baxter_core_msgs 1.1.0
-baxter_maintenance_msgs 1.1.0
+baxter_core_msgs 1.1.1
+baxter_maintenance_msgs 1.1.1
 bayesian_belief_networks 1.0.71
 blob 0.1.0
 bond 1.7.16
