@@ -80,7 +80,7 @@ gazebo_ros 2.3.8
 geographic_msgs 0.3.1
 geometry_msgs 1.10.6
 gps_common 0.1.7
-graft 0.2.2
+graft 0.2.3
 graph_msgs 0.0.3
 grasp_stability_msgs 0.0.5
 grasping_msgs 0.3.1
