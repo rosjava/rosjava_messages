@@ -193,7 +193,7 @@ razer_hydra 0.1.1
 read_omni_dataset 0.0.2
 resized_image_transport 0.2.12
 rmp_msgs 0.0.2
-robot_localization 1.1.7
+robot_localization 1.2.0
 roboteq_msgs 0.1.1
 robotnik_msgs 0.1.0
 rocon_app_manager_msgs 0.6.9
