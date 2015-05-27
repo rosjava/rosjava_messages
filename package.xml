@@ -85,9 +85,9 @@
   <build_depend>epos_driver</build_depend>
   <build_depend>ethercat_hardware</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
-  <build_depend>ethzasl_icp_mapper</build_depend>
+  <!--build_depend>ethzasl_icp_mapper</build_depend-->
   <build_depend>eusgazebo</build_depend>
-  <build_depend>explorer</build_depend>
+  <!--build_depend>explorer</build_depend-->
   <build_depend>face_detector</build_depend>
   <build_depend>fingertip_pressure</build_depend>
   <build_depend>frontier_exploration</build_depend>
