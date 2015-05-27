@@ -151,7 +151,7 @@
   <build_depend>maggie_motor_controller_msgs</build_depend>
   <build_depend>maggie_rfid_msgs</build_depend>
   <build_depend>manipulation_msgs</build_depend>
-  <build_depend>map_merger</build_depend>
+  <!--build_depend>map_merger</build_depend-->
   <build_depend>map_msgs</build_depend>
   <build_depend>mavros</build_depend>
   <build_depend>microstrain_3dmgx2_imu</build_depend>
