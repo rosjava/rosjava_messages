@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.343</version>
+  <version>0.1.344</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -21,7 +21,7 @@
   <build_depend>actionlib</build_depend>
   <build_depend>actionlib_msgs</build_depend>
   <build_depend>actionlib_tutorials</build_depend>
-  <build_depend>adhoc_communication</build_depend>
+  <!--<build_depend>adhoc_communication</build_depend>-->
   <build_depend>agile_grasp</build_depend>
   <build_depend>app_manager</build_depend>
   <build_depend>applanix_msgs</build_depend>
@@ -85,9 +85,9 @@
   <build_depend>epos_driver</build_depend>
   <build_depend>ethercat_hardware</build_depend>
   <build_depend>ethercat_trigger_controllers</build_depend>
-  <build_depend>ethzasl_icp_mapper</build_depend>
+  <!--<build_depend>ethzasl_icp_mapper</build_depend>-->
   <build_depend>eusgazebo</build_depend>
-  <build_depend>explorer</build_depend>
+  <!--<build_depend>explorer</build_depend>-->
   <build_depend>face_detector</build_depend>
   <build_depend>fingertip_pressure</build_depend>
   <build_depend>frontier_exploration</build_depend>
@@ -151,7 +151,7 @@
   <build_depend>maggie_motor_controller_msgs</build_depend>
   <build_depend>maggie_rfid_msgs</build_depend>
   <build_depend>manipulation_msgs</build_depend>
-  <build_depend>map_merger</build_depend>
+  <!--<build_depend>map_merger</build_depend>-->
   <build_depend>map_msgs</build_depend>
   <build_depend>mavros</build_depend>
   <build_depend>microstrain_3dmgx2_imu</build_depend>
@@ -209,9 +209,9 @@
   <build_depend>rail_segmentation</build_depend>
   <build_depend>rail_user_queue_manager</build_depend>
   <build_depend>razer_hydra</build_depend>
-  <build_depend>read_omni_dataset</build_depend>
+  <!--<build_depend>read_omni_dataset</build_depend>-->
   <build_depend>resized_image_transport</build_depend>
-  <build_depend>rmp_msgs</build_depend>
+  <!--<build_depend>rmp_msgs</build_depend>-->
   <build_depend>robot_localization</build_depend>
   <build_depend>roboteq_msgs</build_depend>
   <build_depend>robotnik_msgs</build_depend>
@@ -280,7 +280,7 @@
   <build_depend>twist_mux_msgs</build_depend>
   <build_depend>um6</build_depend>
   <build_depend>underwater_sensor_msgs</build_depend>
-  <build_depend>universal_teleop</build_depend>
+  <!--<build_depend>universal_teleop</build_depend>-->
   <build_depend>ur_msgs</build_depend>
   <build_depend>uuid_msgs</build_depend>
   <build_depend>velodyne_msgs</build_depend>
