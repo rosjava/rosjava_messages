@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.344</version>
+  <version>0.1.345</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -42,7 +42,7 @@
   <build_depend>bond</build_depend>
   <build_depend>brics_actuator</build_depend>
   <build_depend>bride_tutorials</build_depend>
-  <build_depend>bwi_kr_execution</build_depend>
+  <!--<build_depend>bwi_kr_execution</build_depend>-->
   <build_depend>bwi_msgs</build_depend>
   <build_depend>bwi_planning</build_depend>
   <build_depend>bwi_planning_common</build_depend>
