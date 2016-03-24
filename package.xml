@@ -43,6 +43,13 @@
   <build_depend>rocon_std_msgs</build_depend>
   <build_depend>rocon_tutorial_msgs</build_depend>
   <build_depend>scheduler_msgs</build_depend>
+  <build_depend>face_detection_msgs</build_depend>
+  <build_depend>face_detection_srvs</build_depend>
+  <build_depend>speech_synthesis_srvs</build_depend>
+  <build_depend>speech_recognition_msgs</build_depend>
+  <build_depend>rest_srvs</build_depend>
+  <build_depend>skill_srvs</build_depend>
+  <build_depend>hermes_srvs</build_depend>
   <build_depend>audio_common_msgs</build_depend>
   <build_depend>sound_play</build_depend>
   <build_depend>world_canvas_msgs</build_depend>
