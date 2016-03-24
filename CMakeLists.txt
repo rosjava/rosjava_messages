@@ -47,13 +47,6 @@ generate_rosjava_messages(
     audio_common_msgs
     sound_play
     roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
-    face_detection_msgs
-    face_detection_srvs
-    speech_synthesis_srvs
-    speech_recognition_msgs
-    rest_srvs
-    skill_srvs
-    hermes_srvs
 )
 
 catkin_package()
