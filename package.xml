@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.2.3</version>
+  <version>0.3.0</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -46,12 +46,12 @@
   <build_depend>world_canvas_msgs</build_depend>
   <build_depend>map_store</build_depend>                # ros-planning/map_store
   <build_depend>move_base_msgs</build_depend>           # ros-planning/navigation
-  
+
   <!-- Temporary requirement so move_base_msgs compiles - remove once
        https://github.com/ros-planning/navigation/pull/312 is fixed and released.
   -->
   <build_depend>roscpp</build_depend>           # ros-planning/navigation
-  
+
   <run_depend>rosjava_build_tools</run_depend>
   <run_depend>genjava</run_depend>
 </package>

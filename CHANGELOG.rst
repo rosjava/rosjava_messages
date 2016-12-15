@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.3.0 (2016-12-15)
+------------------
+* updates for Kinetic release.
+
 0.2.2 (2015-04-22)
 ------------------
 * add world_canvas_msgs
