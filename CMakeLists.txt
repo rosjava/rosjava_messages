@@ -54,5 +54,5 @@ catkin_package()
 # Installation
 ##############################################################################
 
-install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages/ 
+install(DIRECTORY ${ROS_MAVEN_DEPLOYMENT_REPOSITORY}/org/ros/rosjava_messages/
         DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/ros/rosjava_messages)
