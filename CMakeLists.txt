@@ -16,7 +16,7 @@ generate_rosjava_messages(
     std_msgs
     rosgraph_msgs            # ros/ros_comm_msgs
     std_srvs
-    rosjava_test_msgs        # rosjava/rosjava_test_msgs
+    rosjava_test_msgs        # not released in melodic
     actionlib_msgs           # ros/common_msgs
     common_msgs
     diagnostic_msgs
@@ -40,7 +40,7 @@ generate_rosjava_messages(
     rocon_service_pair_msgs
     rocon_std_msgs
     rocon_tutorial_msgs
-    world_canvas_msgs
+    #world_canvas_msgs       # not released in melodic
     scheduler_msgs
     move_base_msgs           # ros-planning/navigation
     map_store                # ros-planning/map_store
