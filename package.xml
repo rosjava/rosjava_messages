@@ -19,7 +19,7 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>            # ros/ros_comm_msgs
   <build_depend>std_srvs</build_depend>
-  <build_depend>rosjava_test_msgs</build_depend>        # rosjava/rosjava_test_msgs
+  <build_depend>rosjava_test_msgs</build_depend>        # not released in melodic
   <build_depend>actionlib_msgs</build_depend>           # ros/common_msgs
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
@@ -30,20 +30,20 @@
   <build_depend>trajectory_msgs</build_depend>
   <build_depend>visualization_msgs</build_depend>
   <build_depend>tf2_msgs</build_depend>                 # geometry_experimental/tf2_msgs
-  <build_depend>ar_track_alvar_msgs</build_depend>      # sniekum/ar_track_alvar_msgs
+  <!--build_depend>ar_track_alvar_msgs</build_depend--> # not released in noetic
   <build_depend>uuid_msgs</build_depend>                # ros-geographic-info/unique_identifier
-  <build_depend>yocs_msgs</build_depend>                # yujinrobot/yocs_msgs
-  <build_depend>concert_msgs</build_depend>             # robotics-in-concert/rocon_msgs
-  <build_depend>concert_service_msgs</build_depend>
-  <build_depend>gateway_msgs</build_depend>
-  <build_depend>rocon_app_manager_msgs</build_depend>
-  <build_depend>rocon_device_msgs</build_depend>
-  <build_depend>rocon_interaction_msgs</build_depend>
-  <build_depend>rocon_service_pair_msgs</build_depend>
-  <build_depend>rocon_std_msgs</build_depend>
-  <build_depend>rocon_tutorial_msgs</build_depend>
-  <build_depend>scheduler_msgs</build_depend>
-  <build_depend>world_canvas_msgs</build_depend>
+  <!--build_depend>yocs_msgs</build_depend-->           # not released in noetic
+  <!--build_depend>concert_msgs</build_depend-->        # not released in noetic
+  <!--build_depend>concert_service_msgs</build_depend--># not released in noetic
+  <!--build_depend>gateway_msgs</build_depend-->        # not released in noetic
+  <!--build_depend>rocon_app_manager_msgs</build_depend-->  # not released in noetic
+  <!--build_depend>rocon_device_msgs</build_depend-->       # not released in noetic
+  <!--build_depend>rocon_interaction_msgs</build_depend-->  # not released in noetic
+  <!--build_depend>rocon_service_pair_msgs</build_depend--> # not released in noetic
+  <!--build_depend>rocon_std_msgs</build_depend-->      # not released in noetic
+  <!--build_depend>rocon_tutorial_msgs</build_depend--> # not released in noetic
+  <!--build_depend>scheduler_msgs</build_depend-->      # not released in noetic
+  <!--build_depend>world_canvas_msgs</build_depend-->   # not released in melodic
   <!-- Disabled until it is released for kinetic
   <build_depend>map_store</build_depend>                # ros-planning/map_store
   -->
